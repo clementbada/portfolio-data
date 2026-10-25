@@ -30,7 +30,6 @@ jobs:
           python-version: "3.12"
       - name: Appeler les sources
         env:
-          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
           MARKETAUX_API_KEY: ${{ secrets.MARKETAUX_API_KEY }}
         run: python -m portfolio_data.fetch ${{ inputs.force == 'true' && '--force' || '' }}
       - name: Publier data/ si quelque chose a changé

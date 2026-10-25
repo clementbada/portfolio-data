@@ -23,16 +23,19 @@ valeur connue + date + message), `indisponible` (jamais obtenue).
 |---|---|---|---|---|
 | `fx_eur` | Frankfurter | Currency-api (2 adresses) | non | 20 h |
 | `ecb_deposit_rate` | BCE Data Portal | dernière valeur | non | 20 h |
-| `yields_10y_eu_monthly` | BCE (IRS, moyenne mensuelle FR/DE/IT/ES) | dernière valeur | non | 20 h |
 | `yield_10y_ea_aaa_daily` | BCE (courbe AAA 10 ans) | dernière valeur | non | 20 h |
-| `yield_10y_us` | US Treasury (FRED à brancher en principale) | dernière valeur | non (FRED : oui) | 20 h |
 | `inflation_eu` | Eurostat `prc_hicp_minr` | dernière valeur | non | 20 h |
 | `unemployment_eu` | Eurostat `une_rt_m` | dernière valeur | non | 20 h |
 | `inflation_us`, `unemployment_us` | BLS v1 | dernière valeur | non | 20 h |
 | `news_bce`, `news_fed`, `news_boe` | flux RSS officiels | dernière valeur | non | 6 h |
+| `news_portfolio` | MarketAux (1 requête par ligne, 16/jour) | dernière valeur | oui, gratuite | 20 h |
+
+Les 10 ans par pays (US, FR, DE, IT, ES, UK, JP) ne sont pas ici : aucune API gratuite
+testée ne donne la valeur quotidienne par pays. Ils sont relevés par la tâche du dashboard
+(IBKR pour les US, Trading Economics pour les autres).
 
 Mentions à afficher là où la donnée apparaît : champ `attribution` de chaque jeu
-(ex. « Source : BCE », « Source : Eurostat »).
+(ex. « Source : BCE », « Source : Eurostat », « Actualités : MarketAux »).
 
 ## Lancer
 

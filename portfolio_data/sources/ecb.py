@@ -30,18 +30,6 @@ def deposit_rate():
     return {"ECB_DFR": point(r["OBS_VALUE"], "%", r["TIME_PERIOD"], "BCE — taux de dépôt")}
 
 
-def yields_10y_monthly(countries=("FR", "DE", "IT", "ES")):
-    """Rendement souverain 10 ans, moyenne mensuelle (critère de convergence)."""
-    rows = _rows(f"IRS/M.{'+'.join(countries)}.L.L40.CI.0000.EUR.N.Z")
-    out = {}
-    for r in rows:
-        out[f"Y10_{r['REF_AREA']}"] = point(r["OBS_VALUE"], "%", r["TIME_PERIOD"], f"10 ans {r['REF_AREA']} (moy. mensuelle)")
-    missing = [c for c in countries if f"Y10_{c}" not in out]
-    if missing:
-        raise SourceError(f"pays absents : {missing}")
-    return out
-
-
 def euro_aaa_10y_daily():
     """Courbe zone euro AAA, maturité 10 ans (quotidien, jours ouvrés)."""
     rows = _rows("YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y")

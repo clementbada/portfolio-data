@@ -8,7 +8,10 @@ import re
 import time
 import unittest
 
-from portfolio_data.sources import bls, currencyapi, ecb, eurostat, frankfurter, rss, treasury
+import os
+
+from portfolio_data.config import NEWS_SYMBOLS
+from portfolio_data.sources import bls, currencyapi, ecb, eurostat, frankfurter, marketaux, rss
 from portfolio_data.http import SourceError
 
 DATE = re.compile(r"^\d{4}-\d{2}(-\d{2})?$")
@@ -36,20 +39,8 @@ class Rates(unittest.TestCase, Shape):
     def test_ecb_deposit(self):
         self.check_points(ecb.deposit_rate(), ["ECB_DFR"], -1, 10)
 
-    def test_ecb_10y_monthly(self):
-        self.check_points(ecb.yields_10y_monthly(), ["Y10_FR", "Y10_DE", "Y10_IT", "Y10_ES"], -1, 15)
-
     def test_ecb_aaa_daily(self):
         self.check_points(ecb.euro_aaa_10y_daily(), ["Y10_EA_AAA"], -1, 15)
-
-    def test_treasury(self):
-        try:
-            self.check_points(treasury.us_10y(), ["Y10_US"], 0, 15)
-        except SourceError as e:
-            # Lent (~20 s mesurées) : un dépassement du délai de 8 s est attendu, pas un champ cassé.
-            if "timed out" not in str(e) and "Timeout" not in str(e):
-                raise
-            self.skipTest(f"Trésor US trop lent cette fois : {e}")
 
 
 class Inflation(unittest.TestCase, Shape):
@@ -85,6 +76,19 @@ class News(unittest.TestCase):
 
     def test_rss_boe(self):
         self._check("BoE")
+
+
+class PortfolioNews(unittest.TestCase):
+    @unittest.skipUnless(os.environ.get("MARKETAUX_API_KEY"), "MARKETAUX_API_KEY absente")
+    def test_marketaux_une_ligne(self):
+        items = marketaux.news_for_symbol("PLTR")
+        self.assertIsInstance(items, list)
+        for a in items:
+            self.assertTrue({"title", "url", "published", "source", "symbol", "sentiment"} <= set(a))
+            self.assertEqual(a["symbol"], "PLTR")
+
+    def test_config(self):
+        self.assertEqual(sum(len(v) for v in NEWS_SYMBOLS.values()), 16)
 
 
 if __name__ == "__main__":

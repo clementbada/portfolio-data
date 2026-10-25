@@ -25,6 +25,5 @@ jobs:
         run: python -m unittest tests.test_fallback -v
       - name: Sources réelles
         env:
-          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
           MARKETAUX_API_KEY: ${{ secrets.MARKETAUX_API_KEY }}
         run: python -m unittest tests.test_sources -v

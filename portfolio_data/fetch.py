@@ -16,7 +16,8 @@ import sys
 from pathlib import Path
 
 from .http import SourceError
-from .sources import bls, currencyapi, ecb, eurostat, frankfurter, rss, treasury
+from .config import NEWS_SYMBOLS
+from .sources import bls, currencyapi, ecb, eurostat, frankfurter, marketaux, rss
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -30,10 +31,10 @@ DATASETS = {
         (currencyapi.NAME, currencyapi.ATTRIBUTION, currencyapi.fx_eur),
     ]),
     "ecb_deposit_rate": (20 * H, [(ecb.NAME, ecb.ATTRIBUTION, ecb.deposit_rate)]),
-    "yields_10y_eu_monthly": (20 * H, [(ecb.NAME, ecb.ATTRIBUTION, ecb.yields_10y_monthly)]),
     "yield_10y_ea_aaa_daily": (20 * H, [(ecb.NAME, ecb.ATTRIBUTION, ecb.euro_aaa_10y_daily)]),
-    # FRED (principale) sera insérée en tête une fois la clé créée et la réponse vérifiée.
-    "yield_10y_us": (20 * H, [(treasury.NAME, treasury.ATTRIBUTION, treasury.us_10y)]),
+    # 10 ans par pays (US, FR, DE, IT, ES, UK, JP) : dernière valeur quotidienne relevée par la
+    # tâche du dashboard (IBKR pour les US, Trading Economics pour les autres) — aucune API
+    # gratuite testée ne la fournit par pays.
     "inflation_eu": (20 * H, [(eurostat.NAME, eurostat.ATTRIBUTION, eurostat.hicp_yoy)]),
     "unemployment_eu": (20 * H, [(eurostat.NAME, eurostat.ATTRIBUTION, eurostat.unemployment)]),
     "inflation_us": (20 * H, [(bls.NAME, bls.ATTRIBUTION, bls.us_cpi_yoy)]),
@@ -41,6 +42,8 @@ DATASETS = {
     "news_bce": (6 * H, [("RSS BCE", rss.ATTRIBUTION, lambda: rss.central_bank_news("BCE"))]),
     "news_fed": (6 * H, [("RSS Fed", rss.ATTRIBUTION, lambda: rss.central_bank_news("Fed"))]),
     "news_boe": (6 * H, [("RSS BoE", rss.ATTRIBUTION, lambda: rss.central_bank_news("BoE"))]),
+    # 16 requêtes par passage, quota gratuit 100/jour : fraîcheur 20 h pour rester large.
+    "news_portfolio": (20 * H, [(marketaux.NAME, marketaux.ATTRIBUTION, lambda: marketaux.portfolio_news(NEWS_SYMBOLS))]),
 }
 
 
@@ -109,8 +112,7 @@ def summary_md(datasets, generated_at):
     lines = [f"# Point marchés — {generated_at[:10]}", "",
              f"- EUR/USD : {val('fx_eur', 'EURUSD', '{:.4f}')}",
              f"- Taux de dépôt BCE : {val('ecb_deposit_rate', 'ECB_DFR')}",
-             f"- 10 ans US : {val('yield_10y_us', 'Y10_US')} · zone euro AAA : {val('yield_10y_ea_aaa_daily', 'Y10_EA_AAA')}",
-             "- 10 ans (moy. mensuelle) : " + " · ".join(f"{c} {val('yields_10y_eu_monthly', 'Y10_' + c)}" for c in ("FR", "DE", "IT", "ES")),
+             f"- 10 ans zone euro AAA : {val('yield_10y_ea_aaa_daily', 'Y10_EA_AAA')}",
              "- Inflation : " + " · ".join(f"{c} {val('inflation_eu', 'HICP_' + c, '{:.1f}')}" for c in ("EA", "FR")) + f" · US {val('inflation_us', 'CPI_US', '{:.1f}')}",
              ""]
     alerts = [f"- ⚠️ {n} : {d['message']}" for n, d in datasets.items() if d.get("status") not in ("ok",) and d.get("message")]
@@ -120,6 +122,9 @@ def summary_md(datasets, generated_at):
                   key=lambda a: a["published"] or "", reverse=True)[:6]
     if news:
         lines += ["## Derniers communiqués", *[f"- [{a['source']}] {a['title']} ({(a['published'] or '')[:10]})" for a in news], ""]
+    pf = (datasets.get("news_portfolio", {}).get("data") or [])[:8]
+    if pf:
+        lines += ["## Actualités du portefeuille", *[f"- [{a['symbol']}] {a['title']} ({(a['published'] or '')[:10]})" for a in pf], ""]
     return "\n".join(lines)
 
 
