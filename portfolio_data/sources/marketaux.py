@@ -44,5 +44,11 @@ def portfolio_news(symbols_by_envelope):
                 errors.append(f"{s} : {e}")
     if calls and len(errors) == calls:
         raise SourceError(f"toutes les lignes en échec ({errors[0]})")
-    out.sort(key=lambda a: a["published"] or "", reverse=True)
-    return out
+    # Un même article peut citer plusieurs lignes : une seule entrée, toutes les lignes listées.
+    merged = {}
+    for a in out:
+        m = merged.setdefault(a["url"], {**a, "symbols": []})
+        if a["symbol"] not in m["symbols"]:
+            m["symbols"].append(a["symbol"])
+    res = sorted(merged.values(), key=lambda a: a["published"] or "", reverse=True)
+    return res
