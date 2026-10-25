@@ -2,6 +2,11 @@ name: Sonde API (phase 2)
 
 on:
   workflow_dispatch:
+    inputs:
+      round:
+        description: "Jeu de tests (vide = premier passage, round2 = second)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -16,7 +21,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Appeler les API candidates
-        run: python probe/probe.py > /tmp/probe_results.json
+        run: python probe/probe.py ${{ inputs.round }} > /tmp/probe_results.json
       - name: Publier les résultats sur la branche probe-results
         run: |
           git config user.name "github-actions[bot]"

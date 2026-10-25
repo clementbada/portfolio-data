@@ -55,7 +55,30 @@ CANDIDATES = [
     ("news", "Currents (sans clé)", "https://api.currentsapi.services/v1/search?keywords=ECB&language=fr"),
 ]
 
-LIMIT_HEADERS = ("ratelimit", "rate-limit", "x-ratelimit", "retry-after", "x-ratelimit-remaining", "x-ratelimit-limit")
+# Second passage : extraction des valeurs utiles et nouvelles tentatives.
+ROUND2 = [
+    ("rates", "BCE taux de dépôt (csv)", "https://data-api.ecb.europa.eu/service/data/FM/D.U2.EUR.4F.KR.DFR.LEV?lastNObservations=1&format=csvdata&detail=dataonly"),
+    ("rates", "BCE 10 ans FR/DE/IT/ES mensuel (csv)", "https://data-api.ecb.europa.eu/service/data/IRS/M.FR+DE+IT+ES.L.L40.CI.0000.EUR.N.Z?lastNObservations=1&format=csvdata&detail=dataonly"),
+    ("rates", "BCE courbe AAA 10 ans quotidienne (csv)", "https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y?lastNObservations=2&format=csvdata&detail=dataonly"),
+    ("rates", "BCE courbe toutes notations 10 ans quotidienne (csv)", "https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_C.SV_C_YM.SR_10Y?lastNObservations=1&format=csvdata&detail=dataonly"),
+    ("rates", "BCE HICP zone euro + pays (csv)", "https://data-api.ecb.europa.eu/service/data/ICP/M.U2+FR+DE+IT+ES.N.000000.4.ANR?lastNObservations=1&format=csvdata&detail=dataonly"),
+    ("rates", "Eurostat HICP prc_hicp_manr (2 dernières périodes)", "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_manr?geo=FR&geo=EA&coicop=CP00&lastTimePeriod=2"),
+    ("rates", "Eurostat HICP prc_hicp_minr (nouveau jeu 2026)", "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?geo=FR&geo=EA&coicop18=TOTAL&lastTimePeriod=2"),
+    ("rates", "Eurostat chômage une_rt_m", "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_m?geo=FR&geo=ES&geo=IT&geo=EA20&s_adj=SA&age=TOTAL&sex=T&unit=PC_ACT&lastTimePeriod=1"),
+    ("rates", "US Treasury courbe des taux XML (oct. 2026)", "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value_month=202610"),
+    ("rates", "BLS CPI + chômage US (v1)", "https://api.bls.gov/publicAPI/v1/timeseries/data/LNS14000000"),
+    ("rates", "Alpha Vantage TREASURY_YIELD (clé demo)", "https://www.alphavantage.co/query?function=TREASURY_YIELD&interval=daily&maturity=10year&apikey=demo"),
+    ("news", "GDELT DOC 2.0 (FR, BCE)", "https://api.gdeltproject.org/api/v2/doc/doc?query=%22BCE%22%20sourcelang:french&mode=artlist&format=json&maxrecords=3&sort=datedesc&timespan=1d"),
+    ("news", "GDELT DOC 2.0 (EN, Palantir)", "https://api.gdeltproject.org/api/v2/doc/doc?query=Palantir%20sourcelang:english&mode=artlist&format=json&maxrecords=3&sort=datedesc&timespan=1d"),
+    ("news", "Noozra API (feed)", "https://noozra.com/api/headlines?category=business"),
+    ("news", "Banque de France RSS", "https://www.banque-france.fr/fr/rss.xml"),
+    ("news", "Bank of England RSS", "https://www.bankofengland.co.uk/rss/news"),
+    ("news", "SEC EDGAR - dépôts PLTR (User-Agent exigé)", "https://data.sec.gov/submissions/CIK0001321655.json"),
+    ("eq", "Twelve Data indice (clé demo, SPX)", "https://api.twelvedata.com/time_series?symbol=SPX&interval=1day&outputsize=1&apikey=demo"),
+    ("eq", "EODHD indice CAC 40 (clé demo)", "https://eodhd.com/api/eod/FCHI.INDX?api_token=demo&fmt=json&order=d&from=2026-10-20"),
+]
+
+LIMIT_HEADERS =("ratelimit", "rate-limit", "x-ratelimit", "retry-after", "x-ratelimit-remaining", "x-ratelimit-limit")
 
 
 def probe(url):
@@ -84,8 +107,12 @@ def probe(url):
 
 
 def main():
+    global TIMEOUT
     out = []
-    for need, name, url in CANDIDATES:
+    batch = CANDIDATES
+    if len(sys.argv) > 1 and sys.argv[1] == "round2":
+        batch, TIMEOUT = ROUND2, 25  # délai long uniquement pour la sonde, pas pour la prod (8 s)
+    for need, name, url in batch:
         res = probe(url)
         res.update({"need": need, "name": name, "url": url})
         out.append(res)
