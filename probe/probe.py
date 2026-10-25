@@ -78,10 +78,24 @@ ROUND2 = [
     ("eq", "EODHD indice CAC 40 (clé demo)", "https://eodhd.com/api/eod/FCHI.INDX?api_token=demo&fmt=json&order=d&from=2026-10-20"),
 ]
 
-LIMIT_HEADERS =("ratelimit", "rate-limit", "x-ratelimit", "retry-after", "x-ratelimit-remaining", "x-ratelimit-limit")
+# Troisième passage : réponses complètes (pour écrire les parseurs sur du vu).
+ROUND3 = [
+    ("fx", "currencyapi_eur", "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.min.json"),
+    ("rates", "eurostat_hicp_minr", "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?geo=EA&geo=FR&geo=DE&geo=IT&geo=ES&coicop18=TOTAL&lastTimePeriod=1"),
+    ("rates", "eurostat_une_EA20", "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_m?geo=EA20&geo=FR&s_adj=SA&age=TOTAL&sex=T&unit=PC_ACT&lastTimePeriod=1"),
+    ("rates", "eurostat_une_EA21", "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_m?geo=EA21&geo=EA&geo=FR&geo=DE&geo=IT&geo=ES&s_adj=SA&age=TOTAL&sex=T&unit=PC_ACT&lastTimePeriod=1"),
+    ("rates", "treasury_xml", "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value_month=202610"),
+    ("rates", "bls_cpi", "https://api.bls.gov/publicAPI/v1/timeseries/data/CUUR0000SA0"),
+    ("news", "rss_ecb", "https://www.ecb.europa.eu/rss/press.html"),
+    ("news", "rss_fed", "https://www.federalreserve.gov/feeds/press_all.xml"),
+    ("news", "rss_boe", "https://www.bankofengland.co.uk/rss/news"),
+    ("news", "gdelt", "https://api.gdeltproject.org/api/v2/doc/doc?query=(%22BCE%22%20OR%20%22ECB%22)&mode=artlist&format=json&maxrecords=5&sort=datedesc&timespan=2d"),
+]
+
+LIMIT_HEADERS = ("ratelimit", "rate-limit", "x-ratelimit", "retry-after", "x-ratelimit-remaining", "x-ratelimit-limit")
 
 
-def probe(url):
+def probe(url, full=False):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
     t0 = time.monotonic()
     try:
@@ -103,6 +117,7 @@ def probe(url):
         "content_type": headers.get("Content-Type") if headers else None,
         "limit_headers": limits,
         "excerpt": " ".join(text.split())[:600],
+        **({"body": text[:150_000]} if full else {}),
     }
 
 
@@ -112,8 +127,13 @@ def main():
     batch = CANDIDATES
     if len(sys.argv) > 1 and sys.argv[1] == "round2":
         batch, TIMEOUT = ROUND2, 25  # délai long uniquement pour la sonde, pas pour la prod (8 s)
+    full = len(sys.argv) > 1 and sys.argv[1] == "round3"
+    if full:
+        batch, TIMEOUT = ROUND3, 25
     for need, name, url in batch:
-        res = probe(url)
+        if full and name == "gdelt":
+            time.sleep(6)  # GDELT : une requête toutes les 5 s maximum
+        res = probe(url, full=full)
         res.update({"need": need, "name": name, "url": url})
         out.append(res)
         print(f"{need:6} {str(res.get('code')):5} {res['ms']:6} ms  {name}", file=sys.stderr)
