@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-25T22:37:19Z",
+ "generated_at": "2026-10-25T22:45:11Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-10-25T22:37:19Z",
+   "fetched_at": "2026-10-25T22:45:11Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
@@ -36,13 +36,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-25T22:37:19Z"
+   "last_success_at": "2026-10-25T22:45:11Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-10-25T22:37:19Z",
+   "fetched_at": "2026-10-25T22:45:11Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
@@ -54,13 +54,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-25T22:37:19Z"
+   "last_success_at": "2026-10-25T22:45:11Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-10-25T22:37:19Z",
+   "fetched_at": "2026-10-25T22:45:11Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
@@ -72,13 +72,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-25T22:37:19Z"
+   "last_success_at": "2026-10-25T22:45:11Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-10-25T22:37:19Z",
+   "fetched_at": "2026-10-25T22:45:11Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-25T22:37:19Z"
+   "last_success_at": "2026-10-25T22:45:11Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-10-25T22:37:19Z",
+   "fetched_at": "2026-10-25T22:45:11Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,13 +156,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-25T22:37:19Z"
+   "last_success_at": "2026-10-25T22:45:11Z"
   },
   "inflation_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-10-25T22:37:19Z",
+   "fetched_at": "2026-10-25T22:45:11Z",
    "from_cache": false,
    "data": {
     "CPI_US": {
@@ -174,13 +174,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-25T22:37:19Z"
+   "last_success_at": "2026-10-25T22:45:11Z"
   },
   "unemployment_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-10-25T22:37:19Z",
+   "fetched_at": "2026-10-25T22:45:11Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -192,13 +192,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-25T22:37:19Z"
+   "last_success_at": "2026-10-25T22:45:11Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-25T22:37:19Z",
+   "fetched_at": "2026-10-25T22:45:11Z",
    "from_cache": false,
    "data": [
     {
@@ -252,13 +252,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-25T22:37:19Z"
+   "last_success_at": "2026-10-25T22:45:11Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-25T22:37:19Z",
+   "fetched_at": "2026-10-25T22:45:11Z",
    "from_cache": false,
    "data": [
     {
@@ -312,13 +312,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-25T22:37:19Z"
+   "last_success_at": "2026-10-25T22:45:11Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-25T22:37:19Z",
+   "fetched_at": "2026-10-25T22:45:11Z",
    "from_cache": false,
    "data": [
     {
@@ -372,13 +372,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-25T22:37:19Z"
+   "last_success_at": "2026-10-25T22:45:11Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-10-25T22:37:19Z",
+   "fetched_at": "2026-10-25T22:45:11Z",
    "from_cache": false,
    "data": [
     {
@@ -388,25 +388,12 @@
      "source": "seekingalpha.com",
      "symbol": "GOOGL",
      "sentiment": 0.4767,
-     "envelope": "CTO 1"
-    },
-    {
-     "title": "Bretton Fund Q3 2026 Shareholder Letter",
-     "url": "https://seekingalpha.com/article/4957347-bretton-fund-q3-2026-shareholder-letter",
-     "published": "2026-10-25T20:17:00Z",
-     "source": "seekingalpha.com",
-     "symbol": "AXP",
-     "sentiment": 0,
-     "envelope": "CTO 1"
-    },
-    {
-     "title": "Bretton Fund Q3 2026 Shareholder Letter",
-     "url": "https://seekingalpha.com/article/4957347-bretton-fund-q3-2026-shareholder-letter",
-     "published": "2026-10-25T20:17:00Z",
-     "source": "seekingalpha.com",
-     "symbol": "MSFT",
-     "sentiment": 0,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "AXP",
+      "MSFT"
+     ]
     },
     {
      "title": "Microsoft Stock Before Wednesday’s Results: The 45% Azure Guide, and $50 Billion Capex Quarter",
@@ -415,16 +402,11 @@
      "source": "financefeeds.com",
      "symbol": "GOOGL",
      "sentiment": 0.296,
-     "envelope": "CTO 1"
-    },
-    {
-     "title": "Microsoft Stock Before Wednesday’s Results: The 45% Azure Guide, and $50 Billion Capex Quarter",
-     "url": "https://financefeeds.com/microsoft-stock-before-wednesdays-results-the-45-azure-guide-and-50-billion-capex-quarter/",
-     "published": "2026-10-25T19:26:01Z",
-     "source": "financefeeds.com",
-     "symbol": "MSFT",
-     "sentiment": 0.211709,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "MSFT"
+     ]
     },
     {
      "title": "GreensKeeper Value Fund Q3 2026 Letter",
@@ -433,16 +415,11 @@
      "source": "seekingalpha.com",
      "symbol": "GOOGL",
      "sentiment": 0.04595,
-     "envelope": "CTO 1"
-    },
-    {
-     "title": "GreensKeeper Value Fund Q3 2026 Letter",
-     "url": "https://seekingalpha.com/article/4957341-greenskeeper-value-fund-q3-2026-letter",
-     "published": "2026-10-25T19:02:00Z",
-     "source": "seekingalpha.com",
-     "symbol": "AXP",
-     "sentiment": -0.4215,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "AXP"
+     ]
     },
     {
      "title": "Weekend Market Report-10/25/26",
@@ -451,7 +428,10 @@
      "source": "upsidetrader.com",
      "symbol": "MSFT",
      "sentiment": 0.1779,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
     },
     {
      "title": "Moderna (MRNA) Shares Plunge Over 17% After Leak of Cancer Vaccine Data",
@@ -460,7 +440,10 @@
      "source": "gurufocus.com",
      "symbol": "MRNA",
      "sentiment": -0.044214,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
     },
     {
      "title": "Elon Musk Net Worth: $923B Today, $1,018B or $876B",
@@ -469,7 +452,10 @@
      "source": "financefeeds.com",
      "symbol": "TSLA",
      "sentiment": 0.21341,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
     },
     {
      "title": "iPhone Duo Fails Durability Test, Sparks Concerns Over Quality",
@@ -478,7 +464,10 @@
      "source": "gurufocus.com",
      "symbol": "AAPL",
      "sentiment": 0.260625,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
     },
     {
      "title": "Moderna, Inc. (MRNA) Discusses Phase III Data for Intismeran and Advances in Cancer Immunotherapy Transcript",
@@ -487,7 +476,10 @@
      "source": "seekingalpha.com",
      "symbol": "MRNA",
      "sentiment": -0.0947,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
     },
     {
      "title": "Tesla and SpaceX Explore Merger Possibility, TSLA Stock Reacts",
@@ -496,7 +488,10 @@
      "source": "gurufocus.com",
      "symbol": "TSLA",
      "sentiment": 0.703027,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
     },
     {
      "title": "Moderna: Why Positive Phase 3 Results Weren’t Enough (NASDAQ:MRNA)",
@@ -505,7 +500,10 @@
      "source": "seekingalpha.com",
      "symbol": "MRNA",
      "sentiment": 0.2787,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
     },
     {
      "title": "Tesla (TSLA) Reports Solid Q3 Results, Shares Trade Slightly Above GF Value™",
@@ -514,7 +512,10 @@
      "source": "gurufocus.com",
      "symbol": "TSLA",
      "sentiment": 0.67522,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
     },
     {
      "title": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
@@ -523,7 +524,10 @@
      "source": "cnbc.com",
      "symbol": "AAPL",
      "sentiment": 0.8336,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
     },
     {
      "title": "Apple Inc. quickly sold out of its limited in-store inventory for the new iPhone Duo",
@@ -532,7 +536,10 @@
      "source": "thehindubusinessline.com",
      "symbol": "AAPL",
      "sentiment": 0.203627,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
     },
     {
      "title": "Tech and Financials Lead Modest Gains as Earnings Season Intensifies",
@@ -541,7 +548,10 @@
      "source": "thestockmarketwatch.com",
      "symbol": "AXP",
      "sentiment": 0.2023,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "AXP"
+     ]
     },
     {
      "title": "PLTR Maintained by Piper Sandler -- Price Target Raised to $231",
@@ -550,7 +560,10 @@
      "source": "gurufocus.com",
      "symbol": "PLTR",
      "sentiment": 0.548375,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
+     ]
     },
     {
      "title": "Should You 'Buy' or 'Sell' Palantir Stock Ahead of Earnings?",
@@ -559,7 +572,10 @@
      "source": "gurufocus.com",
      "symbol": "PLTR",
      "sentiment": 0.329125,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
+     ]
     },
     {
      "title": "Palantir Addresses European Concerns Amid Starlink Disruptions in Ukraine (PLTR)",
@@ -568,7 +584,10 @@
      "source": "gurufocus.com",
      "symbol": "PLTR",
      "sentiment": 0.531975,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
+     ]
     },
     {
      "title": "Waste Connections (WCN) Q3 Revenue Beats Estimates Despite Volume Decline",
@@ -577,7 +596,10 @@
      "source": "gurufocus.com",
      "symbol": "WM",
      "sentiment": 0.68395,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "WM"
+     ]
     },
     {
      "title": "Onterris (ONT) Completes PFAS Prototype at Former Naval Base, Showcasing Innovative Environmental Tech",
@@ -586,7 +608,10 @@
      "source": "gurufocus.com",
      "symbol": "WM",
      "sentiment": 0.1531,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "WM"
+     ]
     },
     {
      "title": "Waste Connections (WCN) to Report Q3 Earnings on October 21, 2026",
@@ -595,7 +620,10 @@
      "source": "gurufocus.com",
      "symbol": "WM",
      "sentiment": 0.0405,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "WM"
+     ]
     },
     {
      "title": "Recursion Pharmaceuticals (RXRX) Surpasses Market Returns: Some Facts Worth Knowing",
@@ -604,7 +632,10 @@
      "source": "zacks.com",
      "symbol": "RXRX",
      "sentiment": 0.2263,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "RXRX"
+     ]
     },
     {
      "title": "Ark Invest Boosts AI Bets with $25.9M CoreWeave Purchase (CRWV)",
@@ -613,7 +644,10 @@
      "source": "gurufocus.com",
      "symbol": "RXRX",
      "sentiment": 0.3451,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "RXRX"
+     ]
     },
     {
      "title": "RXRX Reiterated by Needham -- Price Target Maintained at $8.00",
@@ -622,7 +656,10 @@
      "source": "gurufocus.com",
      "symbol": "RXRX",
      "sentiment": 0.524036,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "RXRX"
+     ]
     },
     {
      "title": "Energy Markets Braced for Volatility as Saudi-Led Coalition Launches Massive Yemen Offensive",
@@ -631,7 +668,10 @@
      "source": "thestockmarketwatch.com",
      "symbol": "AI.PA",
      "sentiment": 0.6996,
-     "envelope": "PEA"
+     "envelope": "PEA",
+     "symbols": [
+      "AI.PA"
+     ]
     },
     {
      "title": "Q4 2026 Siemens Energy AG Pre-Close Call Transcript",
@@ -640,7 +680,10 @@
      "source": "gurufocus.com",
      "symbol": "ENR.DE",
      "sentiment": 0.45495,
-     "envelope": "PEA"
+     "envelope": "PEA",
+     "symbols": [
+      "ENR.DE"
+     ]
     },
     {
      "title": "Siemens Energy AG (SMERY) Discusses Preclose Update, Market Outlook and Capital Allocation Framework Transcript",
@@ -649,7 +692,10 @@
      "source": "seekingalpha.com",
      "symbol": "ENR.DE",
      "sentiment": 0,
-     "envelope": "PEA"
+     "envelope": "PEA",
+     "symbols": [
+      "ENR.DE"
+     ]
     },
     {
      "title": "Bloom Energy vs. GE Vernova: Which Stock Is a Better Buy in 2026?",
@@ -658,7 +704,10 @@
      "source": "finance.yahoo.com",
      "symbol": "ENR.DE",
      "sentiment": 0.0576,
-     "envelope": "PEA"
+     "envelope": "PEA",
+     "symbols": [
+      "ENR.DE"
+     ]
     },
     {
      "title": "Prysmian: Atkore Acquisition Adds Another Growth Leg After Q2 EBITDA Acceleration",
@@ -667,7 +716,10 @@
      "source": "seekingalpha.com",
      "symbol": "PRY.MI",
      "sentiment": -0.1714,
-     "envelope": "PEA"
+     "envelope": "PEA",
+     "symbols": [
+      "PRY.MI"
+     ]
     },
     {
      "title": "Atkore Stock Surges 28% On Prysmian Acquisition And Q3 Results",
@@ -676,7 +728,10 @@
      "source": "rttnews.com",
      "symbol": "PRY.MI",
      "sentiment": 0.7351,
-     "envelope": "PEA"
+     "envelope": "PEA",
+     "symbols": [
+      "PRY.MI"
+     ]
     },
     {
      "title": "Prysmian S.p.A. (PRYMY) M&A Call Transcript",
@@ -685,7 +740,10 @@
      "source": "seekingalpha.com",
      "symbol": "PRY.MI",
      "sentiment": 0,
-     "envelope": "PEA"
+     "envelope": "PEA",
+     "symbols": [
+      "PRY.MI"
+     ]
     },
     {
      "title": "Hélium-3 : De la Terre à la Lune (to the moon) ?",
@@ -694,7 +752,10 @@
      "source": "devenir-rentier.fr",
      "symbol": "AI.PA",
      "sentiment": null,
-     "envelope": "PEA"
+     "envelope": "PEA",
+     "symbols": [
+      "AI.PA"
+     ]
     },
     {
      "title": "The ETF Educator",
@@ -703,7 +764,10 @@
      "source": "theetfeducator.com",
      "symbol": "SPCX",
      "sentiment": 0.6436,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "SPCX"
+     ]
     },
     {
      "title": "SPAC and New Issue ETF (SPCX US) - Investment Proposition",
@@ -712,7 +776,10 @@
      "source": "etfstrategy.com",
      "symbol": "SPCX",
      "sentiment": 0.3062,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "SPCX"
+     ]
     },
     {
      "title": "Jeff Brown’s “Quantum Flashpoint” Stocks to go Parabolic? What’s teased as the $5 “NVIDIA of Quantum Computing?”",
@@ -721,7 +788,10 @@
      "source": "stockgumshoe.com",
      "symbol": "AI.PA",
      "sentiment": 0.3182,
-     "envelope": "PEA"
+     "envelope": "PEA",
+     "symbols": [
+      "AI.PA"
+     ]
     },
     {
      "title": "5 things not to buy in 2023",
@@ -730,12 +800,15 @@
      "source": "marketwatch.com",
      "symbol": "SPCX",
      "sentiment": -0.3182,
-     "envelope": "CTO 1"
+     "envelope": "CTO 1",
+     "symbols": [
+      "SPCX"
+     ]
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-25T22:37:19Z"
+   "last_success_at": "2026-10-25T22:45:11Z"
   }
  }
 }

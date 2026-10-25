@@ -15,10 +15,10 @@
 
 ## Actualités du portefeuille
 - [GOOGL] Bretton Fund Q3 2026 Shareholder Letter (2026-10-25)
-- [AXP] Bretton Fund Q3 2026 Shareholder Letter (2026-10-25)
-- [MSFT] Bretton Fund Q3 2026 Shareholder Letter (2026-10-25)
 - [GOOGL] Microsoft Stock Before Wednesday’s Results: The 45% Azure Guide, and $50 Billion Capex Quarter (2026-10-25)
-- [MSFT] Microsoft Stock Before Wednesday’s Results: The 45% Azure Guide, and $50 Billion Capex Quarter (2026-10-25)
 - [GOOGL] GreensKeeper Value Fund Q3 2026 Letter (2026-10-25)
-- [AXP] GreensKeeper Value Fund Q3 2026 Letter (2026-10-25)
 - [MSFT] Weekend Market Report-10/25/26 (2026-10-25)
+- [MRNA] Moderna (MRNA) Shares Plunge Over 17% After Leak of Cancer Vaccine Data (2026-10-25)
+- [TSLA] Elon Musk Net Worth: $923B Today, $1,018B or $876B (2026-10-25)
+- [AAPL] iPhone Duo Fails Durability Test, Sparks Concerns Over Quality (2026-10-25)
+- [MRNA] Moderna, Inc. (MRNA) Discusses Phase III Data for Intismeran and Advances in Cancer Immunotherapy Transcript (2026-10-24)
