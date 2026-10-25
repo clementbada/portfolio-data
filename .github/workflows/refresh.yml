@@ -1,0 +1,44 @@
+name: Rafraîchir les données
+
+on:
+  schedule:
+    # 20:10 UTC chaque jour (21:10 à Paris en hiver, 22:10 en été),
+    # avant la tâche planifiée du dashboard (20:45 UTC en semaine).
+    - cron: "10 20 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Ignorer le cache (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Appeler les sources
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          MARKETAUX_API_KEY: ${{ secrets.MARKETAUX_API_KEY }}
+        run: python -m portfolio_data.fetch ${{ inputs.force == 'true' && '--force' || '' }}
+      - name: Publier data/ si quelque chose a changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "Aucun changement"; exit 0; fi
+          git commit -qm "Données $(date -u +%FT%TZ)"
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
