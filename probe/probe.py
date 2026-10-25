@@ -8,6 +8,7 @@ pour vérifier qu'elles répondent et ce qu'elles exigent.
 Usage : python probe/probe.py > probe_results.json
 """
 import json
+import re
 import sys
 import time
 import urllib.error
@@ -92,6 +93,19 @@ ROUND3 = [
     ("news", "gdelt", "https://api.gdeltproject.org/api/v2/doc/doc?query=(%22BCE%22%20OR%20%22ECB%22)&mode=artlist&format=json&maxrecords=5&sort=datedesc&timespan=2d"),
 ]
 
+# Passage MarketAux : clé lue dans l'environnement, jamais écrite dans les résultats.
+def marketaux_batch():
+    import os
+    key = os.environ.get("MARKETAUX_API_KEY", "")
+    if not key:
+        return [("news", "marketaux_sans_cle", "https://api.marketaux.com/v1/news/all?symbols=PLTR&language=en")]
+    base = "https://api.marketaux.com/v1/news/all?filter_entities=true&must_have_entities=true&language=en,fr&api_token=" + key
+    return [
+        ("news", "marketaux_portefeuille", base + "&symbols=PLTR,MRNA,OKLO,TSLA,GOOGL"),
+        ("news", "marketaux_pea", base.replace("api_token", "countries=fr,de,it&api_token") + "&symbols=AI.PA,PRY.MI,ENR.DE"),
+    ]
+
+
 LIMIT_HEADERS = ("ratelimit", "rate-limit", "x-ratelimit", "retry-after", "x-ratelimit-remaining", "x-ratelimit-limit")
 
 
@@ -130,11 +144,13 @@ def main():
     full = len(sys.argv) > 1 and sys.argv[1] == "round3"
     if full:
         batch, TIMEOUT = ROUND3, 25
+    if len(sys.argv) > 1 and sys.argv[1] == "marketaux":
+        batch, TIMEOUT, full = marketaux_batch(), 15, True
     for need, name, url in batch:
         if full and name == "gdelt":
             time.sleep(6)  # GDELT : une requête toutes les 5 s maximum
         res = probe(url, full=full)
-        res.update({"need": need, "name": name, "url": url})
+        res.update({"need": need, "name": name, "url": re.sub(r"api_token=[^&]+", "api_token=***", url)})
         out.append(res)
         print(f"{need:6} {str(res.get('code')):5} {res['ms']:6} ms  {name}", file=sys.stderr)
     json.dump({"run_at_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "results": out}, sys.stdout, ensure_ascii=False, indent=1)

@@ -21,6 +21,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Appeler les API candidates
+        env:
+          MARKETAUX_API_KEY: ${{ secrets.MARKETAUX_API_KEY }}
         run: python probe/probe.py ${{ inputs.round }} > /tmp/probe_results.json
       - name: Publier les résultats sur la branche probe-results
         run: |
