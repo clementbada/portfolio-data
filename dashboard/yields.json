@@ -1,0 +1,9 @@
+{"updated_at": "2026-10-25T22:45:00Z",
+ "yields": {
+  "US": {"value": 4.99, "as_of": "2026-10-23", "src": "IBKR (TNX)"},
+  "FR": {"value": 5.04, "as_of": "2026-10-23", "src": "tradingeconomics.com"},
+  "DE": {"value": 3.34, "as_of": "2026-10-23", "src": "tradingeconomics.com"},
+  "ES": {"value": 4.05, "as_of": "2026-10-23", "src": "tradingeconomics.com"},
+  "IT": {"value": 4.59, "as_of": "2026-10-23", "src": "tradingeconomics.com"},
+  "UK": {"value": 5.37, "as_of": "2026-10-23", "src": "tradingeconomics.com"},
+  "JP": {"value": 2.80, "as_of": "2026-10-23", "src": "tradingeconomics.com"}}}
