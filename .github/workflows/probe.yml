@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   probe:
@@ -16,8 +16,14 @@ jobs:
         with:
           python-version: "3.12"
       - name: Appeler les API candidates
-        run: python probe/probe.py > probe_results.json
-      - uses: actions/upload-artifact@v4
-        with:
-          name: probe-results
-          path: probe_results.json
+        run: python probe/probe.py > /tmp/probe_results.json
+      - name: Publier les résultats sur la branche probe-results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan probe-results
+          git rm -rq --cached .
+          cp /tmp/probe_results.json probe_results.json
+          git add -f probe_results.json
+          git commit -qm "Résultats de la sonde $(date -u +%FT%TZ)"
+          git push -f origin probe-results
