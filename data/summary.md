@@ -6,12 +6,12 @@
 - Inflation : EA 3.8 % a/a (2026-09) · FR 3.4 % a/a (2026-09) · US 3.7 % a/a (2026-09)
 
 ## Derniers communiqués
+- [BCE] Survey on the Access to Finance of Enterprises: lending conditions tightened (2026-10-26)
 - [BCE] Frank Elderson: Taking action for nature – investing in economic resilience and prosperity (2026-10-26)
 - [BCE] Piero Cipollone: Interview with Milano Finanza (2026-10-24)
 - [BCE] ECB Consumer Expectations Survey results – September 2026 (2026-10-23)
 - [BoE] Regulators unveil plans to simplify Senior Manager and Certification Regime (2026-10-22)
 - [BoE] Minutes of the Securities Lending Committee meeting – September 2026 (2026-10-22)
-- [BCE] Piero Cipollone: Pontes and Appia: unlocking opportunities for banks (2026-10-21)
 
 ## Actualités du portefeuille
 - [GOOGL] US stocks face crucial test as AI earnings, Fed meeting loom (2026-10-26)

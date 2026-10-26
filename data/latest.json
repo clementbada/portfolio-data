@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T07:29:31Z",
+ "generated_at": "2026-10-26T23:49:40Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
    "fetched_at": "2026-10-26T07:29:31Z",
-   "from_cache": false,
+   "from_cache": true,
    "data": {
     "EURUSD": {
      "value": 1.1193,
@@ -43,7 +43,7 @@
    "provider": "BCE",
    "attribution": "Source : BCE",
    "fetched_at": "2026-10-26T07:29:31Z",
-   "from_cache": false,
+   "from_cache": true,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
@@ -61,7 +61,7 @@
    "provider": "BCE",
    "attribution": "Source : BCE",
    "fetched_at": "2026-10-26T07:29:31Z",
-   "from_cache": false,
+   "from_cache": true,
    "data": {
     "Y10_EA_AAA": {
      "value": 3.384,
@@ -79,7 +79,7 @@
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
    "fetched_at": "2026-10-26T07:29:31Z",
-   "from_cache": false,
+   "from_cache": true,
    "data": {
     "HICP_DE": {
      "value": 3.3,
@@ -121,7 +121,7 @@
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
    "fetched_at": "2026-10-26T07:29:31Z",
-   "from_cache": false,
+   "from_cache": true,
    "data": {
     "UNEMP_DE": {
      "value": 4.0,
@@ -163,7 +163,7 @@
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
    "fetched_at": "2026-10-26T07:29:31Z",
-   "from_cache": false,
+   "from_cache": true,
    "data": {
     "CPI_US": {
      "value": 3.7,
@@ -181,7 +181,7 @@
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
    "fetched_at": "2026-10-26T07:29:31Z",
-   "from_cache": false,
+   "from_cache": true,
    "data": {
     "UNEMP_US": {
      "value": 4.2,
@@ -198,9 +198,15 @@
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-26T07:29:31Z",
+   "fetched_at": "2026-10-26T23:49:40Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
+     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html",
+     "published": "2026-10-26T09:00:00Z",
+     "source": "BCE"
+    },
     {
      "title": "Frank Elderson: Taking action for nature – investing in economic resilience and prosperity",
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261026~d903d7ad85.en.html",
@@ -242,23 +248,17 @@
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html",
      "published": "2026-10-19T06:00:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "Christine Lagarde: IMFC Statement",
-     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
-     "published": "2026-10-17T05:00:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-26T07:29:31Z"
+   "last_success_at": "2026-10-26T23:49:40Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-26T07:29:31Z",
+   "fetched_at": "2026-10-26T23:49:40Z",
    "from_cache": false,
    "data": [
     {
@@ -312,13 +312,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-26T07:29:31Z"
+   "last_success_at": "2026-10-26T23:49:40Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-26T07:29:31Z",
+   "fetched_at": "2026-10-26T23:49:40Z",
    "from_cache": false,
    "data": [
     {
@@ -372,14 +372,14 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-26T07:29:31Z"
+   "last_success_at": "2026-10-26T23:49:40Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
    "fetched_at": "2026-10-26T07:29:31Z",
-   "from_cache": false,
+   "from_cache": true,
    "data": [
     {
      "title": "US stocks face crucial test as AI earnings, Fed meeting loom",
