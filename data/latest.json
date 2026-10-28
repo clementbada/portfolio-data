@@ -1,84 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T23:43:55Z",
+ "generated_at": "2026-10-28T23:59:12Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-10-27T23:43:55Z",
+   "fetched_at": "2026-10-28T23:59:12Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.115,
+     "value": 1.1133,
      "unit": "USD",
-     "as_of": "2026-10-27",
+     "as_of": "2026-10-28",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83658,
+     "value": 0.83785,
      "unit": "GBP",
-     "as_of": "2026-10-27",
+     "as_of": "2026-10-28",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 175.97,
+     "value": 175.86,
      "unit": "JPY",
-     "as_of": "2026-10-27",
+     "as_of": "2026-10-28",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9239,
+     "value": 0.9247,
      "unit": "CHF",
-     "as_of": "2026-10-27",
+     "as_of": "2026-10-28",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-27T23:43:55Z"
+   "last_success_at": "2026-10-28T23:59:12Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-10-27T23:43:55Z",
+   "fetched_at": "2026-10-28T23:59:12Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-10-27",
+     "as_of": "2026-10-28",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-27T23:43:55Z"
+   "last_success_at": "2026-10-28T23:59:12Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-10-27T23:43:55Z",
+   "fetched_at": "2026-10-28T23:59:12Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.374,
+     "value": 3.371,
      "unit": "%",
-     "as_of": "2026-10-26",
+     "as_of": "2026-10-27",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-27T23:43:55Z"
+   "last_success_at": "2026-10-28T23:59:12Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-10-27T23:43:55Z",
+   "fetched_at": "2026-10-28T23:59:12Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-27T23:43:55Z"
+   "last_success_at": "2026-10-28T23:59:12Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-10-27T23:43:55Z",
+   "fetched_at": "2026-10-28T23:59:12Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,13 +156,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-27T23:43:55Z"
+   "last_success_at": "2026-10-28T23:59:12Z"
   },
   "inflation_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-10-27T23:43:55Z",
+   "fetched_at": "2026-10-28T23:59:12Z",
    "from_cache": false,
    "data": {
     "CPI_US": {
@@ -174,13 +174,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-27T23:43:55Z"
+   "last_success_at": "2026-10-28T23:59:12Z"
   },
   "unemployment_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-10-27T23:43:55Z",
+   "fetched_at": "2026-10-28T23:59:12Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -192,13 +192,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-27T23:43:55Z"
+   "last_success_at": "2026-10-28T23:59:12Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-27T23:43:55Z",
+   "fetched_at": "2026-10-28T23:59:12Z",
    "from_cache": false,
    "data": [
     {
@@ -252,15 +252,21 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-27T23:43:55Z"
+   "last_success_at": "2026-10-28T23:59:12Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-27T23:43:55Z",
+   "fetched_at": "2026-10-28T23:59:12Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Federal Reserve issues FOMC statement",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+     "published": "2026-10-28T18:00:00Z",
+     "source": "Fed"
+    },
     {
      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
@@ -302,25 +308,25 @@
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
      "published": "2026-10-02T20:45:00Z",
      "source": "Fed"
-    },
-    {
-     "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
-     "published": "2026-10-02T20:00:00Z",
-     "source": "Fed"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-27T23:43:55Z"
+   "last_success_at": "2026-10-28T23:59:12Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-27T23:43:55Z",
+   "fetched_at": "2026-10-28T23:59:12Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Remit for the Monetary Policy Committee - October 2026",
+     "url": "https://www.bankofengland.co.uk/letter/2026/mpc-remit-2026",
+     "published": "2026-10-28T14:16:49Z",
+     "source": "BoE"
+    },
     {
      "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
      "url": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
@@ -362,112 +368,198 @@
      "url": "https://www.bankofengland.co.uk/news/2026/october/cmorg-holds-sector-wide-cloud-outage-simulation-exercise",
      "published": "2026-10-09T09:00:00Z",
      "source": "BoE"
-    },
-    {
-     "title": "Bank of England announces the four animals that will feature on our next series of banknotes",
-     "url": "https://www.bankofengland.co.uk/news/2026/october/boe-announces-the-four-animals-that-will-feature-on-next-series-of-banknotes",
-     "published": "2026-10-07T23:01:00Z",
-     "source": "BoE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-27T23:43:55Z"
+   "last_success_at": "2026-10-28T23:59:12Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-10-27T23:43:55Z",
+   "fetched_at": "2026-10-28T23:59:12Z",
    "from_cache": false,
    "data": [
     {
-     "title": "US stocks today: US stocks end higher as AI rally lifts Nasdaq ahead of Fed decision",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-higher-as-ai-rally-lifts-nasdaq-ahead-of-fed-decision/articleshow/135245403.cms",
-     "published": "2026-10-27T20:16:54Z",
-     "source": "economictimes.indiatimes.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.1027,
+     "title": "Microsoft Q1 Earnings: I Was Bullish, Now I'm Doubling Down (NASDAQ:MSFT)",
+     "url": "https://seekingalpha.com/article/4958914-microsoft-q1-earnings-i-was-bullish-now-im-doubling-down",
+     "published": "2026-10-28T22:15:08Z",
+     "source": "seekingalpha.com",
+     "symbol": "MSFT",
+     "sentiment": 0,
      "envelope": "CTO 1",
      "symbols": [
-      "GOOGL",
       "MSFT"
      ]
     },
     {
-     "title": "Tech and Energy Sectors Diverge as Earnings Season Intensifies",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-energy-sectors-diverge-as-earnings-season-intensifies/73706/",
-     "published": "2026-10-27T20:07:23Z",
-     "source": "thestockmarketwatch.com",
+     "title": "Alphabet's Post-Earnings Panic: This Market Has Lost Its Mind (NASDAQ:GOOG)",
+     "url": "https://seekingalpha.com/article/4958900-alphabet-post-earnings-panic-this-market-has-lost-its-mind",
+     "published": "2026-10-28T22:05:39Z",
+     "source": "seekingalpha.com",
      "symbol": "GOOGL",
-     "sentiment": 0.4767,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "MSFT",
-      "TSLA"
-     ]
-    },
-    {
-     "title": "ASM Lifts 2027 Outlook as AI Buildout Fuels Demand For Tools",
-     "url": "https://www.livemint.com/companies/asm-lifts-2027-outlook-as-ai-buildout-fuels-demand-for-tools-11793127752809.html",
-     "published": "2026-10-27T19:02:32Z",
-     "source": "livemint.com",
-     "symbol": "AAPL",
-     "sentiment": 0.34,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Rise Launches Moments for Story-Driven Trading",
-     "url": "https://financefeeds.com/rise-launches-moments-story-driven-trading/",
-     "published": "2026-10-27T18:46:29Z",
-     "source": "financefeeds.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.1779,
+     "sentiment": 0.3321,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL"
      ]
     },
     {
-     "title": "What's behind the AI trade comeback — plus, our take on Intel's latest deal",
-     "url": "https://www.cnbc.com/investingclub/2026/10/27/the-ai-trade-comeback-plus-our-take-on-latest-intel-deal.html",
-     "published": "2026-10-27T18:35:40Z",
-     "source": "cnbc.com",
+     "title": "Google R&D Spending Surges 36% on AI Hires; Fitch Warns of Persistent US Fiscal Pressures",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/google-r-fitch-warns-of-persistent-us-fiscal-pressures/73778/",
+     "published": "2026-10-28T21:38:15Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.47145,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Alphabet Reports Surge in AI-Driven Ad Assets; Deutsche Telekom Pauses T-Mobile Merger",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/alphabet-reports-surge-in-ai-driven-ad-assets-deutsche-telekom-pauses-t-mobile-merger/73776/",
+     "published": "2026-10-28T21:08:19Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.4309,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Tech Sector Drags on Major Indexes as Alphabet and Microsoft Earnings Loom",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-drags-on-major-indexes-as-alphabet-and-microsoft-earnings-loom/73775/",
+     "published": "2026-10-28T21:07:19Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "TSLA",
+     "sentiment": -0.3744,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "US stocks today: US stocks end higher as Fed holds rates; focus turns to earnings",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-higher-as-fed-holds-rates-earnings-in-focus/articleshow/135279631.cms",
+     "published": "2026-10-28T20:14:51Z",
+     "source": "economictimes.indiatimes.com",
      "symbol": "MSFT",
-     "sentiment": 0.3182,
+     "sentiment": 0.01865,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "Tech and AI Sectors Surge as Earnings Season Hits Full Stride",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-ai-sectors-surge-as-earnings-season-hits-full-stride/73701/",
-     "published": "2026-10-27T18:07:18Z",
+     "title": "Tech Earnings and Economic Data Drive Mixed Market Performance as Big Tech Reports Loom",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-earnings-and-economic-data-drive-mixed-market-performance-as-big-tech-reports-loom/73771/",
+     "published": "2026-10-28T20:07:19Z",
      "source": "thestockmarketwatch.com",
-     "symbol": "AAPL",
-     "sentiment": -0.3182,
+     "symbol": "MSFT",
+     "sentiment": 0.4767,
      "envelope": "CTO 1",
      "symbols": [
-      "AAPL",
+      "MSFT",
       "TSLA"
      ]
     },
     {
-     "title": "Tech and AI Sectors Surge as Earnings Season Hits High Gear",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-ai-sectors-surge-as-earnings-season-hits-high-gear/73695/",
-     "published": "2026-10-27T16:07:15Z",
-     "source": "thestockmarketwatch.com",
+     "title": "Q3 2026 Waste Management Inc Earnings Call Transcript",
+     "url": "https://www.gurufocus.com/news/9148307/q3-2026-waste-management-inc-earnings-call-transcript",
+     "published": "2026-10-28T20:00:25Z",
+     "source": "gurufocus.com",
+     "symbol": "WM",
+     "sentiment": 0.39225,
+     "envelope": "CTO 1",
+     "symbols": [
+      "WM"
+     ]
+    },
+    {
+     "title": "Apple Launches Touchscreen MacBook Pro with Cutting-Edge Features (AAPL)",
+     "url": "https://www.gurufocus.com/news/9148264/apple-launches-touchscreen-macbook-pro-with-cuttingedge-features-aapl",
+     "published": "2026-10-28T19:55:24Z",
+     "source": "gurufocus.com",
      "symbol": "AAPL",
+     "sentiment": 0.389614,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Apple Unveils Touch-Screen MacBook Pro, Reversing Long-Held Jobs Stance",
+     "url": "https://www.livemint.com/companies/apple-unveils-touch-screen-macbook-pro-reversing-long-held-jobs-stance-11793212673842.html",
+     "published": "2026-10-28T18:37:53Z",
+     "source": "livemint.com",
+     "symbol": "AAPL",
+     "sentiment": 0.1031,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Investing in US stocks from India? How much can you invest, can you directly apply for IPOs? Complete guide here",
+     "url": "https://www.livemint.com/money/investing-in-us-stocks-from-india-how-much-can-you-invest-can-you-directly-apply-for-ipos-complete-guide-here-11793206657624.html",
+     "published": "2026-10-28T18:29:32Z",
+     "source": "livemint.com",
+     "symbol": "AAPL",
+     "sentiment": 0.8074,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Moderna: ESMO Answered The Science, Q3 Has To Answer The Money (NASDAQ:MRNA)",
+     "url": "https://seekingalpha.com/article/4958662-moderna-esmo-answered-the-science-q3-has-to-answer-the-money",
+     "published": "2026-10-28T16:22:44Z",
+     "source": "seekingalpha.com",
+     "symbol": "MRNA",
+     "sentiment": 0.31845,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
+    },
+    {
+     "title": "Tech and Energy Sectors Propel Markets Higher Amid Heavy Earnings Volume",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-energy-sectors-propel-markets-higher-amid-heavy-earnings-volume/73759/",
+     "published": "2026-10-28T16:07:17Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "TSLA",
+     "sentiment": 0.914,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Recursion Pharmaceuticals (RXRX) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release",
+     "url": "https://www.zacks.com/stock/news/3017228/recursion-pharmaceuticals-rxrx-expected-to-beat-earnings-estimates-what-to-know-ahead-of-q3-release?cid=CS-ZC-FT-fundamental_analysis|yseop_template_9-3017228",
+     "published": "2026-10-28T13:00:16Z",
+     "source": "zacks.com",
+     "symbol": "RXRX",
      "sentiment": 0,
      "envelope": "CTO 1",
      "symbols": [
-      "AAPL",
-      "TSLA"
+      "RXRX"
+     ]
+    },
+    {
+     "title": "Palantir: The Trust Layer For Agentic AI Heading Into Q3 Earnings (NASDAQ:PLTR)",
+     "url": "https://seekingalpha.com/article/4958413-palantir-the-trust-layer-for-agentic-ai-heading-into-q3-earnings",
+     "published": "2026-10-28T10:43:09Z",
+     "source": "seekingalpha.com",
+     "symbol": "PLTR",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
      ]
     },
     {
@@ -519,18 +611,6 @@
      ]
     },
     {
-     "title": "Moderna, Inc. (MRNA) Discusses Phase III Data for Intismeran and Advances in Cancer Immunotherapy - Slideshow (NASDAQ:MRNA) 2026-10-26",
-     "url": "https://seekingalpha.com/article/4957705-moderna-inc-mrna-discusses-phase-iii-data-for-intismeran-and-advances-in-cancer-immunotherapy",
-     "published": "2026-10-26T23:18:37Z",
-     "source": "seekingalpha.com",
-     "symbol": "MRNA",
-     "sentiment": -0.6597,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
-     ]
-    },
-    {
      "title": "Waste Management (WM) Set to Report Q3 Earnings Amid Strong Dividend Fundamentals",
      "url": "https://www.gurufocus.com/news/9143305/waste-management-wm-set-to-report-q3-earnings-amid-strong-dividend-fundamentals",
      "published": "2026-10-26T23:02:42Z",
@@ -555,36 +635,12 @@
      ]
     },
     {
-     "title": "BC Partners Negotiates GFL Environmental (GFL) Buyout as Stock Stabilizes",
-     "url": "https://www.gurufocus.com/news/9142910/bc-partners-negotiates-gfl-environmental-gfl-buyout-as-stock-stabilizes",
-     "published": "2026-10-26T19:56:25Z",
-     "source": "gurufocus.com",
-     "symbol": "WM",
-     "sentiment": 0.1497,
-     "envelope": "CTO 1",
-     "symbols": [
-      "WM"
-     ]
-    },
-    {
      "title": "Palantir (PLTR) Expands Brand Presence in South Korea with Successful Pop-Up Store",
      "url": "https://www.gurufocus.com/news/9142023/palantir-pltr-expands-brand-presence-in-south-korea-with-successful-popup-store",
      "published": "2026-10-26T11:51:29Z",
      "source": "gurufocus.com",
      "symbol": "PLTR",
      "sentiment": 0.575217,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
-     ]
-    },
-    {
-     "title": "Palantir's Unique Marketing Strategy Boosts Brand Presence in Korea",
-     "url": "https://www.gurufocus.com/news/9141902/palantirs-unique-marketing-strategy-boosts-brand-presence-in-korea",
-     "published": "2026-10-26T10:11:59Z",
-     "source": "gurufocus.com",
-     "symbol": "PLTR",
-     "sentiment": 0.6153,
      "envelope": "CTO 1",
      "symbols": [
       "PLTR"
@@ -633,18 +689,6 @@
      "source": "zacks.com",
      "symbol": "RXRX",
      "sentiment": 0.2263,
-     "envelope": "CTO 1",
-     "symbols": [
-      "RXRX"
-     ]
-    },
-    {
-     "title": "Ark Invest Boosts AI Bets with $25.9M CoreWeave Purchase (CRWV)",
-     "url": "https://www.gurufocus.com/news/9129484/ark-invest-boosts-ai-bets-with-259m-coreweave-purchase-crwv",
-     "published": "2026-10-19T12:55:38Z",
-     "source": "gurufocus.com",
-     "symbol": "RXRX",
-     "sentiment": 0.3451,
      "envelope": "CTO 1",
      "symbols": [
       "RXRX"
@@ -797,7 +841,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-27T23:43:55Z"
+   "last_success_at": "2026-10-28T23:59:12Z"
   }
  }
 }
