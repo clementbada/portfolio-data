@@ -1,84 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-28T23:59:12Z",
+ "generated_at": "2026-10-29T23:55:39Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-10-28T23:59:12Z",
+   "fetched_at": "2026-10-29T23:55:39Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.1133,
+     "value": 1.113,
      "unit": "USD",
-     "as_of": "2026-10-28",
+     "as_of": "2026-10-29",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83785,
+     "value": 0.83578,
      "unit": "GBP",
-     "as_of": "2026-10-28",
+     "as_of": "2026-10-29",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 175.86,
+     "value": 175.92,
      "unit": "JPY",
-     "as_of": "2026-10-28",
+     "as_of": "2026-10-29",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9247,
+     "value": 0.9222,
      "unit": "CHF",
-     "as_of": "2026-10-28",
+     "as_of": "2026-10-29",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-28T23:59:12Z"
+   "last_success_at": "2026-10-29T23:55:39Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-10-28T23:59:12Z",
+   "fetched_at": "2026-10-29T23:55:39Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-10-28",
+     "as_of": "2026-10-29",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-28T23:59:12Z"
+   "last_success_at": "2026-10-29T23:55:39Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-10-28T23:59:12Z",
+   "fetched_at": "2026-10-29T23:55:39Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.371,
+     "value": 3.393,
      "unit": "%",
-     "as_of": "2026-10-27",
+     "as_of": "2026-10-28",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-28T23:59:12Z"
+   "last_success_at": "2026-10-29T23:55:39Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-10-28T23:59:12Z",
+   "fetched_at": "2026-10-29T23:55:39Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-28T23:59:12Z"
+   "last_success_at": "2026-10-29T23:55:39Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-10-28T23:59:12Z",
+   "fetched_at": "2026-10-29T23:55:39Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,13 +156,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-28T23:59:12Z"
+   "last_success_at": "2026-10-29T23:55:39Z"
   },
   "inflation_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-10-28T23:59:12Z",
+   "fetched_at": "2026-10-29T23:55:39Z",
    "from_cache": false,
    "data": {
     "CPI_US": {
@@ -174,13 +174,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-28T23:59:12Z"
+   "last_success_at": "2026-10-29T23:55:39Z"
   },
   "unemployment_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-10-28T23:59:12Z",
+   "fetched_at": "2026-10-29T23:55:39Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -192,15 +192,39 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-28T23:59:12Z"
+   "last_success_at": "2026-10-29T23:55:39Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-28T23:59:12Z",
+   "fetched_at": "2026-10-29T23:55:39Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
+     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html",
+     "published": "2026-10-29T15:50:00Z",
+     "source": "BCE"
+    },
+    {
+     "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
+     "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+     "published": "2026-10-29T14:00:00Z",
+     "source": "BCE"
+    },
+    {
+     "title": "Monetary policy decisions",
+     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+     "published": "2026-10-29T13:15:00Z",
+     "source": "BCE"
+    },
+    {
+     "title": "ECB President Lagarde to step down on 7 February 2027",
+     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+     "published": "2026-10-29T10:00:00Z",
+     "source": "BCE"
+    },
     {
      "title": "October 2026 euro area bank lending survey",
      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html",
@@ -224,43 +248,25 @@
      "url": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html",
      "published": "2026-10-24T06:00:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "ECB Consumer Expectations Survey results – September 2026",
-     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
-     "published": "2026-10-23T08:00:00Z",
-     "source": "BCE"
-    },
-    {
-     "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
-     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf",
-     "published": "2026-10-21T08:00:00Z",
-     "source": "BCE"
-    },
-    {
-     "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
-     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
-     "published": "2026-10-21T04:15:00Z",
-     "source": "BCE"
-    },
-    {
-     "title": "Frank Elderson: Interview with Die Presse",
-     "url": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html",
-     "published": "2026-10-20T07:00:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-28T23:59:12Z"
+   "last_success_at": "2026-10-29T23:55:39Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-28T23:59:12Z",
+   "fetched_at": "2026-10-29T23:55:39Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+     "published": "2026-10-29T20:30:00Z",
+     "source": "Fed"
+    },
     {
      "title": "Federal Reserve issues FOMC statement",
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
@@ -302,25 +308,31 @@
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
      "published": "2026-10-05T20:30:00Z",
      "source": "Fed"
-    },
-    {
-     "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
-     "published": "2026-10-02T20:45:00Z",
-     "source": "Fed"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-28T23:59:12Z"
+   "last_success_at": "2026-10-29T23:55:39Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-28T23:59:12Z",
+   "fetched_at": "2026-10-29T23:55:39Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Minutes of the Meeting of the Court of Directors held on 17 September 2026",
+     "url": "https://www.bankofengland.co.uk/minutes/2026/september/court-minutes-17-september-2026",
+     "published": "2026-10-29T14:00:00Z",
+     "source": "BoE"
+    },
+    {
+     "title": "Bank of England sets out approach to tokenised collateral in central clearing",
+     "url": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing",
+     "published": "2026-10-29T10:00:00Z",
+     "source": "BoE"
+    },
     {
      "title": "Remit for the Monetary Policy Committee - October 2026",
      "url": "https://www.bankofengland.co.uk/letter/2026/mpc-remit-2026",
@@ -356,77 +368,162 @@
      "url": "https://www.bankofengland.co.uk/minutes/2026/september/sonia-stakeholder-advisory-group-25-september-2026",
      "published": "2026-10-15T08:27:59Z",
      "source": "BoE"
-    },
-    {
-     "title": "Minutes of the Money Market Committee meeting – September 2026",
-     "url": "https://www.bankofengland.co.uk/minutes/2026/september/money-markets-committee-minutes-september-2026",
-     "published": "2026-10-13T15:04:27Z",
-     "source": "BoE"
-    },
-    {
-     "title": "CMORG holds sector-wide cloud outage simulation exercise",
-     "url": "https://www.bankofengland.co.uk/news/2026/october/cmorg-holds-sector-wide-cloud-outage-simulation-exercise",
-     "published": "2026-10-09T09:00:00Z",
-     "source": "BoE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-28T23:59:12Z"
+   "last_success_at": "2026-10-29T23:55:39Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-10-28T23:59:12Z",
+   "fetched_at": "2026-10-29T23:55:39Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Microsoft Q1 Earnings: I Was Bullish, Now I'm Doubling Down (NASDAQ:MSFT)",
-     "url": "https://seekingalpha.com/article/4958914-microsoft-q1-earnings-i-was-bullish-now-im-doubling-down",
-     "published": "2026-10-28T22:15:08Z",
-     "source": "seekingalpha.com",
+     "title": "We're cutting our Amazon price target after a rough quarter. But it isn't all bad",
+     "url": "https://www.cnbc.com/investingclub/2026/10/29/were-cutting-our-amazon-price-target-after-a-tough-quarter-but-it-isnt-all-bad.html",
+     "published": "2026-10-29T23:08:37Z",
+     "source": "cnbc.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.539233,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Jim Cramer says Wall Street is punishing the wrong tech stocks",
+     "url": "https://www.cnbc.com/2026/10/29/jim-cramer-earnings-guilt-by-association.html",
+     "published": "2026-10-29T23:00:01Z",
+     "source": "cnbc.com",
      "symbol": "MSFT",
-     "sentiment": 0,
+     "sentiment": 0.4215,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "Alphabet's Post-Earnings Panic: This Market Has Lost Its Mind (NASDAQ:GOOG)",
-     "url": "https://seekingalpha.com/article/4958900-alphabet-post-earnings-panic-this-market-has-lost-its-mind",
-     "published": "2026-10-28T22:05:39Z",
+     "title": "Microsoft Q1: Capex Shouldn't Scare You Due To Free Cash Flow (NASDAQ:MSFT)",
+     "url": "https://seekingalpha.com/article/4959764-microsoft-q1-capex-shouldnt-scare-you-due-to-free-cash-flow",
+     "published": "2026-10-29T22:59:07Z",
+     "source": "seekingalpha.com",
+     "symbol": "MSFT",
+     "sentiment": 0.6052,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "US Stock Futures Slide Amid Big Tech Earnings; Chinese Semiconductor Firms Launch Major IPOs",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/us-stock-futures-slide-amid-big-tech-earnings-chinese-semiconductor-firms-launch-major-ipos/73845/",
+     "published": "2026-10-29T22:38:24Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "GOOGL",
+     "sentiment": -0.0299,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Alphabet: Why I’m Buying The Free Cash Flow Scare (NASDAQ:GOOG)",
+     "url": "https://seekingalpha.com/article/4959736-alphabet-why-im-buying-the-free-cash-flow-scare",
+     "published": "2026-10-29T22:28:03Z",
      "source": "seekingalpha.com",
      "symbol": "GOOGL",
-     "sentiment": 0.3321,
+     "sentiment": -0.1121,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL"
      ]
     },
     {
-     "title": "Google R&D Spending Surges 36% on AI Hires; Fitch Warns of Persistent US Fiscal Pressures",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/google-r-fitch-warns-of-persistent-us-fiscal-pressures/73778/",
-     "published": "2026-10-28T21:38:15Z",
+     "title": "Tech Sector Slump Drags Nasdaq Lower as Earnings Season Hits Fever Pitch",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-slump-drags-nasdaq-lower-as-earnings-season-hits-fever-pitch/73830/",
+     "published": "2026-10-29T18:07:17Z",
      "source": "thestockmarketwatch.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.47145,
+     "symbol": "AAPL",
+     "sentiment": 0.8689,
      "envelope": "CTO 1",
      "symbols": [
-      "GOOGL"
+      "AAPL"
      ]
     },
     {
-     "title": "Alphabet Reports Surge in AI-Driven Ad Assets; Deutsche Telekom Pauses T-Mobile Merger",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/alphabet-reports-surge-in-ai-driven-ad-assets-deutsche-telekom-pauses-t-mobile-merger/73776/",
-     "published": "2026-10-28T21:08:19Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.4309,
+     "title": "Moderna Bought Time Not Earnings (NASDAQ:MRNA)",
+     "url": "https://seekingalpha.com/article/4959204-moderna-bought-time-not-earnings",
+     "published": "2026-10-29T14:11:06Z",
+     "source": "seekingalpha.com",
+     "symbol": "MRNA",
+     "sentiment": 0,
      "envelope": "CTO 1",
      "symbols": [
-      "GOOGL"
+      "MRNA"
+     ]
+    },
+    {
+     "title": "Cyabra Co-Founder and Chief Executive Officer Dan Brahmy Featured on \"The Big Biz Show”",
+     "url": "https://www.manilatimes.net/2026/10/29/tmt-newswire/globenewswire/cyabra-co-founder-and-chief-executive-officer-dan-brahmy-featured-on-the-big-biz-show/2457458",
+     "published": "2026-10-29T13:27:21Z",
+     "source": "manilatimes.net",
+     "symbol": "AAPL",
+     "sentiment": 0.2732,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Virtuix Secures 27th Patent, Expanding Full-Body Simulation Intellectual Property",
+     "url": "https://www.manilatimes.net/2026/10/29/tmt-newswire/globenewswire/virtuix-secures-27th-patent-expanding-full-body-simulation-intellectual-property/2457457",
+     "published": "2026-10-29T13:27:17Z",
+     "source": "manilatimes.net",
+     "symbol": "TSLA",
+     "sentiment": 0.5106,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "[Earnings]Mega-Cap Tech and Energy Giants Headline Busy Earnings Week",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/earningsmega-cap-tech-and-energy-giants-headline-busy-earnings-week/73815/",
+     "published": "2026-10-29T13:12:23Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "AAPL",
+     "sentiment": 0.1531,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Tech Futures Tumble As Alphabet Plunges, Small Caps Rise Ahead Of PCE, ECB",
+     "url": "https://www.zerohedge.com/markets/tech-futures-tumble-alphabet-plunges-small-caps-rise-ahead-pce-ecb",
+     "published": "2026-10-29T12:13:02Z",
+     "source": "zerohedge.com",
+     "symbol": "TSLA",
+     "sentiment": 0.1598,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Moderna, Inc. (MRNA) Presents at 2026 European Society for Medical Oncology (ESMO) Annual Congress - Slideshow (NASDAQ:MRNA) 2026-10-28",
+     "url": "https://seekingalpha.com/article/4958954-moderna-inc-mrna-presents-at-2026-european-society-for-medical-oncology-esmo-annual-congress",
+     "published": "2026-10-28T23:03:19Z",
+     "source": "seekingalpha.com",
+     "symbol": "MRNA",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
      ]
     },
     {
@@ -438,31 +535,6 @@
      "sentiment": -0.3744,
      "envelope": "CTO 1",
      "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "US stocks today: US stocks end higher as Fed holds rates; focus turns to earnings",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-higher-as-fed-holds-rates-earnings-in-focus/articleshow/135279631.cms",
-     "published": "2026-10-28T20:14:51Z",
-     "source": "economictimes.indiatimes.com",
-     "symbol": "MSFT",
-     "sentiment": 0.01865,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Tech Earnings and Economic Data Drive Mixed Market Performance as Big Tech Reports Loom",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-earnings-and-economic-data-drive-mixed-market-performance-as-big-tech-reports-loom/73771/",
-     "published": "2026-10-28T20:07:19Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "MSFT",
-     "sentiment": 0.4767,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT",
       "TSLA"
      ]
     },
@@ -479,42 +551,6 @@
      ]
     },
     {
-     "title": "Apple Launches Touchscreen MacBook Pro with Cutting-Edge Features (AAPL)",
-     "url": "https://www.gurufocus.com/news/9148264/apple-launches-touchscreen-macbook-pro-with-cuttingedge-features-aapl",
-     "published": "2026-10-28T19:55:24Z",
-     "source": "gurufocus.com",
-     "symbol": "AAPL",
-     "sentiment": 0.389614,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Apple Unveils Touch-Screen MacBook Pro, Reversing Long-Held Jobs Stance",
-     "url": "https://www.livemint.com/companies/apple-unveils-touch-screen-macbook-pro-reversing-long-held-jobs-stance-11793212673842.html",
-     "published": "2026-10-28T18:37:53Z",
-     "source": "livemint.com",
-     "symbol": "AAPL",
-     "sentiment": 0.1031,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Investing in US stocks from India? How much can you invest, can you directly apply for IPOs? Complete guide here",
-     "url": "https://www.livemint.com/money/investing-in-us-stocks-from-india-how-much-can-you-invest-can-you-directly-apply-for-ipos-complete-guide-here-11793206657624.html",
-     "published": "2026-10-28T18:29:32Z",
-     "source": "livemint.com",
-     "symbol": "AAPL",
-     "sentiment": 0.8074,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
      "title": "Moderna: ESMO Answered The Science, Q3 Has To Answer The Money (NASDAQ:MRNA)",
      "url": "https://seekingalpha.com/article/4958662-moderna-esmo-answered-the-science-q3-has-to-answer-the-money",
      "published": "2026-10-28T16:22:44Z",
@@ -524,18 +560,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "MRNA"
-     ]
-    },
-    {
-     "title": "Tech and Energy Sectors Propel Markets Higher Amid Heavy Earnings Volume",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-energy-sectors-propel-markets-higher-amid-heavy-earnings-volume/73759/",
-     "published": "2026-10-28T16:07:17Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "TSLA",
-     "sentiment": 0.914,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
      ]
     },
     {
@@ -563,18 +587,6 @@
      ]
     },
     {
-     "title": "Futures Rise, Oil Slides As Iran's Supreme Leader Talks Peace And Shrugs Off Ras Tanura Attack",
-     "url": "https://www.zerohedge.com/markets/futures-rise-oil-slides-irans-supreme-leader-talks-peace-and-shrugs-ras-tanura-attack-0",
-     "published": "2026-10-27T12:25:27Z",
-     "source": "zerohedge.com",
-     "symbol": "MRNA",
-     "sentiment": 0.765,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
-     ]
-    },
-    {
      "title": "WM DCF Analysis: Intrinsic Value $111 vs Price $241",
      "url": "https://www.gurufocus.com/news/9144319/wm-dcf-analysis-intrinsic-value-111-vs-price-241",
      "published": "2026-10-27T12:20:54Z",
@@ -596,18 +608,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "PLTR"
-     ]
-    },
-    {
-     "title": "Show Me The Money",
-     "url": "https://seekingalpha.com/article/4957804-show-me-the-money",
-     "published": "2026-10-27T11:30:35Z",
-     "source": "seekingalpha.com",
-     "symbol": "MRNA",
-     "sentiment": 0.4404,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
      ]
     },
     {
@@ -841,7 +841,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-28T23:59:12Z"
+   "last_success_at": "2026-10-29T23:55:39Z"
   }
  }
 }

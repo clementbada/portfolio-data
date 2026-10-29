@@ -1,24 +1,24 @@
-# Point marchés — 2026-10-28
+# Point marchés — 2026-10-29
 
-- EUR/USD : 1.1133 USD (2026-10-28)
-- Taux de dépôt BCE : 2.50 % (2026-10-28)
-- 10 ans zone euro AAA : 3.37 % (2026-10-27)
+- EUR/USD : 1.1130 USD (2026-10-29)
+- Taux de dépôt BCE : 2.50 % (2026-10-29)
+- 10 ans zone euro AAA : 3.39 % (2026-10-28)
 - Inflation : EA 3.8 % a/a (2026-09) · FR 3.4 % a/a (2026-09) · US 3.7 % a/a (2026-09)
 
 ## Derniers communiqués
-- [Fed] Federal Reserve issues FOMC statement (2026-10-28)
-- [BoE] Remit for the Monetary Policy Committee - October 2026 (2026-10-28)
-- [BCE] October 2026 euro area bank lending survey (2026-10-27)
-- [BCE] Survey on the Access to Finance of Enterprises: lending conditions tightened (2026-10-26)
-- [BCE] Frank Elderson: Taking action for nature – investing in economic resilience and prosperity (2026-10-26)
-- [BCE] Piero Cipollone: Interview with Milano Finanza (2026-10-24)
+- [Fed] Federal Reserve Board announces approval of application by The Bank of Nova Scotia (2026-10-29)
+- [BCE] Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure (2026-10-29)
+- [BCE] Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A) (2026-10-29)
+- [BoE] Minutes of the Meeting of the Court of Directors held on 17 September 2026 (2026-10-29)
+- [BCE] Monetary policy decisions (2026-10-29)
+- [BCE] ECB President Lagarde to step down on 7 February 2027 (2026-10-29)
 
 ## Actualités du portefeuille
-- [MSFT] Microsoft Q1 Earnings: I Was Bullish, Now I'm Doubling Down (NASDAQ:MSFT) (2026-10-28)
-- [GOOGL] Alphabet's Post-Earnings Panic: This Market Has Lost Its Mind (NASDAQ:GOOG) (2026-10-28)
-- [GOOGL] Google R&D Spending Surges 36% on AI Hires; Fitch Warns of Persistent US Fiscal Pressures (2026-10-28)
-- [GOOGL] Alphabet Reports Surge in AI-Driven Ad Assets; Deutsche Telekom Pauses T-Mobile Merger (2026-10-28)
-- [TSLA] Tech Sector Drags on Major Indexes as Alphabet and Microsoft Earnings Loom (2026-10-28)
-- [MSFT] US stocks today: US stocks end higher as Fed holds rates; focus turns to earnings (2026-10-28)
-- [MSFT] Tech Earnings and Economic Data Drive Mixed Market Performance as Big Tech Reports Loom (2026-10-28)
-- [WM] Q3 2026 Waste Management Inc Earnings Call Transcript (2026-10-28)
+- [GOOGL] We're cutting our Amazon price target after a rough quarter. But it isn't all bad (2026-10-29)
+- [MSFT] Jim Cramer says Wall Street is punishing the wrong tech stocks (2026-10-29)
+- [MSFT] Microsoft Q1: Capex Shouldn't Scare You Due To Free Cash Flow (NASDAQ:MSFT) (2026-10-29)
+- [GOOGL] US Stock Futures Slide Amid Big Tech Earnings; Chinese Semiconductor Firms Launch Major IPOs (2026-10-29)
+- [GOOGL] Alphabet: Why I’m Buying The Free Cash Flow Scare (NASDAQ:GOOG) (2026-10-29)
+- [AAPL] Tech Sector Slump Drags Nasdaq Lower as Earnings Season Hits Fever Pitch (2026-10-29)
+- [MRNA] Moderna Bought Time Not Earnings (NASDAQ:MRNA) (2026-10-29)
+- [AAPL] Cyabra Co-Founder and Chief Executive Officer Dan Brahmy Featured on "The Big Biz Show” (2026-10-29)
