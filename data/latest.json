@@ -1,84 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-29T23:55:39Z",
+ "generated_at": "2026-10-30T23:42:00Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-10-29T23:55:39Z",
+   "fetched_at": "2026-10-30T23:42:00Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.113,
+     "value": 1.1172,
      "unit": "USD",
-     "as_of": "2026-10-29",
+     "as_of": "2026-10-30",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83578,
+     "value": 0.8338,
      "unit": "GBP",
-     "as_of": "2026-10-29",
+     "as_of": "2026-10-30",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 175.92,
+     "value": 175.68,
      "unit": "JPY",
-     "as_of": "2026-10-29",
+     "as_of": "2026-10-30",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9222,
+     "value": 0.9194,
      "unit": "CHF",
-     "as_of": "2026-10-29",
+     "as_of": "2026-10-30",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-29T23:55:39Z"
+   "last_success_at": "2026-10-30T23:42:00Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-10-29T23:55:39Z",
+   "fetched_at": "2026-10-30T23:42:00Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-10-29",
+     "as_of": "2026-10-30",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-29T23:55:39Z"
+   "last_success_at": "2026-10-30T23:42:00Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-10-29T23:55:39Z",
+   "fetched_at": "2026-10-30T23:42:00Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.393,
+     "value": 3.373,
      "unit": "%",
-     "as_of": "2026-10-28",
+     "as_of": "2026-10-29",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-29T23:55:39Z"
+   "last_success_at": "2026-10-30T23:42:00Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-10-29T23:55:39Z",
+   "fetched_at": "2026-10-30T23:42:00Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,55 +114,55 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-29T23:55:39Z"
+   "last_success_at": "2026-10-30T23:42:00Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-10-29T23:55:39Z",
+   "fetched_at": "2026-10-30T23:42:00Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
-     "value": 4.0,
+     "value": 4.1,
      "unit": "%",
-     "as_of": "2026-08",
+     "as_of": "2026-09",
      "label": "Chômage DE"
     },
     "UNEMP_EA": {
-     "value": 6.4,
+     "value": 6.5,
      "unit": "%",
-     "as_of": "2026-08",
+     "as_of": "2026-09",
      "label": "Chômage EA"
     },
     "UNEMP_ES": {
-     "value": 10.0,
+     "value": 10.3,
      "unit": "%",
-     "as_of": "2026-08",
+     "as_of": "2026-09",
      "label": "Chômage ES"
     },
     "UNEMP_FR": {
-     "value": 8.2,
+     "value": 8.5,
      "unit": "%",
-     "as_of": "2026-08",
+     "as_of": "2026-09",
      "label": "Chômage FR"
     },
     "UNEMP_IT": {
-     "value": 6.2,
+     "value": 6.3,
      "unit": "%",
-     "as_of": "2026-08",
+     "as_of": "2026-09",
      "label": "Chômage IT"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-29T23:55:39Z"
+   "last_success_at": "2026-10-30T23:42:00Z"
   },
   "inflation_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-10-29T23:55:39Z",
+   "fetched_at": "2026-10-30T23:42:00Z",
    "from_cache": false,
    "data": {
     "CPI_US": {
@@ -174,13 +174,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-29T23:55:39Z"
+   "last_success_at": "2026-10-30T23:42:00Z"
   },
   "unemployment_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-10-29T23:55:39Z",
+   "fetched_at": "2026-10-30T23:42:00Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -192,15 +192,33 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-29T23:55:39Z"
+   "last_success_at": "2026-10-30T23:42:00Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-29T23:55:39Z",
+   "fetched_at": "2026-10-30T23:42:00Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Philip R. Lane: AI adoption in Europe",
+     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+     "published": "2026-10-30T16:10:00Z",
+     "source": "BCE"
+    },
+    {
+     "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+     "url": "https://www.ecb.europa.eu/press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
+     "published": "2026-10-30T14:00:00Z",
+     "source": "BCE"
+    },
+    {
+     "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
+     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
+     "published": "2026-10-30T09:00:00Z",
+     "source": "BCE"
+    },
     {
      "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html",
@@ -230,35 +248,17 @@
      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html",
      "published": "2026-10-27T00:00:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
-     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html",
-     "published": "2026-10-26T09:00:00Z",
-     "source": "BCE"
-    },
-    {
-     "title": "Frank Elderson: Taking action for nature – investing in economic resilience and prosperity",
-     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261026~d903d7ad85.en.html",
-     "published": "2026-10-26T05:00:00Z",
-     "source": "BCE"
-    },
-    {
-     "title": "Piero Cipollone: Interview with Milano Finanza",
-     "url": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html",
-     "published": "2026-10-24T06:00:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-29T23:55:39Z"
+   "last_success_at": "2026-10-30T23:42:00Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-29T23:55:39Z",
+   "fetched_at": "2026-10-30T23:42:00Z",
    "from_cache": false,
    "data": [
     {
@@ -312,13 +312,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-29T23:55:39Z"
+   "last_success_at": "2026-10-30T23:42:00Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-29T23:55:39Z",
+   "fetched_at": "2026-10-30T23:42:00Z",
    "from_cache": false,
    "data": [
     {
@@ -372,58 +372,34 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-29T23:55:39Z"
+   "last_success_at": "2026-10-30T23:42:00Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-10-29T23:55:39Z",
+   "fetched_at": "2026-10-30T23:42:00Z",
    "from_cache": false,
    "data": [
     {
-     "title": "We're cutting our Amazon price target after a rough quarter. But it isn't all bad",
-     "url": "https://www.cnbc.com/investingclub/2026/10/29/were-cutting-our-amazon-price-target-after-a-tough-quarter-but-it-isnt-all-bad.html",
-     "published": "2026-10-29T23:08:37Z",
-     "source": "cnbc.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.539233,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Jim Cramer says Wall Street is punishing the wrong tech stocks",
-     "url": "https://www.cnbc.com/2026/10/29/jim-cramer-earnings-guilt-by-association.html",
-     "published": "2026-10-29T23:00:01Z",
-     "source": "cnbc.com",
-     "symbol": "MSFT",
-     "sentiment": 0.4215,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Microsoft Q1: Capex Shouldn't Scare You Due To Free Cash Flow (NASDAQ:MSFT)",
-     "url": "https://seekingalpha.com/article/4959764-microsoft-q1-capex-shouldnt-scare-you-due-to-free-cash-flow",
-     "published": "2026-10-29T22:59:07Z",
+     "title": "Microsoft: 48% Azure Growth And Still Not Enough Capacity (NASDAQ:MSFT)",
+     "url": "https://seekingalpha.com/article/4960465-microsoft-48-percent-azure-growth-and-still-not-enough-capacity",
+     "published": "2026-10-30T22:31:12Z",
      "source": "seekingalpha.com",
      "symbol": "MSFT",
-     "sentiment": 0.6052,
+     "sentiment": 0.6043,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "US Stock Futures Slide Amid Big Tech Earnings; Chinese Semiconductor Firms Launch Major IPOs",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/us-stock-futures-slide-amid-big-tech-earnings-chinese-semiconductor-firms-launch-major-ipos/73845/",
-     "published": "2026-10-29T22:38:24Z",
-     "source": "thestockmarketwatch.com",
+     "title": "Nasdaq bleeds: Faces $2 trillion wipeout in October",
+     "url": "https://timesofindia.indiatimes.com/business/international-business/nasdaq-bleeds-faces-2-trillion-wipeout-in-october/articleshow/135380573.cms",
+     "published": "2026-10-30T22:29:20Z",
+     "source": "timesofindia.indiatimes.com",
      "symbol": "GOOGL",
-     "sentiment": -0.0299,
+     "sentiment": -0.1655,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL",
@@ -431,27 +407,124 @@
      ]
     },
     {
-     "title": "Alphabet: Why I’m Buying The Free Cash Flow Scare (NASDAQ:GOOG)",
-     "url": "https://seekingalpha.com/article/4959736-alphabet-why-im-buying-the-free-cash-flow-scare",
-     "published": "2026-10-29T22:28:03Z",
+     "title": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
+     "url": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
+     "published": "2026-10-30T22:17:13Z",
+     "source": "cnbc.com",
+     "symbol": "AAPL",
+     "sentiment": -0.3528,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Alphabet: Strong Buy As AI Monetization Fears Grow (NASDAQ:GOOG)",
+     "url": "https://seekingalpha.com/article/4960462-alphabet-strong-buy-as-ai-monetization-fears-grow",
+     "published": "2026-10-30T22:12:22Z",
      "source": "seekingalpha.com",
      "symbol": "GOOGL",
-     "sentiment": -0.1121,
+     "sentiment": 0.2231,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL"
      ]
     },
     {
-     "title": "Tech Sector Slump Drags Nasdaq Lower as Earnings Season Hits Fever Pitch",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-slump-drags-nasdaq-lower-as-earnings-season-hits-fever-pitch/73830/",
-     "published": "2026-10-29T18:07:17Z",
+     "title": "Market Resilience Amid Energy Earnings and Tech Volatility",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/market-resilience-amid-energy-earnings-and-tech-volatility/73902/",
+     "published": "2026-10-30T21:07:17Z",
      "source": "thestockmarketwatch.com",
      "symbol": "AAPL",
-     "sentiment": 0.8689,
+     "sentiment": 0,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL"
+     ]
+    },
+    {
+     "title": "Nasdaq 100 cracks 5%, wipes out $2 trillion in October as AI spending fears deepen",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nasdaq-100-cracks-5-faces-2-trillion-wipeout-in-october-as-ai-spending-fears-deepen/articleshow/135376949.cms",
+     "published": "2026-10-30T20:10:09Z",
+     "source": "economictimes.indiatimes.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.2413,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Tesla: Paying Peak Multiples For Promises That Keep Slipping (Rating Downgrade)",
+     "url": "https://seekingalpha.com/article/4960417-tesla-paying-peak-multiples-for-promises-that-keep-slipping-downgrade",
+     "published": "2026-10-30T19:30:49Z",
+     "source": "seekingalpha.com",
+     "symbol": "TSLA",
+     "sentiment": 0.286167,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
+     "url": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
+     "published": "2026-10-30T18:55:44Z",
+     "source": "cnbc.com",
+     "symbol": "AAPL",
+     "sentiment": 0.25,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "IYF: Your Guide To The iShares U.S. Financials ETF (NYSEARCA:IYF)",
+     "url": "https://seekingalpha.com/article/4960315-iyf-your-guide-to-the-ishares-us-financials-etf",
+     "published": "2026-10-30T16:42:46Z",
+     "source": "seekingalpha.com",
+     "symbol": "AXP",
+     "sentiment": 0.1366,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AXP"
+     ]
+    },
+    {
+     "title": "Nasdaq plunges after dismal earnings from Amazon and Intel",
+     "url": "https://www.businessinsider.com/stock-market-today-nasdaq-amazon-intel-q3-earnings-2026-10",
+     "published": "2026-10-30T13:36:54Z",
+     "source": "businessinsider.com",
+     "symbol": "TSLA",
+     "sentiment": -0.3612,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "A prominent law firm is unraveling—but Palantir has an intriguing offer",
+     "url": "https://fortune.com/2026/10/30/prominent-law-firm-unravelingbut-palantir-has-an-intriguing-offer-cfo/",
+     "published": "2026-10-30T13:00:10Z",
+     "source": "fortune.com",
+     "symbol": "PLTR",
+     "sentiment": 0.2023,
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
+     ]
+    },
+    {
+     "title": "Futures Slide As AI Reckoning Claims Amazon, Intel; Oil Jumps On Hormuz Tanker Hits",
+     "url": "https://www.zerohedge.com/markets/futures-slide-ai-reckoning-claims-amazon-intel-oil-jumps-hormuz-tanker-hits",
+     "published": "2026-10-30T12:20:48Z",
+     "source": "zerohedge.com",
+     "symbol": "TSLA",
+     "sentiment": 0.2732,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
      ]
     },
     {
@@ -467,54 +540,6 @@
      ]
     },
     {
-     "title": "Cyabra Co-Founder and Chief Executive Officer Dan Brahmy Featured on \"The Big Biz Show”",
-     "url": "https://www.manilatimes.net/2026/10/29/tmt-newswire/globenewswire/cyabra-co-founder-and-chief-executive-officer-dan-brahmy-featured-on-the-big-biz-show/2457458",
-     "published": "2026-10-29T13:27:21Z",
-     "source": "manilatimes.net",
-     "symbol": "AAPL",
-     "sentiment": 0.2732,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Virtuix Secures 27th Patent, Expanding Full-Body Simulation Intellectual Property",
-     "url": "https://www.manilatimes.net/2026/10/29/tmt-newswire/globenewswire/virtuix-secures-27th-patent-expanding-full-body-simulation-intellectual-property/2457457",
-     "published": "2026-10-29T13:27:17Z",
-     "source": "manilatimes.net",
-     "symbol": "TSLA",
-     "sentiment": 0.5106,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "[Earnings]Mega-Cap Tech and Energy Giants Headline Busy Earnings Week",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/earningsmega-cap-tech-and-energy-giants-headline-busy-earnings-week/73815/",
-     "published": "2026-10-29T13:12:23Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "AAPL",
-     "sentiment": 0.1531,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Tech Futures Tumble As Alphabet Plunges, Small Caps Rise Ahead Of PCE, ECB",
-     "url": "https://www.zerohedge.com/markets/tech-futures-tumble-alphabet-plunges-small-caps-rise-ahead-pce-ecb",
-     "published": "2026-10-29T12:13:02Z",
-     "source": "zerohedge.com",
-     "symbol": "TSLA",
-     "sentiment": 0.1598,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
      "title": "Moderna, Inc. (MRNA) Presents at 2026 European Society for Medical Oncology (ESMO) Annual Congress - Slideshow (NASDAQ:MRNA) 2026-10-28",
      "url": "https://seekingalpha.com/article/4958954-moderna-inc-mrna-presents-at-2026-european-society-for-medical-oncology-esmo-annual-congress",
      "published": "2026-10-28T23:03:19Z",
@@ -524,18 +549,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "MRNA"
-     ]
-    },
-    {
-     "title": "Tech Sector Drags on Major Indexes as Alphabet and Microsoft Earnings Loom",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-drags-on-major-indexes-as-alphabet-and-microsoft-earnings-loom/73775/",
-     "published": "2026-10-28T21:07:19Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "TSLA",
-     "sentiment": -0.3744,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
      ]
     },
     {
@@ -635,18 +648,6 @@
      ]
     },
     {
-     "title": "Palantir (PLTR) Expands Brand Presence in South Korea with Successful Pop-Up Store",
-     "url": "https://www.gurufocus.com/news/9142023/palantir-pltr-expands-brand-presence-in-south-korea-with-successful-popup-store",
-     "published": "2026-10-26T11:51:29Z",
-     "source": "gurufocus.com",
-     "symbol": "PLTR",
-     "sentiment": 0.575217,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
-     ]
-    },
-    {
      "title": "Bretton Fund Q3 2026 Shareholder Letter",
      "url": "https://seekingalpha.com/article/4957347-bretton-fund-q3-2026-shareholder-letter",
      "published": "2026-10-25T20:17:00Z",
@@ -665,18 +666,6 @@
      "source": "seekingalpha.com",
      "symbol": "AXP",
      "sentiment": -0.4215,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AXP"
-     ]
-    },
-    {
-     "title": "Tech and Financials Lead Modest Gains as Earnings Season Intensifies",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-financials-lead-modest-gains-as-earnings-season-intensifies/73522/",
-     "published": "2026-10-23T21:07:18Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "AXP",
-     "sentiment": 0.2023,
      "envelope": "CTO 1",
      "symbols": [
       "AXP"
@@ -841,7 +830,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-29T23:55:39Z"
+   "last_success_at": "2026-10-30T23:42:00Z"
   }
  }
 }

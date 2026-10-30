@@ -1,24 +1,24 @@
-# Point marchés — 2026-10-29
+# Point marchés — 2026-10-30
 
-- EUR/USD : 1.1130 USD (2026-10-29)
-- Taux de dépôt BCE : 2.50 % (2026-10-29)
-- 10 ans zone euro AAA : 3.39 % (2026-10-28)
+- EUR/USD : 1.1172 USD (2026-10-30)
+- Taux de dépôt BCE : 2.50 % (2026-10-30)
+- 10 ans zone euro AAA : 3.37 % (2026-10-29)
 - Inflation : EA 3.8 % a/a (2026-09) · FR 3.4 % a/a (2026-09) · US 3.7 % a/a (2026-09)
 
 ## Derniers communiqués
+- [BCE] Philip R. Lane: AI adoption in Europe (2026-10-30)
+- [BCE] Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates) (2026-10-30)
+- [BCE] Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026 (2026-10-30)
 - [Fed] Federal Reserve Board announces approval of application by The Bank of Nova Scotia (2026-10-29)
 - [BCE] Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure (2026-10-29)
 - [BCE] Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A) (2026-10-29)
-- [BoE] Minutes of the Meeting of the Court of Directors held on 17 September 2026 (2026-10-29)
-- [BCE] Monetary policy decisions (2026-10-29)
-- [BCE] ECB President Lagarde to step down on 7 February 2027 (2026-10-29)
 
 ## Actualités du portefeuille
-- [GOOGL] We're cutting our Amazon price target after a rough quarter. But it isn't all bad (2026-10-29)
-- [MSFT] Jim Cramer says Wall Street is punishing the wrong tech stocks (2026-10-29)
-- [MSFT] Microsoft Q1: Capex Shouldn't Scare You Due To Free Cash Flow (NASDAQ:MSFT) (2026-10-29)
-- [GOOGL] US Stock Futures Slide Amid Big Tech Earnings; Chinese Semiconductor Firms Launch Major IPOs (2026-10-29)
-- [GOOGL] Alphabet: Why I’m Buying The Free Cash Flow Scare (NASDAQ:GOOG) (2026-10-29)
-- [AAPL] Tech Sector Slump Drags Nasdaq Lower as Earnings Season Hits Fever Pitch (2026-10-29)
-- [MRNA] Moderna Bought Time Not Earnings (NASDAQ:MRNA) (2026-10-29)
-- [AAPL] Cyabra Co-Founder and Chief Executive Officer Dan Brahmy Featured on "The Big Biz Show” (2026-10-29)
+- [MSFT] Microsoft: 48% Azure Growth And Still Not Enough Capacity (NASDAQ:MSFT) (2026-10-30)
+- [GOOGL] Nasdaq bleeds: Faces $2 trillion wipeout in October (2026-10-30)
+- [AAPL] Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom (2026-10-30)
+- [GOOGL] Alphabet: Strong Buy As AI Monetization Fears Grow (NASDAQ:GOOG) (2026-10-30)
+- [AAPL] Market Resilience Amid Energy Earnings and Tech Volatility (2026-10-30)
+- [GOOGL] Nasdaq 100 cracks 5%, wipes out $2 trillion in October as AI spending fears deepen (2026-10-30)
+- [TSLA] Tesla: Paying Peak Multiples For Promises That Keep Slipping (Rating Downgrade) (2026-10-30)
+- [AAPL] Tech gets crushed, defensive stocks shine. How we're making sense of it all (2026-10-30)
