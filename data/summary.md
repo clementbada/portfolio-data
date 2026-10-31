@@ -1,7 +1,7 @@
-# Point marchés — 2026-10-30
+# Point marchés — 2026-10-31
 
 - EUR/USD : 1.1172 USD (2026-10-30)
-- Taux de dépôt BCE : 2.50 % (2026-10-30)
+- Taux de dépôt BCE : 2.50 % (2026-10-31)
 - 10 ans zone euro AAA : 3.37 % (2026-10-29)
 - Inflation : EA 3.8 % a/a (2026-09) · FR 3.4 % a/a (2026-09) · US 3.7 % a/a (2026-09)
 
@@ -14,11 +14,11 @@
 - [BCE] Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A) (2026-10-29)
 
 ## Actualités du portefeuille
-- [MSFT] Microsoft: 48% Azure Growth And Still Not Enough Capacity (NASDAQ:MSFT) (2026-10-30)
-- [GOOGL] Nasdaq bleeds: Faces $2 trillion wipeout in October (2026-10-30)
+- [TSLA] SpaceX (SPCX) Stock at $134.72: Below the $135 IPO (2026-10-31)
+- [GOOGL] Alphabet: Noisy Q3 Metrics Meet Outsized Cloud Opportunities - Deep Value Buy (GOOG) (2026-10-31)
+- [GOOGL] What should investors glean from Anthropic’s prospectus? (2026-10-31)
+- [MSFT] Note de synthèse : La bulle technologique de l’IA a-t-elle éclaté en Asie et va-t-elle éclater aux États-Unis ? (2026-10-31)
+- [MSFT] Microsoft Q1: CROCI Says My 'Trim, Not Exit' Thesis Remains Firmly In Place (NASDAQ:MSFT) (2026-10-31)
+- [GOOGL] Stocks started the week with promise but ended in despair. Our take on the big reversal (2026-10-31)
+- [AAPL] Apple overtakes Nvidia to become world's most valuable company at $5.03 trn (2026-10-31)
 - [AAPL] Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom (2026-10-30)
-- [GOOGL] Alphabet: Strong Buy As AI Monetization Fears Grow (NASDAQ:GOOG) (2026-10-30)
-- [AAPL] Market Resilience Amid Energy Earnings and Tech Volatility (2026-10-30)
-- [GOOGL] Nasdaq 100 cracks 5%, wipes out $2 trillion in October as AI spending fears deepen (2026-10-30)
-- [TSLA] Tesla: Paying Peak Multiples For Promises That Keep Slipping (Rating Downgrade) (2026-10-30)
-- [AAPL] Tech gets crushed, defensive stocks shine. How we're making sense of it all (2026-10-30)

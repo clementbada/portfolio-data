@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-30T23:42:00Z",
+ "generated_at": "2026-10-31T23:20:12Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-10-30T23:42:00Z",
+   "fetched_at": "2026-10-31T23:20:12Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
@@ -36,31 +36,31 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-30T23:42:00Z"
+   "last_success_at": "2026-10-31T23:20:12Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-10-30T23:42:00Z",
+   "fetched_at": "2026-10-31T23:20:12Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-10-30",
+     "as_of": "2026-10-31",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-30T23:42:00Z"
+   "last_success_at": "2026-10-31T23:20:12Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-10-30T23:42:00Z",
+   "fetched_at": "2026-10-31T23:20:12Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
@@ -72,13 +72,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-30T23:42:00Z"
+   "last_success_at": "2026-10-31T23:20:12Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-10-30T23:42:00Z",
+   "fetched_at": "2026-10-31T23:20:12Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-30T23:42:00Z"
+   "last_success_at": "2026-10-31T23:20:12Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-10-30T23:42:00Z",
+   "fetched_at": "2026-10-31T23:20:12Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,13 +156,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-30T23:42:00Z"
+   "last_success_at": "2026-10-31T23:20:12Z"
   },
   "inflation_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-10-30T23:42:00Z",
+   "fetched_at": "2026-10-31T23:20:12Z",
    "from_cache": false,
    "data": {
     "CPI_US": {
@@ -174,13 +174,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-30T23:42:00Z"
+   "last_success_at": "2026-10-31T23:20:12Z"
   },
   "unemployment_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-10-30T23:42:00Z",
+   "fetched_at": "2026-10-31T23:20:12Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -192,13 +192,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-30T23:42:00Z"
+   "last_success_at": "2026-10-31T23:20:12Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-30T23:42:00Z",
+   "fetched_at": "2026-10-31T23:20:12Z",
    "from_cache": false,
    "data": [
     {
@@ -252,13 +252,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-30T23:42:00Z"
+   "last_success_at": "2026-10-31T23:20:12Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-30T23:42:00Z",
+   "fetched_at": "2026-10-31T23:20:12Z",
    "from_cache": false,
    "data": [
     {
@@ -312,13 +312,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-30T23:42:00Z"
+   "last_success_at": "2026-10-31T23:20:12Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-30T23:42:00Z",
+   "fetched_at": "2026-10-31T23:20:12Z",
    "from_cache": false,
    "data": [
     {
@@ -372,38 +372,98 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-30T23:42:00Z"
+   "last_success_at": "2026-10-31T23:20:12Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-10-30T23:42:00Z",
+   "fetched_at": "2026-10-31T23:20:12Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Microsoft: 48% Azure Growth And Still Not Enough Capacity (NASDAQ:MSFT)",
-     "url": "https://seekingalpha.com/article/4960465-microsoft-48-percent-azure-growth-and-still-not-enough-capacity",
-     "published": "2026-10-30T22:31:12Z",
+     "title": "SpaceX (SPCX) Stock at $134.72: Below the $135 IPO",
+     "url": "https://financefeeds.com/spacex-spcx-stock-134-week-ahead-closes-below-135-ipo-price-intel-guidance-bull-150-bear-120/",
+     "published": "2026-10-31T20:11:32Z",
+     "source": "financefeeds.com",
+     "symbol": "TSLA",
+     "sentiment": -0.6124,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Alphabet: Noisy Q3 Metrics Meet Outsized Cloud Opportunities - Deep Value Buy (GOOG)",
+     "url": "https://seekingalpha.com/article/4960433-alphabet-noisy-q3-metrics-meet-outsized-cloud-opportunities-deep-value-buy",
+     "published": "2026-10-31T18:00:00Z",
      "source": "seekingalpha.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.17875,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "What should investors glean from Anthropic’s prospectus?",
+     "url": "https://www.thehindubusinessline.com/portfolio/big-story/what-should-investors-glean-from-anthropics-prospectus/article71646095.ece",
+     "published": "2026-10-31T16:58:54Z",
+     "source": "thehindubusinessline.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.9241,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Note de synthèse : La bulle technologique de l’IA a-t-elle éclaté en Asie et va-t-elle éclater aux États-Unis ?",
+     "url": "https://brunobertez.com/2026/10/31/note-de-synthese-la-bulle-technologique-de-lia-a-t-elle-eclate-en-asie-et-va-t-elle-eclater-aux-etats-unis/",
+     "published": "2026-10-31T16:10:55Z",
+     "source": "brunobertez.com",
      "symbol": "MSFT",
-     "sentiment": 0.6043,
+     "sentiment": null,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "Nasdaq bleeds: Faces $2 trillion wipeout in October",
-     "url": "https://timesofindia.indiatimes.com/business/international-business/nasdaq-bleeds-faces-2-trillion-wipeout-in-october/articleshow/135380573.cms",
-     "published": "2026-10-30T22:29:20Z",
-     "source": "timesofindia.indiatimes.com",
-     "symbol": "GOOGL",
-     "sentiment": -0.1655,
+     "title": "Microsoft Q1: CROCI Says My 'Trim, Not Exit' Thesis Remains Firmly In Place (NASDAQ:MSFT)",
+     "url": "https://seekingalpha.com/article/4960643-microsoft-q1-croci-says-my-trim-not-exit-thesis-remains-firmly-in-place",
+     "published": "2026-10-31T16:07:02Z",
+     "source": "seekingalpha.com",
+     "symbol": "MSFT",
+     "sentiment": 0,
      "envelope": "CTO 1",
      "symbols": [
-      "GOOGL",
       "MSFT"
+     ]
+    },
+    {
+     "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+     "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+     "published": "2026-10-31T15:37:11Z",
+     "source": "cnbc.com",
+     "symbol": "GOOGL",
+     "sentiment": -0.160933,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Apple overtakes Nvidia to become world's most valuable company at $5.03 trn",
+     "url": "https://www.business-standard.com/world-news/apple-overtakes-nvidia-to-become-world-s-most-valuable-company-at-5-03-trn-126103100103_1.html",
+     "published": "2026-10-31T03:26:21Z",
+     "source": "business-standard.com",
+     "symbol": "AAPL",
+     "sentiment": 0.3286,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
      ]
     },
     {
@@ -419,18 +479,6 @@
      ]
     },
     {
-     "title": "Alphabet: Strong Buy As AI Monetization Fears Grow (NASDAQ:GOOG)",
-     "url": "https://seekingalpha.com/article/4960462-alphabet-strong-buy-as-ai-monetization-fears-grow",
-     "published": "2026-10-30T22:12:22Z",
-     "source": "seekingalpha.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.2231,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
      "title": "Market Resilience Amid Energy Earnings and Tech Volatility",
      "url": "https://www2.stockmarketwatch.com/stock-market-news/market-resilience-amid-energy-earnings-and-tech-volatility/73902/",
      "published": "2026-10-30T21:07:17Z",
@@ -443,16 +491,15 @@
      ]
     },
     {
-     "title": "Nasdaq 100 cracks 5%, wipes out $2 trillion in October as AI spending fears deepen",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nasdaq-100-cracks-5-faces-2-trillion-wipeout-in-october-as-ai-spending-fears-deepen/articleshow/135376949.cms",
-     "published": "2026-10-30T20:10:09Z",
-     "source": "economictimes.indiatimes.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.2413,
+     "title": "Recursion Pharmaceuticals (RXRX) Declines More Than Market: Some Information for Investors",
+     "url": "https://www.zacks.com/stock/news/3020017/recursion-pharmaceuticals-rxrx-declines-more-than-market-some-information-for-investors?cid=CS-ZC-FT-fundamental_analysis|yseop_template_6-3020017",
+     "published": "2026-10-30T20:45:03Z",
+     "source": "zacks.com",
+     "symbol": "RXRX",
+     "sentiment": 0,
      "envelope": "CTO 1",
      "symbols": [
-      "GOOGL",
-      "MSFT"
+      "RXRX"
      ]
     },
     {
@@ -465,18 +512,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
-     ]
-    },
-    {
-     "title": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
-     "url": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
-     "published": "2026-10-30T18:55:44Z",
-     "source": "cnbc.com",
-     "symbol": "AAPL",
-     "sentiment": 0.25,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
      ]
     },
     {
@@ -513,18 +548,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "PLTR"
-     ]
-    },
-    {
-     "title": "Futures Slide As AI Reckoning Claims Amazon, Intel; Oil Jumps On Hormuz Tanker Hits",
-     "url": "https://www.zerohedge.com/markets/futures-slide-ai-reckoning-claims-amazon-intel-oil-jumps-hormuz-tanker-hits",
-     "published": "2026-10-30T12:20:48Z",
-     "source": "zerohedge.com",
-     "symbol": "TSLA",
-     "sentiment": 0.2732,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
      ]
     },
     {
@@ -669,18 +692,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "AXP"
-     ]
-    },
-    {
-     "title": "Recursion Pharmaceuticals (RXRX) Surpasses Market Returns: Some Facts Worth Knowing",
-     "url": "https://www.zacks.com/stock/news/3011473/recursion-pharmaceuticals-rxrx-surpasses-market-returns-some-facts-worth-knowing?cid=CS-ZC-FT-fundamental_analysis|yseop_template_6v1-3011473",
-     "published": "2026-10-20T20:50:02Z",
-     "source": "zacks.com",
-     "symbol": "RXRX",
-     "sentiment": 0.2263,
-     "envelope": "CTO 1",
-     "symbols": [
-      "RXRX"
      ]
     },
     {
@@ -830,7 +841,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-30T23:42:00Z"
+   "last_success_at": "2026-10-31T23:20:12Z"
   }
  }
 }
