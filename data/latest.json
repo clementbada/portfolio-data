@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-31T23:20:12Z",
+ "generated_at": "2026-11-01T23:32:45Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-10-31T23:20:12Z",
+   "fetched_at": "2026-11-01T23:32:45Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
@@ -36,13 +36,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-31T23:20:12Z"
+   "last_success_at": "2026-11-01T23:32:45Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-10-31T23:20:12Z",
+   "fetched_at": "2026-11-01T23:32:45Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
@@ -54,13 +54,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-31T23:20:12Z"
+   "last_success_at": "2026-11-01T23:32:45Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-10-31T23:20:12Z",
+   "fetched_at": "2026-11-01T23:32:45Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
@@ -72,13 +72,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-31T23:20:12Z"
+   "last_success_at": "2026-11-01T23:32:45Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-10-31T23:20:12Z",
+   "fetched_at": "2026-11-01T23:32:45Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-31T23:20:12Z"
+   "last_success_at": "2026-11-01T23:32:45Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-10-31T23:20:12Z",
+   "fetched_at": "2026-11-01T23:32:45Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,13 +156,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-31T23:20:12Z"
+   "last_success_at": "2026-11-01T23:32:45Z"
   },
   "inflation_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-10-31T23:20:12Z",
+   "fetched_at": "2026-11-01T23:32:45Z",
    "from_cache": false,
    "data": {
     "CPI_US": {
@@ -174,13 +174,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-31T23:20:12Z"
+   "last_success_at": "2026-11-01T23:32:45Z"
   },
   "unemployment_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-10-31T23:20:12Z",
+   "fetched_at": "2026-11-01T23:32:45Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -192,13 +192,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-31T23:20:12Z"
+   "last_success_at": "2026-11-01T23:32:45Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-31T23:20:12Z",
+   "fetched_at": "2026-11-01T23:32:45Z",
    "from_cache": false,
    "data": [
     {
@@ -252,13 +252,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-31T23:20:12Z"
+   "last_success_at": "2026-11-01T23:32:45Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-31T23:20:12Z",
+   "fetched_at": "2026-11-01T23:32:45Z",
    "from_cache": false,
    "data": [
     {
@@ -312,13 +312,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-31T23:20:12Z"
+   "last_success_at": "2026-11-01T23:32:45Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-10-31T23:20:12Z",
+   "fetched_at": "2026-11-01T23:32:45Z",
    "from_cache": false,
    "data": [
     {
@@ -372,15 +372,102 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-31T23:20:12Z"
+   "last_success_at": "2026-11-01T23:32:45Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-10-31T23:20:12Z",
+   "fetched_at": "2026-11-01T23:32:45Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Weekend Market Report- 11/1/26-Tech Wreck",
+     "url": "https://www.upsidetrader.com/2026/11/01/weekend-market-report-11-1-26/",
+     "published": "2026-11-01T18:59:17Z",
+     "source": "upsidetrader.com",
+     "symbol": "GOOGL",
+     "sentiment": -0.3463,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Alphabet: This Isn't Time To Buy The Dip (Rating Downgrade) (NASDAQ:GOOGL)",
+     "url": "https://seekingalpha.com/article/4960730-alphabet-not-time-to-buy-dip-rating-downgrade",
+     "published": "2026-11-01T16:34:32Z",
+     "source": "seekingalpha.com",
+     "symbol": "GOOGL",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Nasdaq Ends October at 25,437 After 2.86% Drop; Apple, AMD and Midterms Ahead",
+     "url": "https://financefeeds.com/nasdaq-ends-october-at-25437-after-2-86-drop-apple-amd-and-midterms-ahead/",
+     "published": "2026-11-01T16:14:35Z",
+     "source": "financefeeds.com",
+     "symbol": "GOOGL",
+     "sentiment": -0.0772,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Wall Street Brunch: Midterms, Jobs And Apple (null:US10Y)",
+     "url": "https://seekingalpha.com/article/4960724-wall-street-brunch-midterms-jobs-and-apple",
+     "published": "2026-11-01T14:45:00Z",
+     "source": "seekingalpha.com",
+     "symbol": "AAPL",
+     "sentiment": 0.05388,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Affle acquires Perion Network for $420m",
+     "url": "https://en.globes.co.il/en/article-affle-acquires-perion-network-for-420m-1001561492",
+     "published": "2026-11-01T11:17:00Z",
+     "source": "en.globes.co.il",
+     "symbol": "MSFT",
+     "sentiment": -0.015633,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Stock market investors alert! Eyeing US markets? Groww starts with for Indian investors — Top 5 things you should know",
+     "url": "https://www.livemint.com/money/stock-market-investors-alert-eyeing-us-markets-groww-starts-with-for-indian-investors-top-5-things-you-should-know-11793520694309.html",
+     "published": "2026-11-01T09:05:31Z",
+     "source": "livemint.com",
+     "symbol": "AAPL",
+     "sentiment": 0.21075,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL",
+      "MSFT",
+      "TSLA"
+     ]
+    },
+    {
+     "title": "IPO-Linked AI ETFs",
+     "url": "https://www.trendhunter.com/trends/ipo-linked-ai-etfs",
+     "published": "2026-10-31T20:21:00Z",
+     "source": "trendhunter.com",
+     "symbol": "MSFT",
+     "sentiment": 0.4767,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
     {
      "title": "SpaceX (SPCX) Stock at $134.72: Below the $135 IPO",
      "url": "https://financefeeds.com/spacex-spcx-stock-134-week-ahead-closes-below-135-ipo-price-intel-guidance-bull-150-bear-120/",
@@ -391,103 +478,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
-     ]
-    },
-    {
-     "title": "Alphabet: Noisy Q3 Metrics Meet Outsized Cloud Opportunities - Deep Value Buy (GOOG)",
-     "url": "https://seekingalpha.com/article/4960433-alphabet-noisy-q3-metrics-meet-outsized-cloud-opportunities-deep-value-buy",
-     "published": "2026-10-31T18:00:00Z",
-     "source": "seekingalpha.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.17875,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "What should investors glean from Anthropic’s prospectus?",
-     "url": "https://www.thehindubusinessline.com/portfolio/big-story/what-should-investors-glean-from-anthropics-prospectus/article71646095.ece",
-     "published": "2026-10-31T16:58:54Z",
-     "source": "thehindubusinessline.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.9241,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Note de synthèse : La bulle technologique de l’IA a-t-elle éclaté en Asie et va-t-elle éclater aux États-Unis ?",
-     "url": "https://brunobertez.com/2026/10/31/note-de-synthese-la-bulle-technologique-de-lia-a-t-elle-eclate-en-asie-et-va-t-elle-eclater-aux-etats-unis/",
-     "published": "2026-10-31T16:10:55Z",
-     "source": "brunobertez.com",
-     "symbol": "MSFT",
-     "sentiment": null,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Microsoft Q1: CROCI Says My 'Trim, Not Exit' Thesis Remains Firmly In Place (NASDAQ:MSFT)",
-     "url": "https://seekingalpha.com/article/4960643-microsoft-q1-croci-says-my-trim-not-exit-thesis-remains-firmly-in-place",
-     "published": "2026-10-31T16:07:02Z",
-     "source": "seekingalpha.com",
-     "symbol": "MSFT",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
-     "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
-     "published": "2026-10-31T15:37:11Z",
-     "source": "cnbc.com",
-     "symbol": "GOOGL",
-     "sentiment": -0.160933,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Apple overtakes Nvidia to become world's most valuable company at $5.03 trn",
-     "url": "https://www.business-standard.com/world-news/apple-overtakes-nvidia-to-become-world-s-most-valuable-company-at-5-03-trn-126103100103_1.html",
-     "published": "2026-10-31T03:26:21Z",
-     "source": "business-standard.com",
-     "symbol": "AAPL",
-     "sentiment": 0.3286,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
-     "url": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
-     "published": "2026-10-30T22:17:13Z",
-     "source": "cnbc.com",
-     "symbol": "AAPL",
-     "sentiment": -0.3528,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Market Resilience Amid Energy Earnings and Tech Volatility",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/market-resilience-amid-energy-earnings-and-tech-volatility/73902/",
-     "published": "2026-10-30T21:07:17Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "AAPL",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
      ]
     },
     {
@@ -524,18 +514,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "AXP"
-     ]
-    },
-    {
-     "title": "Nasdaq plunges after dismal earnings from Amazon and Intel",
-     "url": "https://www.businessinsider.com/stock-market-today-nasdaq-amazon-intel-q3-earnings-2026-10",
-     "published": "2026-10-30T13:36:54Z",
-     "source": "businessinsider.com",
-     "symbol": "TSLA",
-     "sentiment": -0.3612,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
      ]
     },
     {
@@ -841,7 +819,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-10-31T23:20:12Z"
+   "last_success_at": "2026-11-01T23:32:45Z"
   }
  }
 }
