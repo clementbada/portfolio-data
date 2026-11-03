@@ -1,19 +1,19 @@
 jeu,cle,libelle,valeur,unite,date_donnee,source,statut,recupere_le
-fx_eur,EURUSD,1 EUR en USD,1.1172,USD,2026-10-30,Frankfurter,ok,2026-11-01T23:32:45Z
-fx_eur,EURGBP,1 EUR en GBP,0.8338,GBP,2026-10-30,Frankfurter,ok,2026-11-01T23:32:45Z
-fx_eur,EURJPY,1 EUR en JPY,175.68,JPY,2026-10-30,Frankfurter,ok,2026-11-01T23:32:45Z
-fx_eur,EURCHF,1 EUR en CHF,0.9194,CHF,2026-10-30,Frankfurter,ok,2026-11-01T23:32:45Z
-ecb_deposit_rate,ECB_DFR,BCE — taux de dépôt,2.5,%,2026-10-31,BCE,ok,2026-11-01T23:32:45Z
-yield_10y_ea_aaa_daily,Y10_EA_AAA,10 ans zone euro AAA (quotidien),3.373,%,2026-10-29,BCE,ok,2026-11-01T23:32:45Z
-inflation_eu,HICP_DE,Inflation IPCH DE,3.3,% a/a,2026-09,Eurostat,ok,2026-11-01T23:32:45Z
-inflation_eu,HICP_EA,Inflation IPCH EA,3.8,% a/a,2026-09,Eurostat,ok,2026-11-01T23:32:45Z
-inflation_eu,HICP_ES,Inflation IPCH ES,5.0,% a/a,2026-09,Eurostat,ok,2026-11-01T23:32:45Z
-inflation_eu,HICP_FR,Inflation IPCH FR,3.4,% a/a,2026-09,Eurostat,ok,2026-11-01T23:32:45Z
-inflation_eu,HICP_IT,Inflation IPCH IT,4.2,% a/a,2026-09,Eurostat,ok,2026-11-01T23:32:45Z
-unemployment_eu,UNEMP_DE,Chômage DE,4.1,%,2026-09,Eurostat,ok,2026-11-01T23:32:45Z
-unemployment_eu,UNEMP_EA,Chômage EA,6.5,%,2026-09,Eurostat,ok,2026-11-01T23:32:45Z
-unemployment_eu,UNEMP_ES,Chômage ES,10.3,%,2026-09,Eurostat,ok,2026-11-01T23:32:45Z
-unemployment_eu,UNEMP_FR,Chômage FR,8.5,%,2026-09,Eurostat,ok,2026-11-01T23:32:45Z
-unemployment_eu,UNEMP_IT,Chômage IT,6.3,%,2026-09,Eurostat,ok,2026-11-01T23:32:45Z
-inflation_us,CPI_US,Inflation CPI US,3.7,% a/a,2026-09,BLS,ok,2026-11-01T23:32:45Z
-unemployment_us,UNEMP_US,Chômage US,4.2,%,2026-09,BLS,ok,2026-11-01T23:32:45Z
+fx_eur,EURUSD,1 EUR en USD,1.1216,USD,2026-11-02,Frankfurter,ok,2026-11-03T02:14:35Z
+fx_eur,EURGBP,1 EUR en GBP,0.8358,GBP,2026-11-02,Frankfurter,ok,2026-11-03T02:14:35Z
+fx_eur,EURJPY,1 EUR en JPY,177.1,JPY,2026-11-02,Frankfurter,ok,2026-11-03T02:14:35Z
+fx_eur,EURCHF,1 EUR en CHF,0.9193,CHF,2026-11-02,Frankfurter,ok,2026-11-03T02:14:35Z
+ecb_deposit_rate,ECB_DFR,BCE — taux de dépôt,2.5,%,2026-11-03,BCE,ok,2026-11-03T02:14:35Z
+yield_10y_ea_aaa_daily,Y10_EA_AAA,10 ans zone euro AAA (quotidien),3.365,%,2026-10-30,BCE,ok,2026-11-03T02:14:35Z
+inflation_eu,HICP_DE,Inflation IPCH DE,3.3,% a/a,2026-09,Eurostat,ok,2026-11-03T02:14:35Z
+inflation_eu,HICP_EA,Inflation IPCH EA,3.8,% a/a,2026-09,Eurostat,ok,2026-11-03T02:14:35Z
+inflation_eu,HICP_ES,Inflation IPCH ES,5.0,% a/a,2026-09,Eurostat,ok,2026-11-03T02:14:35Z
+inflation_eu,HICP_FR,Inflation IPCH FR,3.4,% a/a,2026-09,Eurostat,ok,2026-11-03T02:14:35Z
+inflation_eu,HICP_IT,Inflation IPCH IT,4.2,% a/a,2026-09,Eurostat,ok,2026-11-03T02:14:35Z
+unemployment_eu,UNEMP_DE,Chômage DE,4.1,%,2026-09,Eurostat,ok,2026-11-03T02:14:35Z
+unemployment_eu,UNEMP_EA,Chômage EA,6.5,%,2026-09,Eurostat,ok,2026-11-03T02:14:35Z
+unemployment_eu,UNEMP_ES,Chômage ES,10.3,%,2026-09,Eurostat,ok,2026-11-03T02:14:35Z
+unemployment_eu,UNEMP_FR,Chômage FR,8.5,%,2026-09,Eurostat,ok,2026-11-03T02:14:35Z
+unemployment_eu,UNEMP_IT,Chômage IT,6.3,%,2026-09,Eurostat,ok,2026-11-03T02:14:35Z
+inflation_us,CPI_US,Inflation CPI US,3.7,% a/a,2026-09,BLS,ok,2026-11-03T02:14:35Z
+unemployment_us,UNEMP_US,Chômage US,4.2,%,2026-09,BLS,ok,2026-11-03T02:14:35Z

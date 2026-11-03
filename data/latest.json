@@ -1,84 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T23:32:45Z",
+ "generated_at": "2026-11-03T02:14:35Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-01T23:32:45Z",
+   "fetched_at": "2026-11-03T02:14:35Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.1172,
+     "value": 1.1216,
      "unit": "USD",
-     "as_of": "2026-10-30",
+     "as_of": "2026-11-02",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.8338,
+     "value": 0.8358,
      "unit": "GBP",
-     "as_of": "2026-10-30",
+     "as_of": "2026-11-02",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 175.68,
+     "value": 177.1,
      "unit": "JPY",
-     "as_of": "2026-10-30",
+     "as_of": "2026-11-02",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9194,
+     "value": 0.9193,
      "unit": "CHF",
-     "as_of": "2026-10-30",
+     "as_of": "2026-11-02",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-01T23:32:45Z"
+   "last_success_at": "2026-11-03T02:14:35Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-01T23:32:45Z",
+   "fetched_at": "2026-11-03T02:14:35Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-10-31",
+     "as_of": "2026-11-03",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-01T23:32:45Z"
+   "last_success_at": "2026-11-03T02:14:35Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-01T23:32:45Z",
+   "fetched_at": "2026-11-03T02:14:35Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.373,
+     "value": 3.365,
      "unit": "%",
-     "as_of": "2026-10-29",
+     "as_of": "2026-10-30",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-01T23:32:45Z"
+   "last_success_at": "2026-11-03T02:14:35Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-01T23:32:45Z",
+   "fetched_at": "2026-11-03T02:14:35Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-01T23:32:45Z"
+   "last_success_at": "2026-11-03T02:14:35Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-01T23:32:45Z",
+   "fetched_at": "2026-11-03T02:14:35Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,13 +156,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-01T23:32:45Z"
+   "last_success_at": "2026-11-03T02:14:35Z"
   },
   "inflation_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-01T23:32:45Z",
+   "fetched_at": "2026-11-03T02:14:35Z",
    "from_cache": false,
    "data": {
     "CPI_US": {
@@ -174,13 +174,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-01T23:32:45Z"
+   "last_success_at": "2026-11-03T02:14:35Z"
   },
   "unemployment_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-01T23:32:45Z",
+   "fetched_at": "2026-11-03T02:14:35Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -192,15 +192,21 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-01T23:32:45Z"
+   "last_success_at": "2026-11-03T02:14:35Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-01T23:32:45Z",
+   "fetched_at": "2026-11-03T02:14:35Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
+     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
+     "published": "2026-11-02T09:30:00Z",
+     "source": "BCE"
+    },
     {
      "title": "Philip R. Lane: AI adoption in Europe",
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
@@ -242,23 +248,17 @@
      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
      "published": "2026-10-29T10:00:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "October 2026 euro area bank lending survey",
-     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html",
-     "published": "2026-10-27T00:00:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-01T23:32:45Z"
+   "last_success_at": "2026-11-03T02:14:35Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-01T23:32:45Z",
+   "fetched_at": "2026-11-03T02:14:35Z",
    "from_cache": false,
    "data": [
     {
@@ -312,13 +312,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-01T23:32:45Z"
+   "last_success_at": "2026-11-03T02:14:35Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-01T23:32:45Z",
+   "fetched_at": "2026-11-03T02:14:35Z",
    "from_cache": false,
    "data": [
     {
@@ -372,112 +372,184 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-01T23:32:45Z"
+   "last_success_at": "2026-11-03T02:14:35Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-01T23:32:45Z",
+   "fetched_at": "2026-11-03T02:14:35Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Weekend Market Report- 11/1/26-Tech Wreck",
-     "url": "https://www.upsidetrader.com/2026/11/01/weekend-market-report-11-1-26/",
-     "published": "2026-11-01T18:59:17Z",
-     "source": "upsidetrader.com",
-     "symbol": "GOOGL",
-     "sentiment": -0.3463,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Alphabet: This Isn't Time To Buy The Dip (Rating Downgrade) (NASDAQ:GOOGL)",
-     "url": "https://seekingalpha.com/article/4960730-alphabet-not-time-to-buy-dip-rating-downgrade",
-     "published": "2026-11-01T16:34:32Z",
-     "source": "seekingalpha.com",
+     "title": "Global Market Today: Asian stocks slide as US chip selloff deepens",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-slide-as-us-chip-selloff-deepens/articleshow/135478154.cms",
+     "published": "2026-11-03T01:03:28Z",
+     "source": "economictimes.indiatimes.com",
      "symbol": "GOOGL",
      "sentiment": 0,
      "envelope": "CTO 1",
      "symbols": [
+      "GOOGL",
+      "AAPL",
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Apple Inc. (AAPL) Q4 2026 Earnings Call Transcript",
+     "url": "https://seekingalpha.com/article/4961239-apple-inc-aapl-q4-2026-earnings-call-transcript",
+     "published": "2026-11-03T00:38:25Z",
+     "source": "seekingalpha.com",
+     "symbol": "AAPL",
+     "sentiment": 0.3548,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Palantir: Impressive Numbers, But Something Is Missing (Rating Downgrade) (NASDAQ:PLTR)",
+     "url": "https://seekingalpha.com/article/4961221-palantir-impressive-numbers-but-something-is-missing-rating-downgrade",
+     "published": "2026-11-03T00:00:50Z",
+     "source": "seekingalpha.com",
+     "symbol": "PLTR",
+     "sentiment": 0.8176,
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
+     ]
+    },
+    {
+     "title": "Alphabet Earnings Raised Serious Concerns For Google Search (NASDAQ:GOOGL)",
+     "url": "https://seekingalpha.com/article/4961157-alphabet-earnings-raised-serious-concerns-for-google-search",
+     "published": "2026-11-02T23:58:59Z",
+     "source": "seekingalpha.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.07455,
+     "envelope": "CTO 1",
+     "symbols": [
       "GOOGL"
      ]
     },
     {
-     "title": "Nasdaq Ends October at 25,437 After 2.86% Drop; Apple, AMD and Midterms Ahead",
-     "url": "https://financefeeds.com/nasdaq-ends-october-at-25437-after-2-86-drop-apple-amd-and-midterms-ahead/",
-     "published": "2026-11-01T16:14:35Z",
-     "source": "financefeeds.com",
-     "symbol": "GOOGL",
-     "sentiment": -0.0772,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Wall Street Brunch: Midterms, Jobs And Apple (null:US10Y)",
-     "url": "https://seekingalpha.com/article/4960724-wall-street-brunch-midterms-jobs-and-apple",
-     "published": "2026-11-01T14:45:00Z",
+     "title": "Apple Q4: Record Earnings, Broken Expectations - I'm Downgrading (NASDAQ:AAPL)",
+     "url": "https://seekingalpha.com/article/4961187-apple-q4-record-earnings-broken-expectations-im-downgrading",
+     "published": "2026-11-02T23:50:53Z",
      "source": "seekingalpha.com",
      "symbol": "AAPL",
-     "sentiment": 0.05388,
+     "sentiment": -0.4767,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL"
      ]
     },
     {
-     "title": "Affle acquires Perion Network for $420m",
-     "url": "https://en.globes.co.il/en/article-affle-acquires-perion-network-for-420m-1001561492",
-     "published": "2026-11-01T11:17:00Z",
-     "source": "en.globes.co.il",
+     "title": "Microsoft Corporation 2027 Q1 - Results - Earnings Call Presentation (NASDAQ:MSFT) 2026-11-02",
+     "url": "https://seekingalpha.com/article/4961184-microsoft-corporation-2027-q1-results-earnings-call-presentation",
+     "published": "2026-11-02T23:11:50Z",
+     "source": "seekingalpha.com",
      "symbol": "MSFT",
-     "sentiment": -0.015633,
+     "sentiment": 0,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "Stock market investors alert! Eyeing US markets? Groww starts with for Indian investors — Top 5 things you should know",
-     "url": "https://www.livemint.com/money/stock-market-investors-alert-eyeing-us-markets-groww-starts-with-for-indian-investors-top-5-things-you-should-know-11793520694309.html",
-     "published": "2026-11-01T09:05:31Z",
-     "source": "livemint.com",
-     "symbol": "AAPL",
-     "sentiment": 0.21075,
+     "title": "US Stock Market today: Why are S&P 500, Nasdaq down ahead of November 3 Election Day? Apple, Palantir to Alphabet, Nvidia -- check top, worst performing Wall Street stocks",
+     "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-today-why-are-sp-500-nasdaq-down-ahead-of-november-3-election-day-apple-palantir-to-alphabet-nvidia-check-top-worst-performing-wall-street-stocks/articleshow/135477027.cms",
+     "published": "2026-11-02T23:00:55Z",
+     "source": "economictimes.indiatimes.com",
+     "symbol": "GOOGL",
+     "sentiment": -0.5106,
      "envelope": "CTO 1",
      "symbols": [
-      "AAPL",
-      "MSFT",
-      "TSLA"
+      "GOOGL"
      ]
     },
     {
-     "title": "IPO-Linked AI ETFs",
-     "url": "https://www.trendhunter.com/trends/ipo-linked-ai-etfs",
-     "published": "2026-10-31T20:21:00Z",
-     "source": "trendhunter.com",
+     "title": "Apple outpaces sales expectations as it continues to battle surging memory chip costs",
+     "url": "https://fortune.com/2026/11/02/apple-outpaces-sales-expectations-as-it-continues-to-battle-surging-memory-chip-costs/",
+     "published": "2026-11-02T22:00:20Z",
+     "source": "fortune.com",
      "symbol": "MSFT",
-     "sentiment": 0.4767,
+     "sentiment": 0.54105,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "SpaceX (SPCX) Stock at $134.72: Below the $135 IPO",
-     "url": "https://financefeeds.com/spacex-spcx-stock-134-week-ahead-closes-below-135-ipo-price-intel-guidance-bull-150-bear-120/",
-     "published": "2026-10-31T20:11:32Z",
+     "title": "Palantir Technologies Inc. (PLTR) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.zacks.com/stock/news/3021130/palantir-technologies-inc-pltr-tops-q3-earnings-and-revenue-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3021130",
+     "published": "2026-11-02T21:25:03Z",
+     "source": "zacks.com",
+     "symbol": "PLTR",
+     "sentiment": 0.5106,
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
+     ]
+    },
+    {
+     "title": "TSLA Stock Rises as Tesla Registrations Jump 248%",
+     "url": "https://financefeeds.com/tsla-stock-rises-as-tesla-registrations-jump-248/",
+     "published": "2026-11-02T19:28:25Z",
      "source": "financefeeds.com",
      "symbol": "TSLA",
-     "sentiment": -0.6124,
+     "sentiment": 0.324218,
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
+     ]
+    },
+    {
+     "title": "Stock Market to Be Jolted by Apple Earnings, Midterms, Jobs Report This Week",
+     "url": "https://www.businessinsider.com/stock-market-this-week-apple-earnings-midterms-jobs-report-2026-11",
+     "published": "2026-11-02T17:02:35Z",
+     "source": "businessinsider.com",
+     "symbol": "TSLA",
+     "sentiment": -0.2263,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "CytomX Therapeutics to Present at Upcoming November Investor Conferences",
+     "url": "https://www.manilatimes.net/2026/11/02/tmt-newswire/globenewswire/cytomx-therapeutics-to-present-at-upcoming-november-investor-conferences/2459534",
+     "published": "2026-11-02T13:16:04Z",
+     "source": "manilatimes.net",
+     "symbol": "MRNA",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
+    },
+    {
+     "title": "Futures Rise As Oil Slides Below $100 On Trump Iran Diplomacy Report, Tech Bounces Ahead Of Midterms",
+     "url": "https://www.zerohedge.com/markets/futures-rise-oil-slides-below-100-trump-iran-diplomacy-report-tech-bounces-ahead-midterms",
+     "published": "2026-11-02T13:10:06Z",
+     "source": "zerohedge.com",
+     "symbol": "MRNA",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA",
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Prysmian S.p.A. 2026 Q3 - Results - Earnings Call Presentation (OTCMKTS:PRYMY) 2026-11-01",
+     "url": "https://seekingalpha.com/article/4960790-prysmian-s-p-a-2026-q3-results-earnings-call-presentation",
+     "published": "2026-11-01T23:30:11Z",
+     "source": "seekingalpha.com",
+     "symbol": "PRY.MI",
+     "sentiment": 0,
+     "envelope": "PEA",
+     "symbols": [
+      "PRY.MI"
      ]
     },
     {
@@ -490,18 +562,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "RXRX"
-     ]
-    },
-    {
-     "title": "Tesla: Paying Peak Multiples For Promises That Keep Slipping (Rating Downgrade)",
-     "url": "https://seekingalpha.com/article/4960417-tesla-paying-peak-multiples-for-promises-that-keep-slipping-downgrade",
-     "published": "2026-10-30T19:30:49Z",
-     "source": "seekingalpha.com",
-     "symbol": "TSLA",
-     "sentiment": 0.286167,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
      ]
     },
     {
@@ -541,18 +601,6 @@
      ]
     },
     {
-     "title": "Moderna, Inc. (MRNA) Presents at 2026 European Society for Medical Oncology (ESMO) Annual Congress - Slideshow (NASDAQ:MRNA) 2026-10-28",
-     "url": "https://seekingalpha.com/article/4958954-moderna-inc-mrna-presents-at-2026-european-society-for-medical-oncology-esmo-annual-congress",
-     "published": "2026-10-28T23:03:19Z",
-     "source": "seekingalpha.com",
-     "symbol": "MRNA",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
-     ]
-    },
-    {
      "title": "Q3 2026 Waste Management Inc Earnings Call Transcript",
      "url": "https://www.gurufocus.com/news/9148307/q3-2026-waste-management-inc-earnings-call-transcript",
      "published": "2026-10-28T20:00:25Z",
@@ -562,18 +610,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "WM"
-     ]
-    },
-    {
-     "title": "Moderna: ESMO Answered The Science, Q3 Has To Answer The Money (NASDAQ:MRNA)",
-     "url": "https://seekingalpha.com/article/4958662-moderna-esmo-answered-the-science-q3-has-to-answer-the-money",
-     "published": "2026-10-28T16:22:44Z",
-     "source": "seekingalpha.com",
-     "symbol": "MRNA",
-     "sentiment": 0.31845,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
      ]
     },
     {
@@ -589,18 +625,6 @@
      ]
     },
     {
-     "title": "Palantir: The Trust Layer For Agentic AI Heading Into Q3 Earnings (NASDAQ:PLTR)",
-     "url": "https://seekingalpha.com/article/4958413-palantir-the-trust-layer-for-agentic-ai-heading-into-q3-earnings",
-     "published": "2026-10-28T10:43:09Z",
-     "source": "seekingalpha.com",
-     "symbol": "PLTR",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
-     ]
-    },
-    {
      "title": "WM DCF Analysis: Intrinsic Value $111 vs Price $241",
      "url": "https://www.gurufocus.com/news/9144319/wm-dcf-analysis-intrinsic-value-111-vs-price-241",
      "published": "2026-10-27T12:20:54Z",
@@ -610,18 +634,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "WM"
-     ]
-    },
-    {
-     "title": "Palantir Technologies Inc. (PLTR) is Attracting Investor Attention: Here is What You Should Know",
-     "url": "https://www.zacks.com/stock/news/3015703/palantir-technologies-inc-pltr-is-attracting-investor-attention-here-is-what-you-should-know?cid=CS-ZC-FT-fundamental_analysis|most_searched_stocks-3015703",
-     "published": "2026-10-27T12:00:02Z",
-     "source": "zacks.com",
-     "symbol": "PLTR",
-     "sentiment": 0.4767,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
      ]
     },
     {
@@ -745,18 +757,6 @@
      ]
     },
     {
-     "title": "Prysmian S.p.A. (PRYMY) M&A Call Transcript",
-     "url": "https://seekingalpha.com/article/4929432-prysmian-s-p-a-prymy-m-and-a-call-transcript",
-     "published": "2026-08-03T13:29:54Z",
-     "source": "seekingalpha.com",
-     "symbol": "PRY.MI",
-     "sentiment": 0,
-     "envelope": "PEA",
-     "symbols": [
-      "PRY.MI"
-     ]
-    },
-    {
      "title": "Hélium-3 : De la Terre à la Lune (to the moon) ?",
      "url": "https://www.investisseurs-heureux.fr/t33278#p649261",
      "published": "2026-06-19T14:50:49Z",
@@ -819,7 +819,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-01T23:32:45Z"
+   "last_success_at": "2026-11-03T02:14:35Z"
   }
  }
 }
