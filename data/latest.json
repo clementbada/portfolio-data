@@ -1,126 +1,126 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-04T00:34:25Z",
+ "generated_at": "2026-11-05T00:51:52Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-04T00:34:25Z",
+   "fetched_at": "2026-11-05T00:51:52Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.1179,
+     "value": 1.1267,
      "unit": "USD",
-     "as_of": "2026-11-03",
+     "as_of": "2026-11-04",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83358,
+     "value": 0.8346,
      "unit": "GBP",
-     "as_of": "2026-11-03",
+     "as_of": "2026-11-04",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 176.95,
+     "value": 178.3,
      "unit": "JPY",
-     "as_of": "2026-11-03",
+     "as_of": "2026-11-04",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9166,
+     "value": 0.9188,
      "unit": "CHF",
-     "as_of": "2026-11-03",
+     "as_of": "2026-11-04",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-04T00:34:25Z"
+   "last_success_at": "2026-11-05T00:51:52Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-04T00:34:25Z",
+   "fetched_at": "2026-11-05T00:51:52Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-03",
+     "as_of": "2026-11-05",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-04T00:34:25Z"
+   "last_success_at": "2026-11-05T00:51:52Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-04T00:34:25Z",
+   "fetched_at": "2026-11-05T00:51:52Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.327,
+     "value": 3.347,
      "unit": "%",
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-04T00:34:25Z"
+   "last_success_at": "2026-11-05T00:51:52Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-04T00:34:25Z",
+   "fetched_at": "2026-11-05T00:51:52Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
-     "value": 3.3,
+     "value": 2.8,
      "unit": "% a/a",
-     "as_of": "2026-09",
+     "as_of": "2026-10",
      "label": "Inflation IPCH DE"
     },
     "HICP_EA": {
-     "value": 3.8,
+     "value": 4.0,
      "unit": "% a/a",
-     "as_of": "2026-09",
+     "as_of": "2026-10",
      "label": "Inflation IPCH EA"
     },
     "HICP_ES": {
-     "value": 5.0,
+     "value": 4.9,
      "unit": "% a/a",
-     "as_of": "2026-09",
+     "as_of": "2026-10",
      "label": "Inflation IPCH ES"
     },
     "HICP_FR": {
-     "value": 3.4,
+     "value": 3.8,
      "unit": "% a/a",
-     "as_of": "2026-09",
+     "as_of": "2026-10",
      "label": "Inflation IPCH FR"
     },
     "HICP_IT": {
-     "value": 4.2,
+     "value": 5.6,
      "unit": "% a/a",
-     "as_of": "2026-09",
+     "as_of": "2026-10",
      "label": "Inflation IPCH IT"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-04T00:34:25Z"
+   "last_success_at": "2026-11-05T00:51:52Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-04T00:34:25Z",
+   "fetched_at": "2026-11-05T00:51:52Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,13 +156,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-04T00:34:25Z"
+   "last_success_at": "2026-11-05T00:51:52Z"
   },
   "inflation_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-04T00:34:25Z",
+   "fetched_at": "2026-11-05T00:51:52Z",
    "from_cache": false,
    "data": {
     "CPI_US": {
@@ -174,13 +174,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-04T00:34:25Z"
+   "last_success_at": "2026-11-05T00:51:52Z"
   },
   "unemployment_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-04T00:34:25Z",
+   "fetched_at": "2026-11-05T00:51:52Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -192,15 +192,21 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-04T00:34:25Z"
+   "last_success_at": "2026-11-05T00:51:52Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-04T00:34:25Z",
+   "fetched_at": "2026-11-05T00:51:52Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
+     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
+     "published": "2026-11-04T00:00:00Z",
+     "source": "BCE"
+    },
     {
      "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
@@ -242,23 +248,17 @@
      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
      "published": "2026-10-29T13:15:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "ECB President Lagarde to step down on 7 February 2027",
-     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
-     "published": "2026-10-29T10:00:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-04T00:34:25Z"
+   "last_success_at": "2026-11-05T00:51:52Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-04T00:34:25Z",
+   "fetched_at": "2026-11-05T00:51:52Z",
    "from_cache": false,
    "data": [
     {
@@ -312,15 +312,21 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-04T00:34:25Z"
+   "last_success_at": "2026-11-05T00:51:52Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-04T00:34:25Z",
+   "fetched_at": "2026-11-05T00:51:52Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Summary of the RTGS CHAPS Industry Forum - 13 October 2026",
+     "url": "https://www.bankofengland.co.uk/minutes/2026/october/rtgs-chaps-industry-forum-13-october-2026",
+     "published": "2026-11-04T14:51:45Z",
+     "source": "BoE"
+    },
     {
      "title": "Regulators explore credit union reforms to support growth, innovation and better outcomes for members",
      "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-explore-credit-union-reforms-to-support-growth-innovation-and-better-outcomes-for-members",
@@ -362,32 +368,74 @@
      "url": "https://www.bankofengland.co.uk/minutes/2026/july/banknote-advisory-minutes-15-july",
      "published": "2026-10-16T11:00:00Z",
      "source": "BoE"
-    },
-    {
-     "title": "David Roberts CV and questionnaire for the Treasury Select Committee",
-     "url": "https://www.bankofengland.co.uk/news/2026/october/david-roberts-tsc-reappointment",
-     "published": "2026-10-15T09:52:41Z",
-     "source": "BoE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-04T00:34:25Z"
+   "last_success_at": "2026-11-05T00:51:52Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-04T00:34:25Z",
+   "fetched_at": "2026-11-05T00:51:52Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Market Recap- 11/3/26- AMD Just Answered The AI Demand Question",
-     "url": "https://www.upsidetrader.com/2026/11/03/market-recap-11-3-26-amd-just-answered-the-ai-demand-question/",
-     "published": "2026-11-03T22:39:59Z",
-     "source": "upsidetrader.com",
+     "title": "US markets raise toast to dems' victory, key indices rise over 2%; gold soars too",
+     "url": "https://timesofindia.indiatimes.com/business/us-markets-raise-toast-to-dems-victory-key-indices-rise-over-2-gold-soars-too/articleshow/135554607.cms",
+     "published": "2026-11-04T23:25:02Z",
+     "source": "timesofindia.indiatimes.com",
+     "symbol": "TSLA",
+     "sentiment": 0.6249,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
+     "url": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html",
+     "published": "2026-11-04T23:17:56Z",
+     "source": "cnbc.com",
+     "symbol": "TSLA",
+     "sentiment": -0.34,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Tesla: The Merger Premium Is Doing All The Work (NASDAQ:TSLA)",
+     "url": "https://seekingalpha.com/article/4962538-tesla-the-merger-premium-is-doing-all-the-work",
+     "published": "2026-11-04T22:29:29Z",
+     "source": "seekingalpha.com",
+     "symbol": "TSLA",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Dems' midterm sweep could bring crackdown on Wall Street as lefty leaders target data centers, crypto, prediction markets",
+     "url": "https://nypost.com/2026/11/04/business/dems-midterm-sweep-could-bring-crackdown-on-wall-street-as-lefty-leaders-target-data-centers-crypto-prediction-markets/",
+     "published": "2026-11-04T22:12:28Z",
+     "source": "nypost.com",
+     "symbol": "GOOGL",
+     "sentiment": -0.3071,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Market Open: ASX set for sharp rebound as Wall Street rallies and oil tumbles",
+     "url": "https://themarketonline.com.au/market-open-asx-set-for-sharp-rebound-as-wall-street-rallies-and-oil-tumbles-2026-11-05/",
+     "published": "2026-11-04T22:11:33Z",
+     "source": "themarketherald.com.au",
      "symbol": "AAPL",
-     "sentiment": 0.3182,
+     "sentiment": -0.2023,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL",
@@ -395,24 +443,72 @@
      ]
     },
     {
-     "title": "Market Open: ASX set to slip as investors weigh RBA rate hike",
-     "url": "https://themarketonline.com.au/market-open-asx-set-to-slip-as-investors-weigh-rba-rate-hike-2026-11-04/",
-     "published": "2026-11-03T22:14:52Z",
-     "source": "themarketherald.com.au",
+     "title": "Ionic Digital Announces Third Quarter 2026 Results",
+     "url": "https://www.manilatimes.net/2026/11/05/tmt-newswire/globenewswire/ionic-digital-announces-third-quarter-2026-results/2462265",
+     "published": "2026-11-04T21:36:33Z",
+     "source": "manilatimes.net",
+     "symbol": "MSFT",
+     "sentiment": 0.8689,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Investing Lately? It's Tricky! How To Move Past AI Fears And Market Uncertainty",
+     "url": "https://seekingalpha.com/article/4962520-investing-lately-its-tricky-how-to-move-past-ai-fears-and-market-uncertainty",
+     "published": "2026-11-04T21:10:00Z",
+     "source": "seekingalpha.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.1755,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Democratic blue wave will slow data center construction and force tech to the negotiating table",
+     "url": "https://fortune.com/2026/11/04/democrats-midterm-election-2026-anti-data-center-governors-texas-georgia-ohio-ai-infrastructure-big-tech-spending-moratorium-regulations/",
+     "published": "2026-11-04T20:07:50Z",
+     "source": "fortune.com",
+     "symbol": "MSFT",
+     "sentiment": 0.836,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Waymo co-CEO addresses scrapped Uber deal as rivalry between rideshare giants heats up: ‘It was a crapshoot’",
+     "url": "https://nypost.com/2026/11/04/business/waymo-co-ceo-addresses-scrapped-uber-deal-as-rivalry-between-rideshare-giants-heats-up/",
+     "published": "2026-11-04T19:48:45Z",
+     "source": "nypost.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.4336,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "U.S. Stocks Rally Following Democrats' Decisive Midterm Election Victory",
+     "url": "https://www.rttnews.com/3709670/u-s-stocks-rally-following-democrats-decisive-midterm-election-victory.aspx?type=ts",
+     "published": "2026-11-04T16:15:29Z",
+     "source": "rttnews.com",
      "symbol": "AAPL",
-     "sentiment": -0.0772,
+     "sentiment": 0.7964,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL"
      ]
     },
     {
-     "title": "Tech Sector Leads Gains as Earnings Season Intensifies on Election Day",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-leads-gains-as-earnings-season-intensifies-on-election-day/74099/",
-     "published": "2026-11-03T22:07:12Z",
-     "source": "thestockmarketwatch.com",
+     "title": "Canadian General Investments: Investment Update - Unaudited",
+     "url": "https://www.manilatimes.net/2026/11/05/tmt-newswire/globenewswire/canadian-general-investments-investment-update-unaudited/2462024",
+     "published": "2026-11-04T16:10:16Z",
+     "source": "manilatimes.net",
      "symbol": "AAPL",
-     "sentiment": 0.3818,
+     "sentiment": 0.2195,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL"
@@ -443,77 +539,15 @@
      ]
     },
     {
-     "title": "US stocks today: Nasdaq rebounds as chipmakers rally, Apple slides ahead of US midterm results",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-rebounds-as-chipmakers-rally-apple-slides-ahead-of-us-midterm-results/articleshow/135513181.cms",
-     "published": "2026-11-03T21:20:14Z",
-     "source": "economictimes.indiatimes.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.1779,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Amazon, Tesla Join 56 Firms Blocking OKXICE Stock Tokens",
-     "url": "https://financefeeds.com/amazon-tesla-and-spacex-join-56-firms-blocking-okxice-stock-tokens/",
-     "published": "2026-11-03T20:02:12Z",
-     "source": "financefeeds.com",
-     "symbol": "TSLA",
-     "sentiment": 0.0772,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Microsoft’s AI Engine Is Becoming Even More Powerful (NASDAQ:MSFT)",
-     "url": "https://seekingalpha.com/article/4961703-microsoft-ai-engine-is-becoming-even-more-powerful",
-     "published": "2026-11-03T19:41:12Z",
+     "title": "Palantir Q3: The Party Is Over (For Now) (Rating Downgrade) (NASDAQ:PLTR)",
+     "url": "https://seekingalpha.com/article/4961431-palantir-q3-the-party-is-over-for-now-rating-downgrade",
+     "published": "2026-11-03T13:29:47Z",
      "source": "seekingalpha.com",
-     "symbol": "MSFT",
-     "sentiment": 0.5853,
+     "symbol": "PLTR",
+     "sentiment": 0.4019,
      "envelope": "CTO 1",
      "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Election Day: Here is the No. 1 issue we're watching as a signal for stocks",
-     "url": "https://www.cnbc.com/investingclub/2026/11/03/election-day-here-is-the-no-1-issue-were-watching-as-a-signal-for-stocks.html",
-     "published": "2026-11-03T19:29:41Z",
-     "source": "cnbc.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.26185,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "BioMÃ©rieux, Rubis... le journal de la bourse du mardi 3 novembre 2026",
-     "url": "https://www.moneyvox.fr/bourse/actualites/111099/biomerieux-rubis-le-journal-de-la-bourse-du-mardi-3-novembre-2026",
-     "published": "2026-11-03T18:52:46Z",
-     "source": "moneyvox.fr",
-     "symbol": "GOOGL",
-     "sentiment": null,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Futures Mixed As America Votes, Apple Slides And Oil Rebounds After \"Defensive\" US Strike On Iran",
-     "url": "https://www.zerohedge.com/markets/futures-mixed-america-votes-apple-slides-and-oil-rebounds-after-defensive-us-strike-iran",
-     "published": "2026-11-03T13:24:07Z",
-     "source": "zerohedge.com",
-     "symbol": "TSLA",
-     "sentiment": 0.1779,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
+      "PLTR"
      ]
     },
     {
@@ -523,18 +557,6 @@
      "source": "thestockmarketwatch.com",
      "symbol": "PLTR",
      "sentiment": -0.0516,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
-     ]
-    },
-    {
-     "title": "Palantir Technologies Inc. (PLTR) Q3 2026 Earnings Call Transcript",
-     "url": "https://seekingalpha.com/article/4961231-palantir-technologies-inc-pltr-q3-2026-earnings-call-transcript",
-     "published": "2026-11-03T03:08:30Z",
-     "source": "seekingalpha.com",
-     "symbol": "PLTR",
-     "sentiment": 0,
      "envelope": "CTO 1",
      "symbols": [
       "PLTR"
@@ -819,7 +841,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-04T00:34:25Z"
+   "last_success_at": "2026-11-05T00:51:52Z"
   }
  }
 }
