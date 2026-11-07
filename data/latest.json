@@ -1,48 +1,48 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-06T00:56:56Z",
+ "generated_at": "2026-11-07T00:04:33Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-06T00:56:56Z",
+   "fetched_at": "2026-11-07T00:04:33Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.1224,
+     "value": 1.1165,
      "unit": "USD",
-     "as_of": "2026-11-05",
+     "as_of": "2026-11-06",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83393,
+     "value": 0.83415,
      "unit": "GBP",
-     "as_of": "2026-11-05",
+     "as_of": "2026-11-06",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 177.85,
+     "value": 176.77,
      "unit": "JPY",
-     "as_of": "2026-11-05",
+     "as_of": "2026-11-06",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.918,
+     "value": 0.9143,
      "unit": "CHF",
-     "as_of": "2026-11-05",
+     "as_of": "2026-11-06",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-06T00:56:56Z"
+   "last_success_at": "2026-11-07T00:04:33Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-06T00:56:56Z",
+   "fetched_at": "2026-11-07T00:04:33Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
@@ -54,31 +54,31 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-06T00:56:56Z"
+   "last_success_at": "2026-11-07T00:04:33Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-06T00:56:56Z",
+   "fetched_at": "2026-11-07T00:04:33Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.34,
+     "value": 3.294,
      "unit": "%",
-     "as_of": "2026-11-04",
+     "as_of": "2026-11-05",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-06T00:56:56Z"
+   "last_success_at": "2026-11-07T00:04:33Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-06T00:56:56Z",
+   "fetched_at": "2026-11-07T00:04:33Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-06T00:56:56Z"
+   "last_success_at": "2026-11-07T00:04:33Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-06T00:56:56Z",
+   "fetched_at": "2026-11-07T00:04:33Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,13 +156,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-06T00:56:56Z"
+   "last_success_at": "2026-11-07T00:04:33Z"
   },
   "inflation_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-06T00:56:56Z",
+   "fetched_at": "2026-11-07T00:04:33Z",
    "from_cache": false,
    "data": {
     "CPI_US": {
@@ -174,33 +174,39 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-06T00:56:56Z"
+   "last_success_at": "2026-11-07T00:04:33Z"
   },
   "unemployment_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-06T00:56:56Z",
+   "fetched_at": "2026-11-07T00:04:33Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
-     "value": 4.2,
+     "value": 4.1,
      "unit": "%",
-     "as_of": "2026-09",
+     "as_of": "2026-10",
      "label": "Chômage US"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-06T00:56:56Z"
+   "last_success_at": "2026-11-07T00:04:33Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-06T00:56:56Z",
+   "fetched_at": "2026-11-07T00:04:33Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "ECB publishes consolidated banking data for end-June 2026",
+     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
+     "published": "2026-11-06T09:00:00Z",
+     "source": "BCE"
+    },
     {
      "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
@@ -242,23 +248,17 @@
      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
      "published": "2026-10-30T09:00:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
-     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html",
-     "published": "2026-10-29T15:50:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-06T00:56:56Z"
+   "last_success_at": "2026-11-07T00:04:33Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-06T00:56:56Z",
+   "fetched_at": "2026-11-07T00:04:33Z",
    "from_cache": false,
    "data": [
     {
@@ -312,13 +312,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-06T00:56:56Z"
+   "last_success_at": "2026-11-07T00:04:33Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-06T00:56:56Z",
+   "fetched_at": "2026-11-07T00:04:33Z",
    "from_cache": false,
    "data": [
     {
@@ -372,84 +372,69 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-06T00:56:56Z"
+   "last_success_at": "2026-11-07T00:04:33Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-06T00:56:56Z",
+   "fetched_at": "2026-11-07T00:04:33Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Bloodletting in Semiconductor Stocks",
-     "url": "https://wolfstreet.com/2026/11/05/bloodletting-in-semiconductor-stocks/",
-     "published": "2026-11-06T00:07:01Z",
-     "source": "wolfstreet.com",
-     "symbol": "TSLA",
-     "sentiment": 0,
+     "title": "Dow Jones Futures: Market Needs Repair But Sandisk, Micron Broken; Apple, Amazon, Microsoft Strong",
+     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sandisk-micron-broken-apple-amazon-microsoft-strong-berkshire-earnings/",
+     "published": "2026-11-06T21:45:10Z",
+     "source": "investors.com",
+     "symbol": "AAPL",
+     "sentiment": 0.2263,
      "envelope": "CTO 1",
      "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "AI on FIRE",
-     "url": "https://monevator.com/ai-on-fire/",
-     "published": "2026-11-05T23:14:16Z",
-     "source": "monevator.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.6808,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Marc Chaikin Sees Alphabet (GOOGL) as a Conglomerate Hiding Three World-Class Businesses",
-     "url": "https://www.insidermonkey.com/news/marc-chaikin-sees-alphabet-googl-as-a-conglomerate-hiding-three-world-class-businesses-1862176/",
-     "published": "2026-11-05T22:31:23Z",
-     "source": "insidermonkey.com",
-     "symbol": "GOOGL",
-     "sentiment": -0.04685,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
-     "url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-     "published": "2026-11-05T22:29:47Z",
-     "source": "cnbc.com",
-     "symbol": "MSFT",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Keep Calm, Stocks Are On Sale",
-     "url": "https://seekingalpha.com/article/4963531-keep-calm-stocks-are-on-sale",
-     "published": "2026-11-05T22:25:00Z",
-     "source": "seekingalpha.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.489,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
       "AAPL",
-      "MSFT",
-      "TSLA"
+      "MSFT"
      ]
     },
     {
-     "title": "Tech and Energy Sectors Diverge as Markets Await Post-Close Earnings",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-energy-sectors-diverge-as-markets-await-post-close-earnings/74227/",
-     "published": "2026-11-05T22:07:12Z",
+     "title": "Tech and Small-Caps Edge Higher as Markets Digest Earnings and Await Economic Data",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-small-caps-edge-higher-as-markets-digest-earnings-and-await-economic-data/74284/",
+     "published": "2026-11-06T21:07:14Z",
      "source": "thestockmarketwatch.com",
+     "symbol": "MRNA",
+     "sentiment": 0.8834,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
+    },
+    {
+     "title": "Very Strong Showing For Bonds Considering The Headwinds",
+     "url": "https://www.mortgagenewsdaily.com/markets/mbs-recap-11062026",
+     "published": "2026-11-06T20:54:15Z",
+     "source": "mortgagenewsdaily.com",
+     "symbol": "MSFT",
+     "sentiment": -0.6908,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Moderna forecasts 15% to 25% 2026 revenue growth as it targets $8.1B to $8.3B year-end cash (NASDAQ:MRNA)",
+     "url": "https://seekingalpha.com/news/4668501-moderna-forecasts-15-percent-to-25-percent-2026-revenue-growth-as-it-targets-8_1b-to-8_3b",
+     "published": "2026-11-06T20:26:32Z",
+     "source": "seekingalpha.com",
+     "symbol": "MRNA",
+     "sentiment": 0.511767,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
+    },
+    {
+     "title": "Moderna, Inc. (MRNA) Q3 2026 Earnings Call Transcript",
+     "url": "https://seekingalpha.com/article/4964087-moderna-inc-mrna-q3-2026-earnings-call-transcript",
+     "published": "2026-11-06T20:24:38Z",
+     "source": "seekingalpha.com",
      "symbol": "MRNA",
      "sentiment": 0,
      "envelope": "CTO 1",
@@ -458,61 +443,122 @@
      ]
     },
     {
-     "title": "Yesterday’s Heroes, Today’s Casualties: Markets Reverse In A Hurry",
-     "url": "https://theetfbully.com/2026/11/yesterdays-heroes-todays-casualties-markets-reverse-in-a-hurry/",
-     "published": "2026-11-05T21:53:41Z",
-     "source": "theetfbully.com",
+     "title": "Tesla to wind down Cybertruck production at Texas factory next year to make room for Cybercab",
+     "url": "https://www.foxbusiness.com/markets/tesla-wind-down-cybertruck-production-texas-factory-next-year-make-room-cybercab",
+     "published": "2026-11-06T19:57:25Z",
+     "source": "foxbusiness.com",
      "symbol": "TSLA",
-     "sentiment": 0.4215,
+     "sentiment": 0.293533,
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
      ]
     },
     {
-     "title": "Compte rendu de la séance de Bourse américaine du jeudi 5 novembre 2026… « deuxième alerte rouge",
-     "url": "https://brunobertez.com/2026/11/05/compte-rendu-de-la-seance-de-bourse-americaine-du-jeudi-5-novembre-2026-deuxieme-alerte-rouge/",
-     "published": "2026-11-05T21:29:14Z",
-     "source": "brunobertez.com",
+     "title": "Fiat On-Ramps by Currency: How to Deposit BRL, GBP, AUD, and Other Local Currencies Into Digital Asset Platforms",
+     "url": "https://financefeeds.com/fiat-on-ramps-by-currency/",
+     "published": "2026-11-06T19:17:48Z",
+     "source": "financefeeds.com",
      "symbol": "AAPL",
-     "sentiment": null,
+     "sentiment": 0.446475,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL"
      ]
     },
     {
-     "title": "Tech and Growth Stocks Face Headwinds as Earnings Season Intensifies",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-growth-stocks-face-headwinds-as-earnings-season-intensifies/74223/",
-     "published": "2026-11-05T21:07:14Z",
+     "title": "Tech and AI Sectors Surge as Nasdaq Leads Afternoon Rally",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-ai-sectors-surge-as-nasdaq-leads-afternoon-rally/74278/",
+     "published": "2026-11-06T19:07:15Z",
      "source": "thestockmarketwatch.com",
      "symbol": "AAPL",
-     "sentiment": 0.0516,
+     "sentiment": 0.5994,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL",
-      "MRNA"
+      "MSFT",
+      "TSLA"
      ]
     },
     {
-     "title": "Tech Rout and Semiconductor Sell-Off Trigger Sharp Afternoon Decline",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-rout-and-semiconductor-sell-off-trigger-sharp-afternoon-decline/74218/",
-     "published": "2026-11-05T19:07:14Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "MRNA",
-     "sentiment": 0,
+     "title": "Is Cathie Wood betting on the next stage of the AI boom amid Wall Street’s tech stock crash, buying SpaceX and Nvidia while selling $120 million in Broadcom stock?",
+     "url": "https://economictimes.indiatimes.com/news/international/us/is-cathie-wood-betting-on-the-next-stage-of-the-ai-boom-amid-wall-streets-tech-stock-crash-buying-spacex-and-nvidia-while-selling-120-million-in-broadcom-stock/articleshow/135610751.cms",
+     "published": "2026-11-06T18:34:21Z",
+     "source": "economictimes.indiatimes.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.595467,
      "envelope": "CTO 1",
      "symbols": [
-      "MRNA"
+      "GOOGL"
      ]
     },
     {
-     "title": "Palantir Looks Like Apple In 2007, Only For Enterprise AI (NASDAQ:PLTR)",
-     "url": "https://seekingalpha.com/article/4963163-palantir-looks-like-apple-in-2007-only-for-enterprise-ai",
-     "published": "2026-11-05T16:17:54Z",
-     "source": "seekingalpha.com",
+     "title": "Moderna Stock Hits Five-Year High On Sales Beat; But The Real Story Remains Its Cancer Vaccine",
+     "url": "https://www.investors.com/news/technology/moderna-stock-moderna-earnings-q3-2026/",
+     "published": "2026-11-06T18:13:15Z",
+     "source": "investors.com",
+     "symbol": "GOOGL",
+     "sentiment": -0.8074,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Palantir Technologies Inc. (PLTR) Delivered Explosive AI Growth: Is the Stock Still Worth Watching?",
+     "url": "https://www.insidermonkey.com/news/palantir-technologies-inc-pltr-delivered-explosive-ai-growth-is-the-stock-still-worth-watching-1862582/",
+     "published": "2026-11-06T17:30:14Z",
+     "source": "insidermonkey.com",
      "symbol": "PLTR",
-     "sentiment": 0.1779,
+     "sentiment": 0.5423,
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
+     ]
+    },
+    {
+     "title": "Wall Street catches its breath after AI-led multi-trillion-dollar rout",
+     "url": "https://www.business-standard.com/world-news/wall-street-catches-its-breath-after-ai-led-multi-trillion-dollar-rout-126110602035_1.html",
+     "published": "2026-11-06T17:15:51Z",
+     "source": "business-standard.com",
+     "symbol": "TSLA",
+     "sentiment": -0.0772,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Could the US midterms put a pin in the AI bubble?",
+     "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-06T15:39:30Z",
+     "source": "bbc.co.uk",
+     "symbol": "GOOGL",
+     "sentiment": 0.6249,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Why Palantir Technologies Inc. (PLTR) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.zacks.com/stock/news/3025486/why-palantir-technologies-inc-pltr-is-a-top-growth-stock-for-the-long-term?cid=CS-ZC-FT-fundamental_analysis|zacks_education_growth_score-3025486",
+     "published": "2026-11-06T13:45:03Z",
+     "source": "zacks.com",
+     "symbol": "PLTR",
+     "sentiment": 0.5267,
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
+     ]
+    },
+    {
+     "title": "Defense Stocks Wrap Up November 5, 2026",
+     "url": "https://www.investorideas.com/news/2026/defense/11051-defense-stocks-wrap-up-november-5-2026.asp",
+     "published": "2026-11-06T00:53:00Z",
+     "source": "investorideas.com",
+     "symbol": "PLTR",
+     "sentiment": 0.0772,
      "envelope": "CTO 1",
      "symbols": [
       "PLTR"
@@ -552,30 +598,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "RXRX"
-     ]
-    },
-    {
-     "title": "2.5 Points Of EPS Growth Nearly Double My Palantir Valuation (NASDAQ:PLTR)",
-     "url": "https://seekingalpha.com/article/4961769-2-5-points-of-eps-growth-nearly-double-my-palantir-valuation",
-     "published": "2026-11-03T21:48:11Z",
-     "source": "seekingalpha.com",
-     "symbol": "PLTR",
-     "sentiment": 0.3818,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
-     ]
-    },
-    {
-     "title": "Palantir Q3: The Party Is Over (For Now) (Rating Downgrade) (NASDAQ:PLTR)",
-     "url": "https://seekingalpha.com/article/4961431-palantir-q3-the-party-is-over-for-now-rating-downgrade",
-     "published": "2026-11-03T13:29:47Z",
-     "source": "seekingalpha.com",
-     "symbol": "PLTR",
-     "sentiment": 0.4019,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
      ]
     },
     {
@@ -797,7 +819,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-06T00:56:56Z"
+   "last_success_at": "2026-11-07T00:04:33Z"
   }
  }
 }
