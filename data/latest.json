@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T00:04:33Z",
+ "generated_at": "2026-11-07T23:37:10Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-07T00:04:33Z",
+   "fetched_at": "2026-11-07T23:37:10Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
@@ -36,31 +36,31 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-07T00:04:33Z"
+   "last_success_at": "2026-11-07T23:37:10Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-07T00:04:33Z",
+   "fetched_at": "2026-11-07T23:37:10Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-06",
+     "as_of": "2026-11-07",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-07T00:04:33Z"
+   "last_success_at": "2026-11-07T23:37:10Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-07T00:04:33Z",
+   "fetched_at": "2026-11-07T23:37:10Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
@@ -72,13 +72,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-07T00:04:33Z"
+   "last_success_at": "2026-11-07T23:37:10Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-07T00:04:33Z",
+   "fetched_at": "2026-11-07T23:37:10Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-07T00:04:33Z"
+   "last_success_at": "2026-11-07T23:37:10Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-07T00:04:33Z",
+   "fetched_at": "2026-11-07T23:37:10Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,13 +156,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-07T00:04:33Z"
+   "last_success_at": "2026-11-07T23:37:10Z"
   },
   "inflation_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-07T00:04:33Z",
+   "fetched_at": "2026-11-07T23:37:10Z",
    "from_cache": false,
    "data": {
     "CPI_US": {
@@ -174,13 +174,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-07T00:04:33Z"
+   "last_success_at": "2026-11-07T23:37:10Z"
   },
   "unemployment_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-07T00:04:33Z",
+   "fetched_at": "2026-11-07T23:37:10Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -192,15 +192,21 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-07T00:04:33Z"
+   "last_success_at": "2026-11-07T23:37:10Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-07T00:04:33Z",
+   "fetched_at": "2026-11-07T23:37:10Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
+     "url": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
+     "published": "2026-11-07T14:00:00Z",
+     "source": "BCE"
+    },
     {
      "title": "ECB publishes consolidated banking data for end-June 2026",
      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
@@ -242,23 +248,17 @@
      "url": "https://www.ecb.europa.eu/press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
      "published": "2026-10-30T14:00:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
-     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
-     "published": "2026-10-30T09:00:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-07T00:04:33Z"
+   "last_success_at": "2026-11-07T23:37:10Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-07T00:04:33Z",
+   "fetched_at": "2026-11-07T23:37:10Z",
    "from_cache": false,
    "data": [
     {
@@ -312,13 +312,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-07T00:04:33Z"
+   "last_success_at": "2026-11-07T23:37:10Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-07T00:04:33Z",
+   "fetched_at": "2026-11-07T23:37:10Z",
    "from_cache": false,
    "data": [
     {
@@ -372,25 +372,156 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-07T00:04:33Z"
+   "last_success_at": "2026-11-07T23:37:10Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-07T00:04:33Z",
+   "fetched_at": "2026-11-07T23:37:10Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Dow Jones, S&P 500, Nasdaq: Last week’s AI stocks crash is not your garden variety correction",
+     "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/dow-jones-sampp-500-nasdaq-last-weeks-ai-stocks-crash-is-not-your-garden-variety-correction/article71678849.ece",
+     "published": "2026-11-07T17:06:39Z",
+     "source": "thehindubusinessline.com",
+     "symbol": "GOOGL",
+     "sentiment": -0.5106,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Apple (AAPL) Stock Dips 1.9% Despite Q4 FY2026 Earnings Beat",
+     "url": "https://www.gurufocus.com/news/9184029/apple-aapl-stock-dips-19-despite-q4-fy2026-earnings-beat",
+     "published": "2026-11-07T16:55:42Z",
+     "source": "gurufocus.com",
+     "symbol": "AAPL",
+     "sentiment": 0.499744,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Apple (AAPL) Reports Strong Q4 Results, Surpassing Revenue Expectations",
+     "url": "https://www.gurufocus.com/news/9184028/apple-aapl-reports-strong-q4-results-surpassing-revenue-expectations",
+     "published": "2026-11-07T16:55:23Z",
+     "source": "gurufocus.com",
+     "symbol": "AAPL",
+     "sentiment": 0.584125,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Decisive election. Dramatic stock swings. How we handled the market last week",
+     "url": "https://www.cnbc.com/investingclub/2026/11/07/decisive-election-dramatic-stock-swings-how-we-handled-the-market-last-week.html",
+     "published": "2026-11-07T16:31:00Z",
+     "source": "cnbc.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.6542,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Tesla (TSLA) Shares Slide Amid Cybertruck Halt and Election Fallout",
+     "url": "https://www.gurufocus.com/news/9183997/tesla-tsla-shares-slide-amid-cybertruck-halt-and-election-fallout",
+     "published": "2026-11-07T14:55:45Z",
+     "source": "gurufocus.com",
+     "symbol": "TSLA",
+     "sentiment": 0.370089,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Tesla (TSLA) Delays Cybertruck Launch to Late November 2023 Amid Pricing and Sales Challenges",
+     "url": "https://www.gurufocus.com/news/9183996/tesla-tsla-delays-cybertruck-launch-to-late-november-2023-amid-pricing-and-sales-challenges",
+     "published": "2026-11-07T14:55:26Z",
+     "source": "gurufocus.com",
+     "symbol": "TSLA",
+     "sentiment": 0.34908,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Berkshire Hathaway Accelerates Stock Buybacks Amid Profit Decline",
+     "url": "https://www.gurufocus.com/news/9183995/berkshire-hathaway-accelerates-stock-buybacks-amid-profit-decline",
+     "published": "2026-11-07T14:50:38Z",
+     "source": "gurufocus.com",
+     "symbol": "AAPL",
+     "sentiment": 0.46384,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "What Moved Markets This Week",
+     "url": "https://seekingalpha.com/article/4964579-what-moved-markets-this-week",
+     "published": "2026-11-07T11:37:26Z",
+     "source": "seekingalpha.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.5089,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Wall Street stocks rally after heavy AI-related selloff",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-stocks-rally-after-heavy-ai-related-selloff/articleshow/135626123.cms",
+     "published": "2026-11-07T04:04:36Z",
+     "source": "economictimes.indiatimes.com",
+     "symbol": "TSLA",
+     "sentiment": -0.8176,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "10 Best 52-Week Low NASDAQ Stocks to Buy According to Billionaires",
+     "url": "https://www.insidermonkey.com/news/10-best-52-week-low-nasdaq-stocks-to-buy-according-to-billionaires-1862392/",
+     "published": "2026-11-07T00:43:40Z",
+     "source": "insidermonkey.com",
+     "symbol": "MSFT",
+     "sentiment": 0.570667,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Tech and Quantum Gains Lead Modest Market Advance as Earnings Season Continues",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-quantum-gains-lead-modest-market-advance-as-earnings-season-continues/74287/",
+     "published": "2026-11-06T22:07:17Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "MRNA",
+     "sentiment": 0.2263,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
+    },
     {
      "title": "Dow Jones Futures: Market Needs Repair But Sandisk, Micron Broken; Apple, Amazon, Microsoft Strong",
      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sandisk-micron-broken-apple-amazon-microsoft-strong-berkshire-earnings/",
      "published": "2026-11-06T21:45:10Z",
      "source": "investors.com",
-     "symbol": "AAPL",
+     "symbol": "MSFT",
      "sentiment": 0.2263,
      "envelope": "CTO 1",
      "symbols": [
-      "AAPL",
       "MSFT"
      ]
     },
@@ -431,80 +562,6 @@
      ]
     },
     {
-     "title": "Moderna, Inc. (MRNA) Q3 2026 Earnings Call Transcript",
-     "url": "https://seekingalpha.com/article/4964087-moderna-inc-mrna-q3-2026-earnings-call-transcript",
-     "published": "2026-11-06T20:24:38Z",
-     "source": "seekingalpha.com",
-     "symbol": "MRNA",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
-     ]
-    },
-    {
-     "title": "Tesla to wind down Cybertruck production at Texas factory next year to make room for Cybercab",
-     "url": "https://www.foxbusiness.com/markets/tesla-wind-down-cybertruck-production-texas-factory-next-year-make-room-cybercab",
-     "published": "2026-11-06T19:57:25Z",
-     "source": "foxbusiness.com",
-     "symbol": "TSLA",
-     "sentiment": 0.293533,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Fiat On-Ramps by Currency: How to Deposit BRL, GBP, AUD, and Other Local Currencies Into Digital Asset Platforms",
-     "url": "https://financefeeds.com/fiat-on-ramps-by-currency/",
-     "published": "2026-11-06T19:17:48Z",
-     "source": "financefeeds.com",
-     "symbol": "AAPL",
-     "sentiment": 0.446475,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Tech and AI Sectors Surge as Nasdaq Leads Afternoon Rally",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-ai-sectors-surge-as-nasdaq-leads-afternoon-rally/74278/",
-     "published": "2026-11-06T19:07:15Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "AAPL",
-     "sentiment": 0.5994,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL",
-      "MSFT",
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Is Cathie Wood betting on the next stage of the AI boom amid Wall Street’s tech stock crash, buying SpaceX and Nvidia while selling $120 million in Broadcom stock?",
-     "url": "https://economictimes.indiatimes.com/news/international/us/is-cathie-wood-betting-on-the-next-stage-of-the-ai-boom-amid-wall-streets-tech-stock-crash-buying-spacex-and-nvidia-while-selling-120-million-in-broadcom-stock/articleshow/135610751.cms",
-     "published": "2026-11-06T18:34:21Z",
-     "source": "economictimes.indiatimes.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.595467,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Moderna Stock Hits Five-Year High On Sales Beat; But The Real Story Remains Its Cancer Vaccine",
-     "url": "https://www.investors.com/news/technology/moderna-stock-moderna-earnings-q3-2026/",
-     "published": "2026-11-06T18:13:15Z",
-     "source": "investors.com",
-     "symbol": "GOOGL",
-     "sentiment": -0.8074,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
      "title": "Palantir Technologies Inc. (PLTR) Delivered Explosive AI Growth: Is the Stock Still Worth Watching?",
      "url": "https://www.insidermonkey.com/news/palantir-technologies-inc-pltr-delivered-explosive-ai-growth-is-the-stock-still-worth-watching-1862582/",
      "published": "2026-11-06T17:30:14Z",
@@ -514,30 +571,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "PLTR"
-     ]
-    },
-    {
-     "title": "Wall Street catches its breath after AI-led multi-trillion-dollar rout",
-     "url": "https://www.business-standard.com/world-news/wall-street-catches-its-breath-after-ai-led-multi-trillion-dollar-rout-126110602035_1.html",
-     "published": "2026-11-06T17:15:51Z",
-     "source": "business-standard.com",
-     "symbol": "TSLA",
-     "sentiment": -0.0772,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Could the US midterms put a pin in the AI bubble?",
-     "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-06T15:39:30Z",
-     "source": "bbc.co.uk",
-     "symbol": "GOOGL",
-     "sentiment": 0.6249,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
      ]
     },
     {
@@ -819,7 +852,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-07T00:04:33Z"
+   "last_success_at": "2026-11-07T23:37:10Z"
   }
  }
 }
