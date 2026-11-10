@@ -1,27 +1,27 @@
-# Point marchés — 2026-11-08
+# Point marchés — 2026-11-10
 
-- EUR/USD : 1.1165 USD (2026-11-06)
+- EUR/USD : 1.1193 USD (2026-11-09)
 - Taux de dépôt BCE : 2.50 % (2026-11-07)
-- 10 ans zone euro AAA : 3.29 % (2026-11-05)
+- 10 ans zone euro AAA : 3.29 % (2026-11-06)
 - Inflation : EA 4.0 % a/a (2026-10) · FR 3.8 % a/a (2026-10) · US 3.7 % a/a (2026-09)
 
 ## Sources dégradées
 - ⚠️ ecb_deposit_rate : Sources indisponibles — dernière valeur connue du 2026-11-07T23:37:10Z
 
 ## Derniers communiqués
+- [Fed] Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc. (2026-11-09)
 - [BCE] Christine Lagarde: Interview with Yomiuri Shimbun (2026-11-07)
 - [BCE] ECB publishes consolidated banking data for end-June 2026 (2026-11-06)
 - [Fed] Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc (2026-11-05)
 - [BoE] Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes (2026-11-05)
 - [BCE] Isabel Schnabel: Navigating stormy waters: reflections on monetary policy (2026-11-05)
-- [BCE] Piero Cipollone: Shaping the future of money (2026-11-05)
 
 ## Actualités du portefeuille
-- [AAPL] Docebo Review 2026: Pricing, Pros & Cons (2026-11-08)
-- [TSLA] Democratic Control of Congress Spurs Scrutiny on Elon Musk and TSLA Amid Political Tensions (2026-11-08)
-- [MSFT] Out Of 45 Data Center Votes Across America, Exactly One Went The Industry's Way (2026-11-08)
-- [MSFT] Microsoft (MSFT) Makes the 10 Best Dow Stocks for 2027 List as Azure Growth Speeds Up (2026-11-08)
-- [TSLA] Wall Street races for megadeals as countdown begins on Trump era (2026-11-08)
-- [MRNA] Notable healthcare headlines for the week: Moderna, Pfizer, and CVS Health in focus (2026-11-08)
-- [AAPL] Apple (AAPL) Target Price Raised by Bernstein Amid AI Business Outlook (2026-11-08)
-- [GOOGL] Google Stock: Alphabet’s $15 Billion Malaysia Bet Faces AI Capex Backlash (2026-11-07)
+- [GOOGL] Markets Edge Higher as Earnings Season Shifts into High Gear; Tech and Energy in Focus (2026-11-09)
+- [TSLA] Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next (2026-11-09)
+- [GOOGL] AI Needs Power. The Pentagon Needs Missiles. Niobium Has a Role in Both. Meet NiobiumX (NIOXF) (2026-11-09)
+- [MSFT] Microsoft: The AI Numbers Are Telling Two Stories (NASDAQ:MSFT) (2026-11-09)
+- [TSLA] Market Alert: Brent Crude Plunges on US-Iran Peace Framework; Anthropic Sets IPO Roadshow (2026-11-09)
+- [AXP] Senator Warren Proposes 10% Credit Card Interest Cap as Capital One (COF) Shares Dip (2026-11-09)
+- [GOOGL] ARK Invest Dumps These Shares While They're Hot, Buys Chips The Size Of Your Face (2026-11-09)
+- [MRNA] MRNA Maintained by Goldman Sachs -- Price Target Raised to $195 (2026-11-09)

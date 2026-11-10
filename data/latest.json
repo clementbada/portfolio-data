@@ -1,42 +1,42 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-08T23:40:54Z",
+ "generated_at": "2026-11-10T02:40:58Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-08T23:40:54Z",
+   "fetched_at": "2026-11-10T02:40:58Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.1165,
+     "value": 1.1193,
      "unit": "USD",
-     "as_of": "2026-11-06",
+     "as_of": "2026-11-09",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83415,
+     "value": 0.8343,
      "unit": "GBP",
-     "as_of": "2026-11-06",
+     "as_of": "2026-11-09",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 176.77,
+     "value": 176.79,
      "unit": "JPY",
-     "as_of": "2026-11-06",
+     "as_of": "2026-11-09",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9143,
+     "value": 0.9164,
      "unit": "CHF",
-     "as_of": "2026-11-06",
+     "as_of": "2026-11-09",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-08T23:40:54Z"
+   "last_success_at": "2026-11-10T02:40:58Z"
   },
   "ecb_deposit_rate": {
    "status": "ancienne valeur",
@@ -62,25 +62,25 @@
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-08T23:40:54Z",
+   "fetched_at": "2026-11-10T02:40:58Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.294,
+     "value": 3.286,
      "unit": "%",
-     "as_of": "2026-11-05",
+     "as_of": "2026-11-06",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-08T23:40:54Z"
+   "last_success_at": "2026-11-10T02:40:58Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-08T23:40:54Z",
+   "fetched_at": "2026-11-10T02:40:58Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -116,13 +116,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-08T23:40:54Z"
+   "last_success_at": "2026-11-10T02:40:58Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-08T23:40:54Z",
+   "fetched_at": "2026-11-10T02:40:58Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -158,13 +158,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-08T23:40:54Z"
+   "last_success_at": "2026-11-10T02:40:58Z"
   },
   "inflation_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-08T23:40:54Z",
+   "fetched_at": "2026-11-10T02:40:58Z",
    "from_cache": false,
    "data": {
     "CPI_US": {
@@ -176,13 +176,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-08T23:40:54Z"
+   "last_success_at": "2026-11-10T02:40:58Z"
   },
   "unemployment_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-08T23:40:54Z",
+   "fetched_at": "2026-11-10T02:40:58Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,13 +194,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-08T23:40:54Z"
+   "last_success_at": "2026-11-10T02:40:58Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-08T23:40:54Z",
+   "fetched_at": "2026-11-10T02:40:58Z",
    "from_cache": false,
    "data": [
     {
@@ -254,15 +254,21 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-08T23:40:54Z"
+   "last_success_at": "2026-11-10T02:40:58Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-08T23:40:54Z",
+   "fetched_at": "2026-11-10T02:40:58Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
+     "published": "2026-11-09T21:00:00Z",
+     "source": "Fed"
+    },
     {
      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
@@ -304,23 +310,17 @@
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
      "published": "2026-10-08T20:30:00Z",
      "source": "Fed"
-    },
-    {
-     "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
-     "published": "2026-10-07T18:00:00Z",
-     "source": "Fed"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-08T23:40:54Z"
+   "last_success_at": "2026-11-10T02:40:58Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-08T23:40:54Z",
+   "fetched_at": "2026-11-10T02:40:58Z",
    "from_cache": false,
    "data": [
     {
@@ -374,74 +374,209 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-08T23:40:54Z"
+   "last_success_at": "2026-11-10T02:40:58Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-08T23:40:54Z",
+   "fetched_at": "2026-11-10T02:40:58Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Docebo Review 2026: Pricing, Pros & Cons",
-     "url": "https://leadchangegroup.com/software/docebo/",
-     "published": "2026-11-08T21:21:23Z",
-     "source": "leadchangegroup.com",
-     "symbol": "AAPL",
-     "sentiment": 0.31845,
+     "title": "Markets Edge Higher as Earnings Season Shifts into High Gear; Tech and Energy in Focus",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/markets-edge-higher-as-earnings-season-shifts-into-high-gear-tech-and-energy-in-focus/74413/",
+     "published": "2026-11-09T22:07:14Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.3612,
      "envelope": "CTO 1",
      "symbols": [
+      "GOOGL",
       "AAPL",
-      "MSFT"
+      "MSFT",
+      "TSLA"
      ]
     },
     {
-     "title": "Democratic Control of Congress Spurs Scrutiny on Elon Musk and TSLA Amid Political Tensions",
-     "url": "https://www.gurufocus.com/news/9184212/democratic-control-of-congress-spurs-scrutiny-on-elon-musk-and-tsla-amid-political-tensions",
-     "published": "2026-11-08T20:56:00Z",
-     "source": "gurufocus.com",
+     "title": "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next",
+     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amazon-tesla-nvidia-cpi-inflation-report/",
+     "published": "2026-11-09T22:00:15Z",
+     "source": "investors.com",
      "symbol": "TSLA",
-     "sentiment": 0.29488,
+     "sentiment": 0.46425,
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
      ]
     },
     {
-     "title": "Out Of 45 Data Center Votes Across America, Exactly One Went The Industry's Way",
-     "url": "https://www.zerohedge.com/ai/out-45-data-center-votes-across-america-exactly-one-went-industrys-way",
-     "published": "2026-11-08T19:30:00Z",
-     "source": "zerohedge.com",
+     "title": "AI Needs Power. The Pentagon Needs Missiles. Niobium Has a Role in Both. Meet NiobiumX (NIOXF)",
+     "url": "https://www.insidermonkey.com/news/press-releases/ai-needs-power-the-pentagon-needs-missiles-niobium-has-a-role-in-both-meet-niobiumx-nioxf-1863491/",
+     "published": "2026-11-09T21:21:01Z",
+     "source": "insidermonkey.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.23695,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Microsoft: The AI Numbers Are Telling Two Stories (NASDAQ:MSFT)",
+     "url": "https://seekingalpha.com/article/4965272-microsoft-the-ai-numbers-are-telling-two-stories",
+     "published": "2026-11-09T21:07:53Z",
+     "source": "seekingalpha.com",
      "symbol": "MSFT",
+     "sentiment": 0.42775,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Market Alert: Brent Crude Plunges on US-Iran Peace Framework; Anthropic Sets IPO Roadshow",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/market-alert-brent-crude-plunges-on-us-iran-peace-framework-anthropic-sets-ipo-roadshow/74407/",
+     "published": "2026-11-09T20:08:23Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "TSLA",
+     "sentiment": 0.7096,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Senator Warren Proposes 10% Credit Card Interest Cap as Capital One (COF) Shares Dip",
+     "url": "https://www.gurufocus.com/news/9185821/senator-warren-proposes-10-credit-card-interest-cap-as-capital-one-cof-shares-dip",
+     "published": "2026-11-09T19:56:32Z",
+     "source": "gurufocus.com",
+     "symbol": "AXP",
+     "sentiment": 0.60215,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AXP"
+     ]
+    },
+    {
+     "title": "ARK Invest Dumps These Shares While They're Hot, Buys Chips The Size Of Your Face",
+     "url": "https://www.investors.com/news/cathie-wood-ark-invest-dumps-these-shares-while-theyre-hot-buys-chips-the-size-of-your-face/",
+     "published": "2026-11-09T19:29:22Z",
+     "source": "investors.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.5719,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "MRNA Maintained by Goldman Sachs -- Price Target Raised to $195",
+     "url": "https://www.gurufocus.com/news/9185692/mrna-maintained-by-goldman-sachs-price-target-raised-to-195",
+     "published": "2026-11-09T18:34:51Z",
+     "source": "gurufocus.com",
+     "symbol": "MRNA",
+     "sentiment": 0.212867,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
+    },
+    {
+     "title": "This is the Stock I’m Retiring On: It’s Already Up 15% Since September",
+     "url": "https://www.insidermonkey.com/news/this-is-the-stock-im-retiring-on-its-already-up-15-since-september-1863245/",
+     "published": "2026-11-09T18:20:02Z",
+     "source": "insidermonkey.com",
+     "symbol": "WM",
+     "sentiment": 0.5267,
+     "envelope": "CTO 1",
+     "symbols": [
+      "WM"
+     ]
+    },
+    {
+     "title": "Apple (AAPL) Introduces AI Usage Packs in Creator Studio, Shares Rise Over 2%",
+     "url": "https://www.gurufocus.com/news/9185629/apple-aapl-introduces-ai-usage-packs-in-creator-studio-shares-rise-over-2",
+     "published": "2026-11-09T17:56:52Z",
+     "source": "gurufocus.com",
+     "symbol": "AAPL",
+     "sentiment": 0.511857,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "US stock market stages massive rally today, adds $1.5 trillion: 5 reasons why Dow Jones, S&P 500 and Nasdaq surge as AMD and Tesla jump while Nvidia sinks",
+     "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-stages-massive-rally-today-adds-1-5-trillion-5-reasons-why-dow-jones-sp-500-and-nasdaq-surge-as-amd-and-tesla-jump-while-nvidia-sinks/articleshow/135689104.cms",
+     "published": "2026-11-09T17:21:25Z",
+     "source": "economictimes.indiatimes.com",
+     "symbol": "AAPL",
+     "sentiment": 0.8658,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Waste Management (WM) Insider Sale: SVP-Chief Information Officer Johnson Varkey Sells 500 Shares",
+     "url": "https://www.gurufocus.com/news/9185457/waste-management-wm-insider-sale-svpchief-information-officer-johnson-varkey-sells-500-shares",
+     "published": "2026-11-09T16:01:24Z",
+     "source": "gurufocus.com",
+     "symbol": "WM",
+     "sentiment": 0.41165,
+     "envelope": "CTO 1",
+     "symbols": [
+      "WM"
+     ]
+    },
+    {
+     "title": "Onterris (ONT) Expands Environmental Testing Footprint with Permian Basin Lab Acquisition",
+     "url": "https://www.gurufocus.com/news/9185416/onterris-ont-expands-environmental-testing-footprint-with-permian-basin-lab-acquisition",
+     "published": "2026-11-09T15:56:14Z",
+     "source": "gurufocus.com",
+     "symbol": "WM",
+     "sentiment": 0.5267,
+     "envelope": "CTO 1",
+     "symbols": [
+      "WM"
+     ]
+    },
+    {
+     "title": "Moderna Inc (MRNA): What a GF Score of 57 Says About the Stock",
+     "url": "https://www.gurufocus.com/news/9185318/moderna-inc-mrna-what-a-gf-score-of-57-says-about-the-stock",
+     "published": "2026-11-09T15:00:30Z",
+     "source": "gurufocus.com",
+     "symbol": "MRNA",
+     "sentiment": -0.0268,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
+    },
+    {
+     "title": "Here is What to Know Beyond Why Palantir Technologies Inc. (PLTR) is a Trending Stock",
+     "url": "https://www.zacks.com/stock/news/3026220/here-is-what-to-know-beyond-why-palantir-technologies-inc-pltr-is-a-trending-stock?cid=CS-ZC-FT-fundamental_analysis|most_searched_stocks-3026220",
+     "published": "2026-11-09T13:00:03Z",
+     "source": "zacks.com",
+     "symbol": "PLTR",
      "sentiment": 0,
      "envelope": "CTO 1",
      "symbols": [
-      "MSFT"
+      "PLTR"
      ]
     },
     {
-     "title": "Microsoft (MSFT) Makes the 10 Best Dow Stocks for 2027 List as Azure Growth Speeds Up",
-     "url": "https://www.insidermonkey.com/news/microsoft-msft-makes-the-10-best-dow-stocks-for-2027-list-as-azure-growth-speeds-up-1863010/",
-     "published": "2026-11-08T17:36:28Z",
-     "source": "insidermonkey.com",
-     "symbol": "MSFT",
-     "sentiment": 0.7076,
+     "title": "Democratic senator demands tech firms, FCC chair turn over documents",
+     "url": "https://telecom.economictimes.indiatimes.com/news/policy/democratic-senator-demands-tech-firms-fcc-chair-turn-over-documents/135667918",
+     "published": "2026-11-09T01:49:36Z",
+     "source": "telecom.economictimes.indiatimes.com",
+     "symbol": "PLTR",
+     "sentiment": 0.25,
      "envelope": "CTO 1",
      "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Wall Street races for megadeals as countdown begins on Trump era",
-     "url": "https://www.thehindubusinessline.com/markets/wall-street-races-for-megadeals-as-countdown-begins-on-trump-era/article71681053.ece",
-     "published": "2026-11-08T15:16:42Z",
-     "source": "thehindubusinessline.com",
-     "symbol": "TSLA",
-     "sentiment": 0.38845,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
+      "PLTR"
      ]
     },
     {
@@ -457,132 +592,12 @@
      ]
     },
     {
-     "title": "Apple (AAPL) Target Price Raised by Bernstein Amid AI Business Outlook",
-     "url": "https://www.gurufocus.com/news/9184141/apple-aapl-target-price-raised-by-bernstein-amid-ai-business-outlook",
-     "published": "2026-11-08T07:10:56Z",
-     "source": "gurufocus.com",
-     "symbol": "AAPL",
-     "sentiment": 0.369488,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Google Stock: Alphabet’s $15 Billion Malaysia Bet Faces AI Capex Backlash",
-     "url": "https://financefeeds.com/google-stock-alphabets-15-billion-malaysia-bet-faces-ai-capex-backlash/",
-     "published": "2026-11-07T22:00:44Z",
-     "source": "financefeeds.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.479244,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Elon Musk Announces Cybertruck Production Pause at TSLA's Texas Gigafactory Amid High Demand",
-     "url": "https://www.gurufocus.com/news/9184085/elon-musk-announces-cybertruck-production-pause-at-tslas-texas-gigafactory-amid-high-demand",
-     "published": "2026-11-07T19:55:23Z",
-     "source": "gurufocus.com",
-     "symbol": "TSLA",
-     "sentiment": 0.503367,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Why Billionaire Armitage Trims but Still Keeps Alphabet (GOOGL) as a Core Hyperscaler Exposure",
-     "url": "https://www.insidermonkey.com/news/why-billionaire-armitage-trims-but-still-keeps-alphabet-googl-as-a-core-hyperscaler-exposure-1862816/",
-     "published": "2026-11-07T18:55:18Z",
-     "source": "insidermonkey.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.31845,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Dow Jones, S&P 500, Nasdaq: Last week’s AI stocks crash is not your garden variety correction",
-     "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/dow-jones-sampp-500-nasdaq-last-weeks-ai-stocks-crash-is-not-your-garden-variety-correction/article71678849.ece",
-     "published": "2026-11-07T17:06:39Z",
-     "source": "thehindubusinessline.com",
-     "symbol": "GOOGL",
-     "sentiment": -0.5106,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Apple (AAPL) Stock Dips 1.9% Despite Q4 FY2026 Earnings Beat",
-     "url": "https://www.gurufocus.com/news/9184029/apple-aapl-stock-dips-19-despite-q4-fy2026-earnings-beat",
-     "published": "2026-11-07T16:55:42Z",
-     "source": "gurufocus.com",
-     "symbol": "AAPL",
-     "sentiment": 0.499744,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Tech and Quantum Gains Lead Modest Market Advance as Earnings Season Continues",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-quantum-gains-lead-modest-market-advance-as-earnings-season-continues/74287/",
-     "published": "2026-11-06T22:07:17Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "MRNA",
-     "sentiment": 0.2263,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
-     ]
-    },
-    {
-     "title": "Tech and Small-Caps Edge Higher as Markets Digest Earnings and Await Economic Data",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-small-caps-edge-higher-as-markets-digest-earnings-and-await-economic-data/74284/",
-     "published": "2026-11-06T21:07:14Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "MRNA",
-     "sentiment": 0.8834,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
-     ]
-    },
-    {
      "title": "Palantir Technologies Inc. (PLTR) Delivered Explosive AI Growth: Is the Stock Still Worth Watching?",
      "url": "https://www.insidermonkey.com/news/palantir-technologies-inc-pltr-delivered-explosive-ai-growth-is-the-stock-still-worth-watching-1862582/",
      "published": "2026-11-06T17:30:14Z",
      "source": "insidermonkey.com",
      "symbol": "PLTR",
      "sentiment": 0.5423,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
-     ]
-    },
-    {
-     "title": "Why Palantir Technologies Inc. (PLTR) is a Top Growth Stock for the Long-Term",
-     "url": "https://www.zacks.com/stock/news/3025486/why-palantir-technologies-inc-pltr-is-a-top-growth-stock-for-the-long-term?cid=CS-ZC-FT-fundamental_analysis|zacks_education_growth_score-3025486",
-     "published": "2026-11-06T13:45:03Z",
-     "source": "zacks.com",
-     "symbol": "PLTR",
-     "sentiment": 0.5267,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
-     ]
-    },
-    {
-     "title": "Defense Stocks Wrap Up November 5, 2026",
-     "url": "https://www.investorideas.com/news/2026/defense/11051-defense-stocks-wrap-up-november-5-2026.asp",
-     "published": "2026-11-06T00:53:00Z",
-     "source": "investorideas.com",
-     "symbol": "PLTR",
-     "sentiment": 0.0772,
      "envelope": "CTO 1",
      "symbols": [
       "PLTR"
@@ -655,54 +670,6 @@
      "source": "seekingalpha.com",
      "symbol": "AXP",
      "sentiment": 0.1366,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AXP"
-     ]
-    },
-    {
-     "title": "Q3 2026 Waste Management Inc Earnings Call Transcript",
-     "url": "https://www.gurufocus.com/news/9148307/q3-2026-waste-management-inc-earnings-call-transcript",
-     "published": "2026-10-28T20:00:25Z",
-     "source": "gurufocus.com",
-     "symbol": "WM",
-     "sentiment": 0.39225,
-     "envelope": "CTO 1",
-     "symbols": [
-      "WM"
-     ]
-    },
-    {
-     "title": "WM DCF Analysis: Intrinsic Value $111 vs Price $241",
-     "url": "https://www.gurufocus.com/news/9144319/wm-dcf-analysis-intrinsic-value-111-vs-price-241",
-     "published": "2026-10-27T12:20:54Z",
-     "source": "gurufocus.com",
-     "symbol": "WM",
-     "sentiment": 0.548511,
-     "envelope": "CTO 1",
-     "symbols": [
-      "WM"
-     ]
-    },
-    {
-     "title": "Waste Management (WM) Set to Report Q3 Earnings Amid Strong Dividend Fundamentals",
-     "url": "https://www.gurufocus.com/news/9143305/waste-management-wm-set-to-report-q3-earnings-amid-strong-dividend-fundamentals",
-     "published": "2026-10-26T23:02:42Z",
-     "source": "gurufocus.com",
-     "symbol": "WM",
-     "sentiment": 0.511986,
-     "envelope": "CTO 1",
-     "symbols": [
-      "WM"
-     ]
-    },
-    {
-     "title": "Bretton Fund Q3 2026 Shareholder Letter",
-     "url": "https://seekingalpha.com/article/4957347-bretton-fund-q3-2026-shareholder-letter",
-     "published": "2026-10-25T20:17:00Z",
-     "source": "seekingalpha.com",
-     "symbol": "AXP",
-     "sentiment": 0,
      "envelope": "CTO 1",
      "symbols": [
       "AXP"
@@ -843,7 +810,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-08T23:40:54Z"
+   "last_success_at": "2026-11-10T02:40:58Z"
   }
  }
 }
