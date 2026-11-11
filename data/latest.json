@@ -1,86 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T02:40:58Z",
+ "generated_at": "2026-11-11T00:37:32Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-10T02:40:58Z",
+   "fetched_at": "2026-11-11T00:37:32Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.1193,
+     "value": 1.1214,
      "unit": "USD",
-     "as_of": "2026-11-09",
+     "as_of": "2026-11-10",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.8343,
+     "value": 0.83545,
      "unit": "GBP",
-     "as_of": "2026-11-09",
+     "as_of": "2026-11-10",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 176.79,
+     "value": 177.38,
      "unit": "JPY",
-     "as_of": "2026-11-09",
+     "as_of": "2026-11-10",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9164,
+     "value": 0.9203,
      "unit": "CHF",
-     "as_of": "2026-11-09",
+     "as_of": "2026-11-10",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-10T02:40:58Z"
+   "last_success_at": "2026-11-11T00:37:32Z"
   },
   "ecb_deposit_rate": {
-   "status": "ancienne valeur",
+   "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-07T23:37:10Z",
+   "fetched_at": "2026-11-11T00:37:32Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-07",
+     "as_of": "2026-11-11",
      "label": "BCE — taux de dépôt"
     }
    },
-   "message": "Sources indisponibles — dernière valeur connue du 2026-11-07T23:37:10Z",
-   "errors": [
-    "BCE : TimeoutError: The read operation timed out"
-   ],
-   "last_success_at": "2026-11-07T23:37:10Z"
+   "message": null,
+   "errors": [],
+   "last_success_at": "2026-11-11T00:37:32Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-10T02:40:58Z",
+   "fetched_at": "2026-11-11T00:37:32Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.286,
+     "value": 3.272,
      "unit": "%",
-     "as_of": "2026-11-06",
+     "as_of": "2026-11-09",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-10T02:40:58Z"
+   "last_success_at": "2026-11-11T00:37:32Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-10T02:40:58Z",
+   "fetched_at": "2026-11-11T00:37:32Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -116,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-10T02:40:58Z"
+   "last_success_at": "2026-11-11T00:37:32Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-10T02:40:58Z",
+   "fetched_at": "2026-11-11T00:37:32Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -158,10 +156,10 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-10T02:40:58Z"
+   "last_success_at": "2026-11-11T00:37:32Z"
   },
   "inflation_us": {
-   "status": "ok",
+   "status": "ancienne valeur",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
    "fetched_at": "2026-11-10T02:40:58Z",
@@ -174,15 +172,17 @@
      "label": "Inflation CPI US"
     }
    },
-   "message": null,
-   "errors": [],
+   "message": "Sources indisponibles — dernière valeur connue du 2026-11-10T02:40:58Z",
+   "errors": [
+    "BLS : indice de 10/2025 absent, glissement annuel impossible"
+   ],
    "last_success_at": "2026-11-10T02:40:58Z"
   },
   "unemployment_us": {
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-10T02:40:58Z",
+   "fetched_at": "2026-11-11T00:37:32Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,15 +194,27 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-10T02:40:58Z"
+   "last_success_at": "2026-11-11T00:37:32Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-10T02:40:58Z",
+   "fetched_at": "2026-11-11T00:37:32Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
+     "published": "2026-11-10T16:45:00Z",
+     "source": "BCE"
+    },
+    {
+     "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
+     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
+     "published": "2026-11-10T14:00:00Z",
+     "source": "BCE"
+    },
     {
      "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
      "url": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
@@ -238,29 +250,17 @@
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
      "published": "2026-11-02T09:30:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "Philip R. Lane: AI adoption in Europe",
-     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
-     "published": "2026-10-30T16:10:00Z",
-     "source": "BCE"
-    },
-    {
-     "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-     "url": "https://www.ecb.europa.eu/press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
-     "published": "2026-10-30T14:00:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-10T02:40:58Z"
+   "last_success_at": "2026-11-11T00:37:32Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-10T02:40:58Z",
+   "fetched_at": "2026-11-11T00:37:32Z",
    "from_cache": false,
    "data": [
     {
@@ -314,15 +314,21 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-10T02:40:58Z"
+   "last_success_at": "2026-11-11T00:37:32Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-10T02:40:58Z",
+   "fetched_at": "2026-11-11T00:37:32Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026",
+     "url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026",
+     "published": "2026-11-10T12:00:00Z",
+     "source": "BoE"
+    },
     {
      "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
      "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
@@ -364,32 +370,62 @@
      "url": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
      "published": "2026-10-22T20:00:00Z",
      "source": "BoE"
-    },
-    {
-     "title": "Minutes of the Securities Lending Committee meeting – September 2026",
-     "url": "https://www.bankofengland.co.uk/minutes/2026/september/securities-lending-committee-meeting-september-2026",
-     "published": "2026-10-22T15:35:53Z",
-     "source": "BoE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-10T02:40:58Z"
+   "last_success_at": "2026-11-11T00:37:32Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-10T02:40:58Z",
+   "fetched_at": "2026-11-11T00:37:32Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Markets Edge Higher as Earnings Season Shifts into High Gear; Tech and Energy in Focus",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/markets-edge-higher-as-earnings-season-shifts-into-high-gear-tech-and-energy-in-focus/74413/",
-     "published": "2026-11-09T22:07:14Z",
-     "source": "thestockmarketwatch.com",
+     "title": "Alphabet Inc. (GOOGL) Is Part of a Massive AI Spending Race: Can the Investment Deliver Enough Returns?",
+     "url": "https://www.insidermonkey.com/news/alphabet-inc-googl-is-part-of-a-massive-ai-spending-race-can-the-investment-deliver-enough-returns-1864112/",
+     "published": "2026-11-10T21:26:53Z",
+     "source": "insidermonkey.com",
      "symbol": "GOOGL",
-     "sentiment": 0.3612,
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Microsoft Corporation (MSFT) Is Pouring Billions Into AI: Could Massive Spending Weigh on Future Returns?",
+     "url": "https://www.insidermonkey.com/news/microsoft-corporation-msft-is-pouring-billions-into-ai-could-massive-spending-weigh-on-future-returns-1864110/",
+     "published": "2026-11-10T21:22:22Z",
+     "source": "insidermonkey.com",
+     "symbol": "MSFT",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Apple’s Dividend Is Tiny, but its Business Advantage is Massive",
+     "url": "https://www.insidermonkey.com/news/apples-dividend-is-tiny-but-its-business-advantage-is-massive-1863975/",
+     "published": "2026-11-10T19:29:39Z",
+     "source": "insidermonkey.com",
+     "symbol": "AAPL",
+     "sentiment": 0.7893,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "YieldMax® ETFs Announces Weekly Distributions for Group 1 ETFs",
+     "url": "https://www.manilatimes.net/2026/11/11/tmt-newswire/globenewswire/yieldmax-etfs-announces-weekly-distributions-for-group-1-etfs/2466919",
+     "published": "2026-11-10T18:53:08Z",
+     "source": "manilatimes.net",
+     "symbol": "GOOGL",
+     "sentiment": 0.8316,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL",
@@ -399,49 +435,60 @@
      ]
     },
     {
-     "title": "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next",
-     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amazon-tesla-nvidia-cpi-inflation-report/",
-     "published": "2026-11-09T22:00:15Z",
-     "source": "investors.com",
+     "title": "SpaceX Plans $24 Billion Data Center and Gas Plant in Texas",
+     "url": "https://www.insurancejournal.com/news/southcentral/2026/11/10/892283.htm",
+     "published": "2026-11-10T17:36:29Z",
+     "source": "insurancejournal.com",
      "symbol": "TSLA",
-     "sentiment": 0.46425,
+     "sentiment": 0.1779,
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
      ]
     },
     {
-     "title": "AI Needs Power. The Pentagon Needs Missiles. Niobium Has a Role in Both. Meet NiobiumX (NIOXF)",
-     "url": "https://www.insidermonkey.com/news/press-releases/ai-needs-power-the-pentagon-needs-missiles-niobium-has-a-role-in-both-meet-niobiumx-nioxf-1863491/",
-     "published": "2026-11-09T21:21:01Z",
-     "source": "insidermonkey.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.23695,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Microsoft: The AI Numbers Are Telling Two Stories (NASDAQ:MSFT)",
-     "url": "https://seekingalpha.com/article/4965272-microsoft-the-ai-numbers-are-telling-two-stories",
-     "published": "2026-11-09T21:07:53Z",
-     "source": "seekingalpha.com",
+     "title": "AMD Showcases 6th Gen AMD EPYC Processors to Lead Next Era of AI and Enterprise Computing",
+     "url": "https://www.manilatimes.net/2026/11/11/tmt-newswire/globenewswire/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing/2466860",
+     "published": "2026-11-10T17:12:17Z",
+     "source": "manilatimes.net",
      "symbol": "MSFT",
-     "sentiment": 0.42775,
+     "sentiment": 0.124875,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "Market Alert: Brent Crude Plunges on US-Iran Peace Framework; Anthropic Sets IPO Roadshow",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/market-alert-brent-crude-plunges-on-us-iran-peace-framework-anthropic-sets-ipo-roadshow/74407/",
-     "published": "2026-11-09T20:08:23Z",
-     "source": "thestockmarketwatch.com",
+     "title": "Apple Inc. (AAPL) Rallied 15% as Investors Reassessed Its Growth: What’s Next for the Stock?",
+     "url": "https://www.insidermonkey.com/news/apple-inc-aapl-rallied-15-as-investors-reassessed-its-growth-whats-next-for-the-stock-1863760/",
+     "published": "2026-11-10T15:56:10Z",
+     "source": "insidermonkey.com",
+     "symbol": "AAPL",
+     "sentiment": 0.3818,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Anthropic IPO: Why are Nvidia, Google, Microsoft and AMD investing billions in their own AI competitor? What Big Tech stands to gain from the Claude maker",
+     "url": "https://economictimes.indiatimes.com/news/international/us/anthropic-ipo-why-are-nvidia-google-microsoft-and-amd-investing-billions-in-their-own-ai-competitor-what-big-tech-stands-to-gain-from-the-claude-maker/articleshow/135714408.cms",
+     "published": "2026-11-10T15:44:28Z",
+     "source": "economictimes.indiatimes.com",
+     "symbol": "GOOGL",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Rivian CEO says new R2 SUV, autonomy make 2027 an ‘inflection year’ as EV maker marks five years since IPO",
+     "url": "https://www.cnbc.com/2026/11/10/rivian-r2-autonomy-2027-rj-scaringe.html",
+     "published": "2026-11-10T15:11:48Z",
+     "source": "cnbc.com",
      "symbol": "TSLA",
-     "sentiment": 0.7096,
+     "sentiment": 0.51795,
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
@@ -457,18 +504,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "AXP"
-     ]
-    },
-    {
-     "title": "ARK Invest Dumps These Shares While They're Hot, Buys Chips The Size Of Your Face",
-     "url": "https://www.investors.com/news/cathie-wood-ark-invest-dumps-these-shares-while-theyre-hot-buys-chips-the-size-of-your-face/",
-     "published": "2026-11-09T19:29:22Z",
-     "source": "investors.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.5719,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
      ]
     },
     {
@@ -493,30 +528,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "WM"
-     ]
-    },
-    {
-     "title": "Apple (AAPL) Introduces AI Usage Packs in Creator Studio, Shares Rise Over 2%",
-     "url": "https://www.gurufocus.com/news/9185629/apple-aapl-introduces-ai-usage-packs-in-creator-studio-shares-rise-over-2",
-     "published": "2026-11-09T17:56:52Z",
-     "source": "gurufocus.com",
-     "symbol": "AAPL",
-     "sentiment": 0.511857,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "US stock market stages massive rally today, adds $1.5 trillion: 5 reasons why Dow Jones, S&P 500 and Nasdaq surge as AMD and Tesla jump while Nvidia sinks",
-     "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-stages-massive-rally-today-adds-1-5-trillion-5-reasons-why-dow-jones-sp-500-and-nasdaq-surge-as-amd-and-tesla-jump-while-nvidia-sinks/articleshow/135689104.cms",
-     "published": "2026-11-09T17:21:25Z",
-     "source": "economictimes.indiatimes.com",
-     "symbol": "AAPL",
-     "sentiment": 0.8658,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
      ]
     },
     {
@@ -810,7 +821,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-10T02:40:58Z"
+   "last_success_at": "2026-11-11T00:37:32Z"
   }
  }
 }

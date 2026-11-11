@@ -1,27 +1,27 @@
-# Point marchés — 2026-11-10
+# Point marchés — 2026-11-11
 
-- EUR/USD : 1.1193 USD (2026-11-09)
-- Taux de dépôt BCE : 2.50 % (2026-11-07)
-- 10 ans zone euro AAA : 3.29 % (2026-11-06)
+- EUR/USD : 1.1214 USD (2026-11-10)
+- Taux de dépôt BCE : 2.50 % (2026-11-11)
+- 10 ans zone euro AAA : 3.27 % (2026-11-09)
 - Inflation : EA 4.0 % a/a (2026-10) · FR 3.8 % a/a (2026-10) · US 3.7 % a/a (2026-09)
 
 ## Sources dégradées
-- ⚠️ ecb_deposit_rate : Sources indisponibles — dernière valeur connue du 2026-11-07T23:37:10Z
+- ⚠️ inflation_us : Sources indisponibles — dernière valeur connue du 2026-11-10T02:40:58Z
 
 ## Derniers communiqués
+- [BCE] Philip R. Lane: The science and practice of monetary policy communication: the ECB experience (2026-11-10)
+- [BCE] Piero Cipollone: Cash and the digital euro: two sides of the same coin (2026-11-10)
+- [BoE] Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026 (2026-11-10)
 - [Fed] Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc. (2026-11-09)
 - [BCE] Christine Lagarde: Interview with Yomiuri Shimbun (2026-11-07)
 - [BCE] ECB publishes consolidated banking data for end-June 2026 (2026-11-06)
-- [Fed] Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc (2026-11-05)
-- [BoE] Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes (2026-11-05)
-- [BCE] Isabel Schnabel: Navigating stormy waters: reflections on monetary policy (2026-11-05)
 
 ## Actualités du portefeuille
-- [GOOGL] Markets Edge Higher as Earnings Season Shifts into High Gear; Tech and Energy in Focus (2026-11-09)
-- [TSLA] Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next (2026-11-09)
-- [GOOGL] AI Needs Power. The Pentagon Needs Missiles. Niobium Has a Role in Both. Meet NiobiumX (NIOXF) (2026-11-09)
-- [MSFT] Microsoft: The AI Numbers Are Telling Two Stories (NASDAQ:MSFT) (2026-11-09)
-- [TSLA] Market Alert: Brent Crude Plunges on US-Iran Peace Framework; Anthropic Sets IPO Roadshow (2026-11-09)
-- [AXP] Senator Warren Proposes 10% Credit Card Interest Cap as Capital One (COF) Shares Dip (2026-11-09)
-- [GOOGL] ARK Invest Dumps These Shares While They're Hot, Buys Chips The Size Of Your Face (2026-11-09)
-- [MRNA] MRNA Maintained by Goldman Sachs -- Price Target Raised to $195 (2026-11-09)
+- [GOOGL] Alphabet Inc. (GOOGL) Is Part of a Massive AI Spending Race: Can the Investment Deliver Enough Returns? (2026-11-10)
+- [MSFT] Microsoft Corporation (MSFT) Is Pouring Billions Into AI: Could Massive Spending Weigh on Future Returns? (2026-11-10)
+- [AAPL] Apple’s Dividend Is Tiny, but its Business Advantage is Massive (2026-11-10)
+- [GOOGL] YieldMax® ETFs Announces Weekly Distributions for Group 1 ETFs (2026-11-10)
+- [TSLA] SpaceX Plans $24 Billion Data Center and Gas Plant in Texas (2026-11-10)
+- [MSFT] AMD Showcases 6th Gen AMD EPYC Processors to Lead Next Era of AI and Enterprise Computing (2026-11-10)
+- [AAPL] Apple Inc. (AAPL) Rallied 15% as Investors Reassessed Its Growth: What’s Next for the Stock? (2026-11-10)
+- [GOOGL] Anthropic IPO: Why are Nvidia, Google, Microsoft and AMD investing billions in their own AI competitor? What Big Tech stands to gain from the Claude maker (2026-11-10)
