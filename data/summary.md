@@ -1,8 +1,8 @@
-# Point marchés — 2026-11-11
+# Point marchés — 2026-11-12
 
-- EUR/USD : 1.1214 USD (2026-11-10)
-- Taux de dépôt BCE : 2.50 % (2026-11-11)
-- 10 ans zone euro AAA : 3.27 % (2026-11-09)
+- EUR/USD : 1.1127 USD (2026-11-11)
+- Taux de dépôt BCE : 2.50 % (2026-11-12)
+- 10 ans zone euro AAA : 3.33 % (2026-11-10)
 - Inflation : EA 4.0 % a/a (2026-10) · FR 3.8 % a/a (2026-10) · US 3.7 % a/a (2026-09)
 
 ## Sources dégradées
@@ -17,11 +17,11 @@
 - [BCE] ECB publishes consolidated banking data for end-June 2026 (2026-11-06)
 
 ## Actualités du portefeuille
-- [GOOGL] Alphabet Inc. (GOOGL) Is Part of a Massive AI Spending Race: Can the Investment Deliver Enough Returns? (2026-11-10)
-- [MSFT] Microsoft Corporation (MSFT) Is Pouring Billions Into AI: Could Massive Spending Weigh on Future Returns? (2026-11-10)
-- [AAPL] Apple’s Dividend Is Tiny, but its Business Advantage is Massive (2026-11-10)
-- [GOOGL] YieldMax® ETFs Announces Weekly Distributions for Group 1 ETFs (2026-11-10)
-- [TSLA] SpaceX Plans $24 Billion Data Center and Gas Plant in Texas (2026-11-10)
-- [MSFT] AMD Showcases 6th Gen AMD EPYC Processors to Lead Next Era of AI and Enterprise Computing (2026-11-10)
-- [AAPL] Apple Inc. (AAPL) Rallied 15% as Investors Reassessed Its Growth: What’s Next for the Stock? (2026-11-10)
-- [GOOGL] Anthropic IPO: Why are Nvidia, Google, Microsoft and AMD investing billions in their own AI competitor? What Big Tech stands to gain from the Claude maker (2026-11-10)
+- [AAPL] Rantizo Launches California Commercial Expansion with Houston-Built Harvest 100 Agricultural Drone (2026-11-11)
+- [AAPL] Tech Sector Drags on Major Indexes as Investors Await Key Inflation Data and Cisco Earnings (2026-11-11)
+- [AXP] American Express Company (AXP) Presents at KBW Fintech Ecosystem Conference 2026 Transcript (2026-11-11)
+- [GOOGL] Alphabet's DeepMind unveils new AlphaGenome 2 model aimed at reading DNA cells (GOOG:NASDAQ) (2026-11-11)
+- [MSFT] Anthropic IPO Could Price Above $78 for a $1.5T Valuation (2026-11-11)
+- [ENR.DE] Siemens Energy AG (SMERY) Q4 2026 Earnings Call Transcript (2026-11-11)
+- [GOOGL] Treasury Secretary Relocates to Military Base Amid Iranian Threats; Google Tests “Hydrogen” AI (2026-11-11)
+- [GOOGL] OKX and ICE Set November 23 Launch for Tokenized Securities Trading Venue (2026-11-11)

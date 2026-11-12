@@ -1,84 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-11T00:37:32Z",
+ "generated_at": "2026-11-12T01:53:26Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-11T00:37:32Z",
+   "fetched_at": "2026-11-12T01:53:26Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.1214,
+     "value": 1.1127,
      "unit": "USD",
-     "as_of": "2026-11-10",
+     "as_of": "2026-11-11",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83545,
+     "value": 0.83618,
      "unit": "GBP",
-     "as_of": "2026-11-10",
+     "as_of": "2026-11-11",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 177.38,
+     "value": 177.18,
      "unit": "JPY",
-     "as_of": "2026-11-10",
+     "as_of": "2026-11-11",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9203,
+     "value": 0.9234,
      "unit": "CHF",
-     "as_of": "2026-11-10",
+     "as_of": "2026-11-11",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-11T00:37:32Z"
+   "last_success_at": "2026-11-12T01:53:26Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-11T00:37:32Z",
+   "fetched_at": "2026-11-12T01:53:26Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-11",
+     "as_of": "2026-11-12",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-11T00:37:32Z"
+   "last_success_at": "2026-11-12T01:53:26Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-11T00:37:32Z",
+   "fetched_at": "2026-11-12T01:53:26Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.272,
+     "value": 3.331,
      "unit": "%",
-     "as_of": "2026-11-09",
+     "as_of": "2026-11-10",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-11T00:37:32Z"
+   "last_success_at": "2026-11-12T01:53:26Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-11T00:37:32Z",
+   "fetched_at": "2026-11-12T01:53:26Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-11T00:37:32Z"
+   "last_success_at": "2026-11-12T01:53:26Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-11T00:37:32Z",
+   "fetched_at": "2026-11-12T01:53:26Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,7 +156,7 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-11T00:37:32Z"
+   "last_success_at": "2026-11-12T01:53:26Z"
   },
   "inflation_us": {
    "status": "ancienne valeur",
@@ -182,7 +182,7 @@
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-11T00:37:32Z",
+   "fetched_at": "2026-11-12T01:53:26Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,13 +194,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-11T00:37:32Z"
+   "last_success_at": "2026-11-12T01:53:26Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-11T00:37:32Z",
+   "fetched_at": "2026-11-12T01:53:26Z",
    "from_cache": false,
    "data": [
     {
@@ -254,13 +254,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-11T00:37:32Z"
+   "last_success_at": "2026-11-12T01:53:26Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-11T00:37:32Z",
+   "fetched_at": "2026-11-12T01:53:26Z",
    "from_cache": false,
    "data": [
     {
@@ -314,13 +314,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-11T00:37:32Z"
+   "last_success_at": "2026-11-12T01:53:26Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-11T00:37:32Z",
+   "fetched_at": "2026-11-12T01:53:26Z",
    "from_cache": false,
    "data": [
     {
@@ -374,58 +374,108 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-11T00:37:32Z"
+   "last_success_at": "2026-11-12T01:53:26Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-11T00:37:32Z",
+   "fetched_at": "2026-11-12T01:53:26Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Alphabet Inc. (GOOGL) Is Part of a Massive AI Spending Race: Can the Investment Deliver Enough Returns?",
-     "url": "https://www.insidermonkey.com/news/alphabet-inc-googl-is-part-of-a-massive-ai-spending-race-can-the-investment-deliver-enough-returns-1864112/",
-     "published": "2026-11-10T21:26:53Z",
-     "source": "insidermonkey.com",
-     "symbol": "GOOGL",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Microsoft Corporation (MSFT) Is Pouring Billions Into AI: Could Massive Spending Weigh on Future Returns?",
-     "url": "https://www.insidermonkey.com/news/microsoft-corporation-msft-is-pouring-billions-into-ai-could-massive-spending-weigh-on-future-returns-1864110/",
-     "published": "2026-11-10T21:22:22Z",
-     "source": "insidermonkey.com",
-     "symbol": "MSFT",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Apple’s Dividend Is Tiny, but its Business Advantage is Massive",
-     "url": "https://www.insidermonkey.com/news/apples-dividend-is-tiny-but-its-business-advantage-is-massive-1863975/",
-     "published": "2026-11-10T19:29:39Z",
-     "source": "insidermonkey.com",
+     "title": "Rantizo Launches California Commercial Expansion with Houston-Built Harvest 100 Agricultural Drone",
+     "url": "https://themarketonline.com.au/rantizo-launches-california-commercial-expansion-with-houston-built-harvest-100-agricultural-drone-2026-11-12/",
+     "published": "2026-11-11T22:11:37Z",
+     "source": "themarketherald.com.au",
      "symbol": "AAPL",
-     "sentiment": 0.7893,
+     "sentiment": 0,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL"
      ]
     },
     {
-     "title": "YieldMax® ETFs Announces Weekly Distributions for Group 1 ETFs",
-     "url": "https://www.manilatimes.net/2026/11/11/tmt-newswire/globenewswire/yieldmax-etfs-announces-weekly-distributions-for-group-1-etfs/2466919",
-     "published": "2026-11-10T18:53:08Z",
-     "source": "manilatimes.net",
+     "title": "Tech Sector Drags on Major Indexes as Investors Await Key Inflation Data and Cisco Earnings",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-drags-on-major-indexes-as-investors-await-key-inflation-data-and-cisco-earnings/74538/",
+     "published": "2026-11-11T22:07:19Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "AAPL",
+     "sentiment": 0.8225,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL",
+      "MSFT",
+      "TSLA"
+     ]
+    },
+    {
+     "title": "American Express Company (AXP) Presents at KBW Fintech Ecosystem Conference 2026 Transcript",
+     "url": "https://seekingalpha.com/article/4966625-american-express-company-axp-presents-at-kbw-fintech-ecosystem-conference-2026-transcript",
+     "published": "2026-11-11T19:58:56Z",
+     "source": "seekingalpha.com",
+     "symbol": "AXP",
+     "sentiment": 0.37305,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AXP"
+     ]
+    },
+    {
+     "title": "Alphabet's DeepMind unveils new AlphaGenome 2 model aimed at reading DNA cells (GOOG:NASDAQ)",
+     "url": "https://seekingalpha.com/news/4670939-alphabets-deepmind-unveils-new-alphagenome-2-model-aimed-at-reading-dna-cells",
+     "published": "2026-11-11T19:48:03Z",
+     "source": "seekingalpha.com",
      "symbol": "GOOGL",
-     "sentiment": 0.8316,
+     "sentiment": 0.4767,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Anthropic IPO Could Price Above $78 for a $1.5T Valuation",
+     "url": "https://financefeeds.com/anthropic-ipo-valuation-could-reach-1-5-trillion-or-more-as-bankers-weigh-higher-price/",
+     "published": "2026-11-11T17:49:42Z",
+     "source": "financefeeds.com",
+     "symbol": "MSFT",
+     "sentiment": 0.0516,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Siemens Energy AG (SMERY) Q4 2026 Earnings Call Transcript",
+     "url": "https://seekingalpha.com/article/4966406-siemens-energy-ag-smery-q4-2026-earnings-call-transcript",
+     "published": "2026-11-11T16:39:10Z",
+     "source": "seekingalpha.com",
+     "symbol": "ENR.DE",
+     "sentiment": 0.31245,
+     "envelope": "PEA",
+     "symbols": [
+      "ENR.DE"
+     ]
+    },
+    {
+     "title": "Treasury Secretary Relocates to Military Base Amid Iranian Threats; Google Tests “Hydrogen” AI",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/treasury-secretary-relocates-to-military-base-amid-iranian-threats-google-tests-hydrogen-ai/74522/",
+     "published": "2026-11-11T16:38:14Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.54455,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "OKX and ICE Set November 23 Launch for Tokenized Securities Trading Venue",
+     "url": "https://financefeeds.com/okx-and-ice-set-november-23-launch-for-tokenized-securities-trading-venue/",
+     "published": "2026-11-11T15:20:47Z",
+     "source": "financefeeds.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.4588,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL",
@@ -435,63 +485,39 @@
      ]
     },
     {
-     "title": "SpaceX Plans $24 Billion Data Center and Gas Plant in Texas",
-     "url": "https://www.insurancejournal.com/news/southcentral/2026/11/10/892283.htm",
-     "published": "2026-11-10T17:36:29Z",
-     "source": "insurancejournal.com",
+     "title": "Futures Rise As CoreWeave Calms Debt Jitters, Sparking AI Rebound; Oil Jumps On Hormuz Mines",
+     "url": "https://www.zerohedge.com/markets/futures-rise-coreweave-calms-debt-jitters-sparking-ai-rebound-oil-jumps-hormuz-mines",
+     "published": "2026-11-11T13:21:18Z",
+     "source": "zerohedge.com",
      "symbol": "TSLA",
-     "sentiment": 0.1779,
+     "sentiment": 0.5859,
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
      ]
     },
     {
-     "title": "AMD Showcases 6th Gen AMD EPYC Processors to Lead Next Era of AI and Enterprise Computing",
-     "url": "https://www.manilatimes.net/2026/11/11/tmt-newswire/globenewswire/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing/2466860",
-     "published": "2026-11-10T17:12:17Z",
-     "source": "manilatimes.net",
-     "symbol": "MSFT",
-     "sentiment": 0.124875,
-     "envelope": "CTO 1",
+     "title": "Siemens Energy AG (SMERY) Q4 2026 Press Conference Call Transcript",
+     "url": "https://seekingalpha.com/article/4966349-siemens-energy-ag-smery-q4-2026-press-conference-call-transcript",
+     "published": "2026-11-11T12:28:57Z",
+     "source": "seekingalpha.com",
+     "symbol": "ENR.DE",
+     "sentiment": 0.4721,
+     "envelope": "PEA",
      "symbols": [
-      "MSFT"
+      "ENR.DE"
      ]
     },
     {
-     "title": "Apple Inc. (AAPL) Rallied 15% as Investors Reassessed Its Growth: What’s Next for the Stock?",
-     "url": "https://www.insidermonkey.com/news/apple-inc-aapl-rallied-15-as-investors-reassessed-its-growth-whats-next-for-the-stock-1863760/",
-     "published": "2026-11-10T15:56:10Z",
-     "source": "insidermonkey.com",
-     "symbol": "AAPL",
-     "sentiment": 0.3818,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Anthropic IPO: Why are Nvidia, Google, Microsoft and AMD investing billions in their own AI competitor? What Big Tech stands to gain from the Claude maker",
-     "url": "https://economictimes.indiatimes.com/news/international/us/anthropic-ipo-why-are-nvidia-google-microsoft-and-amd-investing-billions-in-their-own-ai-competitor-what-big-tech-stands-to-gain-from-the-claude-maker/articleshow/135714408.cms",
-     "published": "2026-11-10T15:44:28Z",
-     "source": "economictimes.indiatimes.com",
-     "symbol": "GOOGL",
+     "title": "Siemens Energy AG 2026 Q4 - Results - Earnings Call Presentation (OTCMKTS:SMERY) 2026-11-11",
+     "url": "https://seekingalpha.com/article/4966365-siemens-energy-ag-2026-q4-results-earnings-call-presentation",
+     "published": "2026-11-11T10:31:36Z",
+     "source": "seekingalpha.com",
+     "symbol": "ENR.DE",
      "sentiment": 0,
-     "envelope": "CTO 1",
+     "envelope": "PEA",
      "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Rivian CEO says new R2 SUV, autonomy make 2027 an ‘inflection year’ as EV maker marks five years since IPO",
-     "url": "https://www.cnbc.com/2026/11/10/rivian-r2-autonomy-2027-rj-scaringe.html",
-     "published": "2026-11-10T15:11:48Z",
-     "source": "cnbc.com",
-     "symbol": "TSLA",
-     "sentiment": 0.51795,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
+      "ENR.DE"
      ]
     },
     {
@@ -675,18 +701,6 @@
      ]
     },
     {
-     "title": "IYF: Your Guide To The iShares U.S. Financials ETF (NYSEARCA:IYF)",
-     "url": "https://seekingalpha.com/article/4960315-iyf-your-guide-to-the-ishares-us-financials-etf",
-     "published": "2026-10-30T16:42:46Z",
-     "source": "seekingalpha.com",
-     "symbol": "AXP",
-     "sentiment": 0.1366,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AXP"
-     ]
-    },
-    {
      "title": "Energy Markets Braced for Volatility as Saudi-Led Coalition Launches Massive Yemen Offensive",
      "url": "https://www2.stockmarketwatch.com/stock-market-news/energy-markets-braced-for-volatility-as-saudi-led-coalition-launches-massive-yemen-offensive/72602/",
      "published": "2026-10-05T10:08:15Z",
@@ -696,42 +710,6 @@
      "envelope": "PEA",
      "symbols": [
       "AI.PA"
-     ]
-    },
-    {
-     "title": "Q4 2026 Siemens Energy AG Pre-Close Call Transcript",
-     "url": "https://www.gurufocus.com/news/9103977/q4-2026-siemens-energy-ag-preclose-call-transcript",
-     "published": "2026-09-30T19:00:08Z",
-     "source": "gurufocus.com",
-     "symbol": "ENR.DE",
-     "sentiment": 0.45495,
-     "envelope": "PEA",
-     "symbols": [
-      "ENR.DE"
-     ]
-    },
-    {
-     "title": "Siemens Energy AG (SMERY) Discusses Preclose Update, Market Outlook and Capital Allocation Framework Transcript",
-     "url": "https://seekingalpha.com/article/4951051-siemens-energy-ag-smery-discusses-preclose-update-market-outlook-and-capital-allocation",
-     "published": "2026-09-30T18:04:17Z",
-     "source": "seekingalpha.com",
-     "symbol": "ENR.DE",
-     "sentiment": 0,
-     "envelope": "PEA",
-     "symbols": [
-      "ENR.DE"
-     ]
-    },
-    {
-     "title": "Bloom Energy vs. GE Vernova: Which Stock Is a Better Buy in 2026?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-vs-ge-vernova-144315282.html",
-     "published": "2026-09-15T14:43:15Z",
-     "source": "finance.yahoo.com",
-     "symbol": "ENR.DE",
-     "sentiment": 0.0576,
-     "envelope": "PEA",
-     "symbols": [
-      "ENR.DE"
      ]
     },
     {
@@ -821,7 +799,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-11T00:37:32Z"
+   "last_success_at": "2026-11-12T01:53:26Z"
   }
  }
 }
