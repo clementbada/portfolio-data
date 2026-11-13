@@ -1,84 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-12T01:53:26Z",
+ "generated_at": "2026-11-13T01:01:43Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-12T01:53:26Z",
+   "fetched_at": "2026-11-13T01:01:43Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.1127,
+     "value": 1.1081,
      "unit": "USD",
-     "as_of": "2026-11-11",
+     "as_of": "2026-11-12",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83618,
+     "value": 0.83595,
      "unit": "GBP",
-     "as_of": "2026-11-11",
+     "as_of": "2026-11-12",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 177.18,
+     "value": 176.96,
      "unit": "JPY",
-     "as_of": "2026-11-11",
+     "as_of": "2026-11-12",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9234,
+     "value": 0.9232,
      "unit": "CHF",
-     "as_of": "2026-11-11",
+     "as_of": "2026-11-12",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-12T01:53:26Z"
+   "last_success_at": "2026-11-13T01:01:43Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-12T01:53:26Z",
+   "fetched_at": "2026-11-13T01:01:43Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-12",
+     "as_of": "2026-11-13",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-12T01:53:26Z"
+   "last_success_at": "2026-11-13T01:01:43Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-12T01:53:26Z",
+   "fetched_at": "2026-11-13T01:01:43Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.331,
+     "value": 3.34,
      "unit": "%",
-     "as_of": "2026-11-10",
+     "as_of": "2026-11-11",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-12T01:53:26Z"
+   "last_success_at": "2026-11-13T01:01:43Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-12T01:53:26Z",
+   "fetched_at": "2026-11-13T01:01:43Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-12T01:53:26Z"
+   "last_success_at": "2026-11-13T01:01:43Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-12T01:53:26Z",
+   "fetched_at": "2026-11-13T01:01:43Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,7 +156,7 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-12T01:53:26Z"
+   "last_success_at": "2026-11-13T01:01:43Z"
   },
   "inflation_us": {
    "status": "ancienne valeur",
@@ -182,7 +182,7 @@
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-12T01:53:26Z",
+   "fetched_at": "2026-11-13T01:01:43Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,13 +194,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-12T01:53:26Z"
+   "last_success_at": "2026-11-13T01:01:43Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-12T01:53:26Z",
+   "fetched_at": "2026-11-13T01:01:43Z",
    "from_cache": false,
    "data": [
     {
@@ -254,15 +254,33 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-12T01:53:26Z"
+   "last_success_at": "2026-11-13T01:01:43Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-12T01:53:26Z",
+   "fetched_at": "2026-11-13T01:01:43Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+     "published": "2026-11-12T18:30:00Z",
+     "source": "Fed"
+    },
+    {
+     "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+     "published": "2026-11-12T17:45:00Z",
+     "source": "Fed"
+    },
+    {
+     "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+     "published": "2026-11-12T16:00:00Z",
+     "source": "Fed"
+    },
     {
      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
@@ -292,35 +310,17 @@
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
      "published": "2026-10-16T15:00:00Z",
      "source": "Fed"
-    },
-    {
-     "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
-     "published": "2026-10-13T18:00:00Z",
-     "source": "Fed"
-    },
-    {
-     "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
-     "published": "2026-10-09T14:00:00Z",
-     "source": "Fed"
-    },
-    {
-     "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
-     "published": "2026-10-08T20:30:00Z",
-     "source": "Fed"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-12T01:53:26Z"
+   "last_success_at": "2026-11-13T01:01:43Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-12T01:53:26Z",
+   "fetched_at": "2026-11-13T01:01:43Z",
    "from_cache": false,
    "data": [
     {
@@ -374,75 +374,97 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-12T01:53:26Z"
+   "last_success_at": "2026-11-13T01:01:43Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-12T01:53:26Z",
+   "fetched_at": "2026-11-13T01:01:43Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Rantizo Launches California Commercial Expansion with Houston-Built Harvest 100 Agricultural Drone",
-     "url": "https://themarketonline.com.au/rantizo-launches-california-commercial-expansion-with-houston-built-harvest-100-agricultural-drone-2026-11-12/",
-     "published": "2026-11-11T22:11:37Z",
-     "source": "themarketherald.com.au",
-     "symbol": "AAPL",
-     "sentiment": 0,
+     "title": "Traders Show Bearish Sentiment as Tesla (TSLA) Dips Amid Options Market Activity",
+     "url": "https://www.gurufocus.com/news/9195451/traders-show-bearish-sentiment-as-tesla-tsla-dips-amid-options-market-activity",
+     "published": "2026-11-12T19:25:51Z",
+     "source": "gurufocus.com",
+     "symbol": "TSLA",
+     "sentiment": 0.5429,
      "envelope": "CTO 1",
      "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Tech Sector Drags on Major Indexes as Investors Await Key Inflation Data and Cisco Earnings",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-drags-on-major-indexes-as-investors-await-key-inflation-data-and-cisco-earnings/74538/",
-     "published": "2026-11-11T22:07:19Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "AAPL",
-     "sentiment": 0.8225,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL",
-      "MSFT",
       "TSLA"
      ]
     },
     {
-     "title": "American Express Company (AXP) Presents at KBW Fintech Ecosystem Conference 2026 Transcript",
-     "url": "https://seekingalpha.com/article/4966625-american-express-company-axp-presents-at-kbw-fintech-ecosystem-conference-2026-transcript",
-     "published": "2026-11-11T19:58:56Z",
+     "title": "Palantir: 165% Retention Signals The Next Enterprise AI Boom",
+     "url": "https://seekingalpha.com/article/4967161-palantir-165-percent-retention-signals-the-next-enterprise-ai-boom",
+     "published": "2026-11-12T17:13:22Z",
      "source": "seekingalpha.com",
-     "symbol": "AXP",
-     "sentiment": 0.37305,
+     "symbol": "PLTR",
+     "sentiment": 0.4588,
      "envelope": "CTO 1",
      "symbols": [
-      "AXP"
+      "PLTR"
      ]
     },
     {
-     "title": "Alphabet's DeepMind unveils new AlphaGenome 2 model aimed at reading DNA cells (GOOG:NASDAQ)",
-     "url": "https://seekingalpha.com/news/4670939-alphabets-deepmind-unveils-new-alphagenome-2-model-aimed-at-reading-dna-cells",
-     "published": "2026-11-11T19:48:03Z",
-     "source": "seekingalpha.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.4767,
+     "title": "Nasdaq Futures Slide As Nvidia Board Hunts For Huang's Replacement, Rivals Feast",
+     "url": "https://www.zerohedge.com/markets/nasdaq-futures-slide-nvidia-board-hunts-huangs-replacement-rivals-feast",
+     "published": "2026-11-12T13:27:54Z",
+     "source": "zerohedge.com",
+     "symbol": "TSLA",
+     "sentiment": -0.128,
      "envelope": "CTO 1",
      "symbols": [
-      "GOOGL"
+      "TSLA"
      ]
     },
     {
-     "title": "Anthropic IPO Could Price Above $78 for a $1.5T Valuation",
-     "url": "https://financefeeds.com/anthropic-ipo-valuation-could-reach-1-5-trillion-or-more-as-bankers-weigh-higher-price/",
-     "published": "2026-11-11T17:49:42Z",
-     "source": "financefeeds.com",
-     "symbol": "MSFT",
-     "sentiment": 0.0516,
+     "title": "Nasdaq, S&P 500 futures fall as Nvidia turbulence unsettles AI stocks",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-sp-500-futures-fall-as-nvidia-turbulence-unsettles-ai-stocks/articleshow/135771074.cms",
+     "published": "2026-11-12T13:14:54Z",
+     "source": "economictimes.indiatimes.com",
+     "symbol": "TSLA",
+     "sentiment": 0.891,
      "envelope": "CTO 1",
      "symbols": [
-      "MSFT"
+      "TSLA"
+     ]
+    },
+    {
+     "title": "ETFs Are Buying Palantir (PLTR) on Tuesday",
+     "url": "https://www.gurufocus.com/news/9194172/etfs-are-buying-palantir-pltr-on-tuesday",
+     "published": "2026-11-12T11:02:07Z",
+     "source": "gurufocus.com",
+     "symbol": "PLTR",
+     "sentiment": 0.0969,
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
+     ]
+    },
+    {
+     "title": "MSCI Adds Moderna (MRNA) to World Index in November 2026 Review",
+     "url": "https://www.gurufocus.com/news/9194133/msci-adds-moderna-mrna-to-world-index-in-november-2026-review",
+     "published": "2026-11-12T10:56:10Z",
+     "source": "gurufocus.com",
+     "symbol": "MRNA",
+     "sentiment": 0.190571,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
+    },
+    {
+     "title": "Blackstone puts up $1.5 billion for Pfizer obesity drug studies",
+     "url": "https://www.thehindubusinessline.com/companies/blackstone-puts-up-15-billion-for-pfizer-obesity-drug-studies/article71692286.ece",
+     "published": "2026-11-12T05:02:33Z",
+     "source": "thehindubusinessline.com",
+     "symbol": "MRNA",
+     "sentiment": 0.8974,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
      ]
     },
     {
@@ -455,45 +477,6 @@
      "envelope": "PEA",
      "symbols": [
       "ENR.DE"
-     ]
-    },
-    {
-     "title": "Treasury Secretary Relocates to Military Base Amid Iranian Threats; Google Tests “Hydrogen” AI",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/treasury-secretary-relocates-to-military-base-amid-iranian-threats-google-tests-hydrogen-ai/74522/",
-     "published": "2026-11-11T16:38:14Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.54455,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "OKX and ICE Set November 23 Launch for Tokenized Securities Trading Venue",
-     "url": "https://financefeeds.com/okx-and-ice-set-november-23-launch-for-tokenized-securities-trading-venue/",
-     "published": "2026-11-11T15:20:47Z",
-     "source": "financefeeds.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.4588,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "AAPL",
-      "MSFT",
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Futures Rise As CoreWeave Calms Debt Jitters, Sparking AI Rebound; Oil Jumps On Hormuz Mines",
-     "url": "https://www.zerohedge.com/markets/futures-rise-coreweave-calms-debt-jitters-sparking-ai-rebound-oil-jumps-hormuz-mines",
-     "published": "2026-11-11T13:21:18Z",
-     "source": "zerohedge.com",
-     "symbol": "TSLA",
-     "sentiment": 0.5859,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
      ]
     },
     {
@@ -518,18 +501,6 @@
      "envelope": "PEA",
      "symbols": [
       "ENR.DE"
-     ]
-    },
-    {
-     "title": "Senator Warren Proposes 10% Credit Card Interest Cap as Capital One (COF) Shares Dip",
-     "url": "https://www.gurufocus.com/news/9185821/senator-warren-proposes-10-credit-card-interest-cap-as-capital-one-cof-shares-dip",
-     "published": "2026-11-09T19:56:32Z",
-     "source": "gurufocus.com",
-     "symbol": "AXP",
-     "sentiment": 0.60215,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AXP"
      ]
     },
     {
@@ -581,18 +552,6 @@
      ]
     },
     {
-     "title": "Moderna Inc (MRNA): What a GF Score of 57 Says About the Stock",
-     "url": "https://www.gurufocus.com/news/9185318/moderna-inc-mrna-what-a-gf-score-of-57-says-about-the-stock",
-     "published": "2026-11-09T15:00:30Z",
-     "source": "gurufocus.com",
-     "symbol": "MRNA",
-     "sentiment": -0.0268,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
-     ]
-    },
-    {
      "title": "Here is What to Know Beyond Why Palantir Technologies Inc. (PLTR) is a Trending Stock",
      "url": "https://www.zacks.com/stock/news/3026220/here-is-what-to-know-beyond-why-palantir-technologies-inc-pltr-is-a-trending-stock?cid=CS-ZC-FT-fundamental_analysis|most_searched_stocks-3026220",
      "published": "2026-11-09T13:00:03Z",
@@ -602,54 +561,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "PLTR"
-     ]
-    },
-    {
-     "title": "Democratic senator demands tech firms, FCC chair turn over documents",
-     "url": "https://telecom.economictimes.indiatimes.com/news/policy/democratic-senator-demands-tech-firms-fcc-chair-turn-over-documents/135667918",
-     "published": "2026-11-09T01:49:36Z",
-     "source": "telecom.economictimes.indiatimes.com",
-     "symbol": "PLTR",
-     "sentiment": 0.25,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
-     ]
-    },
-    {
-     "title": "Notable healthcare headlines for the week: Moderna, Pfizer, and CVS Health in focus",
-     "url": "https://seekingalpha.com/news/4668617-notable-healthcare-headlines-for-the-week-moderna-pfizer-and-cvs-health-in-focus",
-     "published": "2026-11-08T14:05:29Z",
-     "source": "seekingalpha.com",
-     "symbol": "MRNA",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
-     ]
-    },
-    {
-     "title": "Palantir Technologies Inc. (PLTR) Delivered Explosive AI Growth: Is the Stock Still Worth Watching?",
-     "url": "https://www.insidermonkey.com/news/palantir-technologies-inc-pltr-delivered-explosive-ai-growth-is-the-stock-still-worth-watching-1862582/",
-     "published": "2026-11-06T17:30:14Z",
-     "source": "insidermonkey.com",
-     "symbol": "PLTR",
-     "sentiment": 0.5423,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
-     ]
-    },
-    {
-     "title": "U.S. Stocks May Move In Opposite Directions In Early Trading",
-     "url": "https://www.rttnews.com/story.aspx?Id=3710632",
-     "published": "2026-11-05T13:57:29Z",
-     "source": "rttnews.com",
-     "symbol": "AXP",
-     "sentiment": 0.4939,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AXP"
      ]
     },
     {
@@ -799,7 +710,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-12T01:53:26Z"
+   "last_success_at": "2026-11-13T01:01:43Z"
   }
  }
 }
