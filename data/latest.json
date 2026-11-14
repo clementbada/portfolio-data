@@ -1,84 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T01:01:43Z",
+ "generated_at": "2026-11-14T00:51:40Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-13T01:01:43Z",
+   "fetched_at": "2026-11-14T00:51:40Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.1081,
+     "value": 1.1052,
      "unit": "USD",
-     "as_of": "2026-11-12",
+     "as_of": "2026-11-13",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83595,
+     "value": 0.83559,
      "unit": "GBP",
-     "as_of": "2026-11-12",
+     "as_of": "2026-11-13",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 176.96,
+     "value": 176.83,
      "unit": "JPY",
-     "as_of": "2026-11-12",
+     "as_of": "2026-11-13",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9232,
+     "value": 0.9266,
      "unit": "CHF",
-     "as_of": "2026-11-12",
+     "as_of": "2026-11-13",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-13T01:01:43Z"
+   "last_success_at": "2026-11-14T00:51:40Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-13T01:01:43Z",
+   "fetched_at": "2026-11-14T00:51:40Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-13",
+     "as_of": "2026-11-14",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-13T01:01:43Z"
+   "last_success_at": "2026-11-14T00:51:40Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-13T01:01:43Z",
+   "fetched_at": "2026-11-14T00:51:40Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.34,
+     "value": 3.367,
      "unit": "%",
-     "as_of": "2026-11-11",
+     "as_of": "2026-11-12",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-13T01:01:43Z"
+   "last_success_at": "2026-11-14T00:51:40Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-13T01:01:43Z",
+   "fetched_at": "2026-11-14T00:51:40Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-13T01:01:43Z"
+   "last_success_at": "2026-11-14T00:51:40Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-13T01:01:43Z",
+   "fetched_at": "2026-11-14T00:51:40Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,7 +156,7 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-13T01:01:43Z"
+   "last_success_at": "2026-11-14T00:51:40Z"
   },
   "inflation_us": {
    "status": "ancienne valeur",
@@ -182,7 +182,7 @@
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-13T01:01:43Z",
+   "fetched_at": "2026-11-14T00:51:40Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,15 +194,21 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-13T01:01:43Z"
+   "last_success_at": "2026-11-14T00:51:40Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-13T01:01:43Z",
+   "fetched_at": "2026-11-14T00:51:40Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Isabel Schnabel: Made in Europe",
+     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
+     "published": "2026-11-13T07:20:00Z",
+     "source": "BCE"
+    },
     {
      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
@@ -244,25 +250,25 @@
      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
      "published": "2026-11-04T00:00:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
-     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
-     "published": "2026-11-02T09:30:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-13T01:01:43Z"
+   "last_success_at": "2026-11-14T00:51:40Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-13T01:01:43Z",
+   "fetched_at": "2026-11-14T00:51:40Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Agencies extend comment period for proposed third-party risk management guidance",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
+     "published": "2026-11-13T21:15:00Z",
+     "source": "Fed"
+    },
     {
      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
@@ -304,25 +310,25 @@
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
      "published": "2026-10-28T18:00:00Z",
      "source": "Fed"
-    },
-    {
-     "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
-     "published": "2026-10-16T15:00:00Z",
-     "source": "Fed"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-13T01:01:43Z"
+   "last_success_at": "2026-11-14T00:51:40Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-13T01:01:43Z",
+   "fetched_at": "2026-11-14T00:51:40Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
+     "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
+     "published": "2026-11-13T09:00:00Z",
+     "source": "BoE"
+    },
     {
      "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026",
      "url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026",
@@ -364,32 +370,159 @@
      "url": "https://www.bankofengland.co.uk/letter/2026/mpc-remit-2026",
      "published": "2026-10-28T14:16:49Z",
      "source": "BoE"
-    },
-    {
-     "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
-     "url": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
-     "published": "2026-10-22T20:00:00Z",
-     "source": "BoE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-13T01:01:43Z"
+   "last_success_at": "2026-11-14T00:51:40Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-13T01:01:43Z",
+   "fetched_at": "2026-11-14T00:51:40Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Traders Show Bearish Sentiment as Tesla (TSLA) Dips Amid Options Market Activity",
-     "url": "https://www.gurufocus.com/news/9195451/traders-show-bearish-sentiment-as-tesla-tsla-dips-amid-options-market-activity",
-     "published": "2026-11-12T19:25:51Z",
-     "source": "gurufocus.com",
+     "title": "US stocks: S&P 500, Nasdaq close lower as Nvidia woes and rate-hike bets pressure US market",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-sp-500-nasdaq-close-lower-as-rate-hike-bets-pressure-tech-shares/articleshow/135815984.cms",
+     "published": "2026-11-13T21:12:21Z",
+     "source": "economictimes.indiatimes.com",
+     "symbol": "MSFT",
+     "sentiment": 0.8047,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Tech Sector Drag and Inflation Jitters: Markets Close Lower as Retail Earnings Loom",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-drag-and-inflation-jitters-markets-close-lower-as-retail-earnings-loom/74660/",
+     "published": "2026-11-13T21:07:14Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "MSFT",
+     "sentiment": -0.4767,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Moderna, Inc. (MRNA) Analyst/Investor Day - Slideshow",
+     "url": "https://seekingalpha.com/article/4968001-moderna-inc-mrna-analyst-investor-day-slideshow",
+     "published": "2026-11-13T20:35:56Z",
+     "source": "seekingalpha.com",
+     "symbol": "MRNA",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
+    },
+    {
+     "title": "Tech Slump and Yield Pressures Weigh on Wall Street in Friday Afternoon Trading",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-slump-and-yield-pressures-weigh-on-wall-street-in-friday-afternoon-trading/74654/",
+     "published": "2026-11-13T19:07:12Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "MSFT",
+     "sentiment": -0.0516,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Nvidia approached Arm CEO Haas to succeed Huang, FT reports",
+     "url": "https://www.livemint.com/companies/nvidia-approached-arm-ceo-haas-to-succeed-huang-ft-reports-11794594915438.html",
+     "published": "2026-11-13T18:35:14Z",
+     "source": "livemint.com",
+     "symbol": "AAPL",
+     "sentiment": 0.067433,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Jensen Resigns, Sequoia Pulls Back to the Bay, and Anthropic’s IPO Draws 6x Demand: The Top Takeaways from 20VC x SaaStr",
+     "url": "https://www.saastr.com/jensen-resigns-sequoia-pulls-back-to-the-bay-and-anthropics-ipo-draws-6x-demand-the-top-takeaways-from-20vc-x-saastr/",
+     "published": "2026-11-13T17:25:27Z",
+     "source": "saastr.com",
+     "symbol": "AAPL",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Texas’ Next AG Vows ‘Tremendous Scrutiny’ of Tesla-SpaceX Deal",
+     "url": "https://www.insurancejournal.com/news/southcentral/2026/11/13/892594.htm",
+     "published": "2026-11-13T16:57:23Z",
+     "source": "insurancejournal.com",
      "symbol": "TSLA",
-     "sentiment": 0.5429,
+     "sentiment": 0.1767,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Anthropic IPO Frenzy and Nvidia Leadership Uncertainty Dominate Market Sentiment",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/anthropic-ipo-frenzy-and-nvidia-leadership-uncertainty-dominate-market-sentiment/74647/",
+     "published": "2026-11-13T16:38:22Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "GOOGL",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Apple: A Downgrade To Hold Would Be A Wise Move Before Q1",
+     "url": "https://seekingalpha.com/article/4967866-apple-a-downgrade-to-hold-would-be-a-wise-move-before-q1",
+     "published": "2026-11-13T16:15:44Z",
+     "source": "seekingalpha.com",
+     "symbol": "AAPL",
+     "sentiment": 0.51705,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Alphabet: 265 Billion Reasons Not To Worry About The CapEx Burn",
+     "url": "https://seekingalpha.com/article/4967818-alphabet-265-billion-reasons-not-to-worry-about-the-capex-burn",
+     "published": "2026-11-13T15:21:17Z",
+     "source": "seekingalpha.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.532933,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Futures Rise As Wall Street Moves On From Jensen, Microsoft Outage Drags Into Day Two",
+     "url": "https://www.zerohedge.com/markets/futures-rise-wall-street-moves-jensen-microsoft-outage-drags-day-two",
+     "published": "2026-11-13T13:29:04Z",
+     "source": "zerohedge.com",
+     "symbol": "GOOGL",
+     "sentiment": -0.41695,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Is the AI bubble bursting just as Anthropic goes public?",
+     "url": "https://www.dw.com/en/is-the-ai-bubble-bursting-just-as-anthropic-goes-public/a-79896537?maca=en-RSS_en_Feedly_Business-8965-xml-mrss",
+     "published": "2026-11-13T12:27:00Z",
+     "source": "dw.com",
+     "symbol": "TSLA",
+     "sentiment": 0.872,
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
@@ -405,30 +538,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "PLTR"
-     ]
-    },
-    {
-     "title": "Nasdaq Futures Slide As Nvidia Board Hunts For Huang's Replacement, Rivals Feast",
-     "url": "https://www.zerohedge.com/markets/nasdaq-futures-slide-nvidia-board-hunts-huangs-replacement-rivals-feast",
-     "published": "2026-11-12T13:27:54Z",
-     "source": "zerohedge.com",
-     "symbol": "TSLA",
-     "sentiment": -0.128,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Nasdaq, S&P 500 futures fall as Nvidia turbulence unsettles AI stocks",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-sp-500-futures-fall-as-nvidia-turbulence-unsettles-ai-stocks/articleshow/135771074.cms",
-     "published": "2026-11-12T13:14:54Z",
-     "source": "economictimes.indiatimes.com",
-     "symbol": "TSLA",
-     "sentiment": 0.891,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
      ]
     },
     {
@@ -468,6 +577,18 @@
      ]
     },
     {
+     "title": "American Express Company (AXP) Presents at KBW Fintech Ecosystem Conference 2026 Transcript",
+     "url": "https://seekingalpha.com/article/4966625-american-express-company-axp-presents-at-kbw-fintech-ecosystem-conference-2026-transcript",
+     "published": "2026-11-11T19:58:56Z",
+     "source": "seekingalpha.com",
+     "symbol": "AXP",
+     "sentiment": 0.37305,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AXP"
+     ]
+    },
+    {
      "title": "Siemens Energy AG (SMERY) Q4 2026 Earnings Call Transcript",
      "url": "https://seekingalpha.com/article/4966406-siemens-energy-ag-smery-q4-2026-earnings-call-transcript",
      "published": "2026-11-11T16:39:10Z",
@@ -504,15 +625,15 @@
      ]
     },
     {
-     "title": "MRNA Maintained by Goldman Sachs -- Price Target Raised to $195",
-     "url": "https://www.gurufocus.com/news/9185692/mrna-maintained-by-goldman-sachs-price-target-raised-to-195",
-     "published": "2026-11-09T18:34:51Z",
+     "title": "Senator Warren Proposes 10% Credit Card Interest Cap as Capital One (COF) Shares Dip",
+     "url": "https://www.gurufocus.com/news/9185821/senator-warren-proposes-10-credit-card-interest-cap-as-capital-one-cof-shares-dip",
+     "published": "2026-11-09T19:56:32Z",
      "source": "gurufocus.com",
-     "symbol": "MRNA",
-     "sentiment": 0.212867,
+     "symbol": "AXP",
+     "sentiment": 0.60215,
      "envelope": "CTO 1",
      "symbols": [
-      "MRNA"
+      "AXP"
      ]
     },
     {
@@ -561,6 +682,18 @@
      "envelope": "CTO 1",
      "symbols": [
       "PLTR"
+     ]
+    },
+    {
+     "title": "U.S. Stocks May Move In Opposite Directions In Early Trading",
+     "url": "https://www.rttnews.com/story.aspx?Id=3710632",
+     "published": "2026-11-05T13:57:29Z",
+     "source": "rttnews.com",
+     "symbol": "AXP",
+     "sentiment": 0.4939,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AXP"
      ]
     },
     {
@@ -710,7 +843,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-13T01:01:43Z"
+   "last_success_at": "2026-11-14T00:51:40Z"
   }
  }
 }
