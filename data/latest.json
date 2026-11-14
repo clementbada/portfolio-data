@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-14T00:51:40Z",
+ "generated_at": "2026-11-14T23:52:32Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-14T00:51:40Z",
+   "fetched_at": "2026-11-14T23:52:32Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
@@ -36,13 +36,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-14T00:51:40Z"
+   "last_success_at": "2026-11-14T23:52:32Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-14T00:51:40Z",
+   "fetched_at": "2026-11-14T23:52:32Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
@@ -54,13 +54,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-14T00:51:40Z"
+   "last_success_at": "2026-11-14T23:52:32Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-14T00:51:40Z",
+   "fetched_at": "2026-11-14T23:52:32Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
@@ -72,13 +72,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-14T00:51:40Z"
+   "last_success_at": "2026-11-14T23:52:32Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-14T00:51:40Z",
+   "fetched_at": "2026-11-14T23:52:32Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-14T00:51:40Z"
+   "last_success_at": "2026-11-14T23:52:32Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-14T00:51:40Z",
+   "fetched_at": "2026-11-14T23:52:32Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,7 +156,7 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-14T00:51:40Z"
+   "last_success_at": "2026-11-14T23:52:32Z"
   },
   "inflation_us": {
    "status": "ancienne valeur",
@@ -182,7 +182,7 @@
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-14T00:51:40Z",
+   "fetched_at": "2026-11-14T23:52:32Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,13 +194,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-14T00:51:40Z"
+   "last_success_at": "2026-11-14T23:52:32Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-14T00:51:40Z",
+   "fetched_at": "2026-11-14T23:52:32Z",
    "from_cache": false,
    "data": [
     {
@@ -254,13 +254,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-14T00:51:40Z"
+   "last_success_at": "2026-11-14T23:52:32Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-14T00:51:40Z",
+   "fetched_at": "2026-11-14T23:52:32Z",
    "from_cache": false,
    "data": [
     {
@@ -314,13 +314,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-14T00:51:40Z"
+   "last_success_at": "2026-11-14T23:52:32Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-14T00:51:40Z",
+   "fetched_at": "2026-11-14T23:52:32Z",
    "from_cache": false,
    "data": [
     {
@@ -374,37 +374,135 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-14T00:51:40Z"
+   "last_success_at": "2026-11-14T23:52:32Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-14T00:51:40Z",
+   "fetched_at": "2026-11-14T23:52:32Z",
    "from_cache": false,
    "data": [
     {
-     "title": "US stocks: S&P 500, Nasdaq close lower as Nvidia woes and rate-hike bets pressure US market",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-sp-500-nasdaq-close-lower-as-rate-hike-bets-pressure-tech-shares/articleshow/135815984.cms",
-     "published": "2026-11-13T21:12:21Z",
-     "source": "economictimes.indiatimes.com",
+     "title": "JPMorgan Loses Card Chief Allison Beer to ‘External Opportunity’",
+     "url": "https://www.livemint.com/companies/jpmorgan-loses-card-chief-allison-beer-to-external-opportunity-11794685827439.html",
+     "published": "2026-11-14T19:50:26Z",
+     "source": "livemint.com",
+     "symbol": "AAPL",
+     "sentiment": 0.9136,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "What they say on their India plans",
+     "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/what-they-say-on-their-india-plans/article71698888.ece",
+     "published": "2026-11-14T16:35:23Z",
+     "source": "thehindubusinessline.com",
+     "symbol": "ENR.DE",
+     "sentiment": 0.5994,
+     "envelope": "PEA",
+     "symbols": [
+      "ENR.DE"
+     ]
+    },
+    {
+     "title": "SpaceX’s S&P 500 bid gets new life as Elon Musk pitches Tesla merger",
+     "url": "https://www.livemint.com/companies/news/spacexs-s-p-500-bid-gets-new-life-as-elon-musk-pitches-tesla-merger-11794670926716.html",
+     "published": "2026-11-14T15:58:16Z",
+     "source": "livemint.com",
+     "symbol": "TSLA",
+     "sentiment": 0.210333,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Here’s Why Tesla (TSLA) Is One of the Top High P/E Stocks Under the 200-Day SMA",
+     "url": "https://www.insidermonkey.com/news/heres-why-tesla-tsla-is-one-of-the-top-high-p-e-stocks-under-the-200-day-sma-1865367/",
+     "published": "2026-11-14T15:29:51Z",
+     "source": "insidermonkey.com",
+     "symbol": "TSLA",
+     "sentiment": 0.2023,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "La semaine gros rebonds des actions mais hausse des taux longs",
+     "url": "https://brunobertez.com/2026/11/14/la-semaine-gros-rebonds-des-actions-mais-hausse-des-taux-longs/",
+     "published": "2026-11-14T13:48:26Z",
+     "source": "brunobertez.com",
      "symbol": "MSFT",
-     "sentiment": 0.8047,
+     "sentiment": null,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "Tech Sector Drag and Inflation Jitters: Markets Close Lower as Retail Earnings Loom",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-drag-and-inflation-jitters-markets-close-lower-as-retail-earnings-loom/74660/",
-     "published": "2026-11-13T21:07:14Z",
-     "source": "thestockmarketwatch.com",
+     "title": "What Moved Markets This Week",
+     "url": "https://seekingalpha.com/article/4968196-what-moved-markets-this-week",
+     "published": "2026-11-14T13:26:34Z",
+     "source": "seekingalpha.com",
+     "symbol": "AAPL",
+     "sentiment": -0.3182,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL",
+      "MRNA"
+     ]
+    },
+    {
+     "title": "Tesla and Amazon are building the workforce a 1921 play imagined: One that never asks for a wage",
+     "url": "https://fortune.com/2026/11/14/capek-rur-humanoid-robots-tesla-optimus-amazon-agility/",
+     "published": "2026-11-14T13:26:00Z",
+     "source": "fortune.com",
+     "symbol": "TSLA",
+     "sentiment": 0.288983,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Software company with thousands of Fortune 500 clients joins Microsoft in experiencing major outage",
+     "url": "https://www.foxbusiness.com/technology/software-company-thousands-fortune-500-clients-joins-microsoft-experiencing-major-outage",
+     "published": "2026-11-14T13:13:18Z",
+     "source": "foxbusiness.com",
      "symbol": "MSFT",
-     "sentiment": -0.4767,
+     "sentiment": -0.02512,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
+     ]
+    },
+    {
+     "title": "Anthropic IPO draws six times demand, but valuation remains under scrutiny",
+     "url": "https://timesofindia.indiatimes.com/business/international-business/anthropic-ipo-draws-six-times-demand-but-valuation-remains-under-scrutiny/articleshow/135830462.cms",
+     "published": "2026-11-14T10:52:57Z",
+     "source": "timesofindia.indiatimes.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.273,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Nvidia approaches Arm CEO Rene Haas as employees seek Huang's return",
+     "url": "https://www.business-standard.com/world-news/nvidia-approaches-arm-ceo-rene-haas-as-employees-seek-huang-s-return-126111400075_1.html",
+     "published": "2026-11-14T02:55:28Z",
+     "source": "business-standard.com",
+     "symbol": "AAPL",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
      ]
     },
     {
@@ -420,54 +518,6 @@
      ]
     },
     {
-     "title": "Tech Slump and Yield Pressures Weigh on Wall Street in Friday Afternoon Trading",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-slump-and-yield-pressures-weigh-on-wall-street-in-friday-afternoon-trading/74654/",
-     "published": "2026-11-13T19:07:12Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "MSFT",
-     "sentiment": -0.0516,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Nvidia approached Arm CEO Haas to succeed Huang, FT reports",
-     "url": "https://www.livemint.com/companies/nvidia-approached-arm-ceo-haas-to-succeed-huang-ft-reports-11794594915438.html",
-     "published": "2026-11-13T18:35:14Z",
-     "source": "livemint.com",
-     "symbol": "AAPL",
-     "sentiment": 0.067433,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Jensen Resigns, Sequoia Pulls Back to the Bay, and Anthropic’s IPO Draws 6x Demand: The Top Takeaways from 20VC x SaaStr",
-     "url": "https://www.saastr.com/jensen-resigns-sequoia-pulls-back-to-the-bay-and-anthropics-ipo-draws-6x-demand-the-top-takeaways-from-20vc-x-saastr/",
-     "published": "2026-11-13T17:25:27Z",
-     "source": "saastr.com",
-     "symbol": "AAPL",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Texas’ Next AG Vows ‘Tremendous Scrutiny’ of Tesla-SpaceX Deal",
-     "url": "https://www.insurancejournal.com/news/southcentral/2026/11/13/892594.htm",
-     "published": "2026-11-13T16:57:23Z",
-     "source": "insurancejournal.com",
-     "symbol": "TSLA",
-     "sentiment": 0.1767,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
      "title": "Anthropic IPO Frenzy and Nvidia Leadership Uncertainty Dominate Market Sentiment",
      "url": "https://www2.stockmarketwatch.com/stock-market-news/anthropic-ipo-frenzy-and-nvidia-leadership-uncertainty-dominate-market-sentiment/74647/",
      "published": "2026-11-13T16:38:22Z",
@@ -480,18 +530,6 @@
      ]
     },
     {
-     "title": "Apple: A Downgrade To Hold Would Be A Wise Move Before Q1",
-     "url": "https://seekingalpha.com/article/4967866-apple-a-downgrade-to-hold-would-be-a-wise-move-before-q1",
-     "published": "2026-11-13T16:15:44Z",
-     "source": "seekingalpha.com",
-     "symbol": "AAPL",
-     "sentiment": 0.51705,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
      "title": "Alphabet: 265 Billion Reasons Not To Worry About The CapEx Burn",
      "url": "https://seekingalpha.com/article/4967818-alphabet-265-billion-reasons-not-to-worry-about-the-capex-burn",
      "published": "2026-11-13T15:21:17Z",
@@ -501,31 +539,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL"
-     ]
-    },
-    {
-     "title": "Futures Rise As Wall Street Moves On From Jensen, Microsoft Outage Drags Into Day Two",
-     "url": "https://www.zerohedge.com/markets/futures-rise-wall-street-moves-jensen-microsoft-outage-drags-day-two",
-     "published": "2026-11-13T13:29:04Z",
-     "source": "zerohedge.com",
-     "symbol": "GOOGL",
-     "sentiment": -0.41695,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Is the AI bubble bursting just as Anthropic goes public?",
-     "url": "https://www.dw.com/en/is-the-ai-bubble-bursting-just-as-anthropic-goes-public/a-79896537?maca=en-RSS_en_Feedly_Business-8965-xml-mrss",
-     "published": "2026-11-13T12:27:00Z",
-     "source": "dw.com",
-     "symbol": "TSLA",
-     "sentiment": 0.872,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
      ]
     },
     {
@@ -565,18 +578,6 @@
      ]
     },
     {
-     "title": "Blackstone puts up $1.5 billion for Pfizer obesity drug studies",
-     "url": "https://www.thehindubusinessline.com/companies/blackstone-puts-up-15-billion-for-pfizer-obesity-drug-studies/article71692286.ece",
-     "published": "2026-11-12T05:02:33Z",
-     "source": "thehindubusinessline.com",
-     "symbol": "MRNA",
-     "sentiment": 0.8974,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
-     ]
-    },
-    {
      "title": "American Express Company (AXP) Presents at KBW Fintech Ecosystem Conference 2026 Transcript",
      "url": "https://seekingalpha.com/article/4966625-american-express-company-axp-presents-at-kbw-fintech-ecosystem-conference-2026-transcript",
      "published": "2026-11-11T19:58:56Z",
@@ -607,18 +608,6 @@
      "source": "seekingalpha.com",
      "symbol": "ENR.DE",
      "sentiment": 0.4721,
-     "envelope": "PEA",
-     "symbols": [
-      "ENR.DE"
-     ]
-    },
-    {
-     "title": "Siemens Energy AG 2026 Q4 - Results - Earnings Call Presentation (OTCMKTS:SMERY) 2026-11-11",
-     "url": "https://seekingalpha.com/article/4966365-siemens-energy-ag-2026-q4-results-earnings-call-presentation",
-     "published": "2026-11-11T10:31:36Z",
-     "source": "seekingalpha.com",
-     "symbol": "ENR.DE",
-     "sentiment": 0,
      "envelope": "PEA",
      "symbols": [
       "ENR.DE"
@@ -843,7 +832,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-14T00:51:40Z"
+   "last_success_at": "2026-11-14T23:52:32Z"
   }
  }
 }
