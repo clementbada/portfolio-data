@@ -1,7 +1,7 @@
-# Point marchés — 2026-11-14
+# Point marchés — 2026-11-15
 
 - EUR/USD : 1.1052 USD (2026-11-13)
-- Taux de dépôt BCE : 2.50 % (2026-11-14)
+- Taux de dépôt BCE : 2.50 % (2026-11-15)
 - 10 ans zone euro AAA : 3.37 % (2026-11-12)
 - Inflation : EA 4.0 % a/a (2026-10) · FR 3.8 % a/a (2026-10) · US 3.7 % a/a (2026-09)
 
@@ -17,11 +17,11 @@
 - [Fed] Federal Reserve Board issues enforcement action with former employee of United Community Bank (2026-11-12)
 
 ## Actualités du portefeuille
+- [AAPL] The ETF Educator (2026-11-15)
+- [TSLA] p.8 IPO SpaceX : opportunité spéculative ou valorisation excessive ? (2026-11-15)
+- [GOOGL] Alphabet: AI Hasn't Killed Search, It's Rebuilt It (2026-11-15)
+- [MSFT] Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot (2026-11-15)
+- [GOOGL] Data Centre Construction Stocks Lose $4.2tn as Boom in AI Trade Unravels (2026-11-15)
+- [TSLA] Tesla makes major Cybercab announcement as driverless vehicle goes on sale (2026-11-15)
+- [MSFT] What We’re Reading (Week Ending 15 November 2026) : The Good Investors % (2026-11-15)
 - [AAPL] JPMorgan Loses Card Chief Allison Beer to ‘External Opportunity’ (2026-11-14)
-- [ENR.DE] What they say on their India plans (2026-11-14)
-- [TSLA] SpaceX’s S&P 500 bid gets new life as Elon Musk pitches Tesla merger (2026-11-14)
-- [TSLA] Here’s Why Tesla (TSLA) Is One of the Top High P/E Stocks Under the 200-Day SMA (2026-11-14)
-- [MSFT] La semaine gros rebonds des actions mais hausse des taux longs (2026-11-14)
-- [AAPL] What Moved Markets This Week (2026-11-14)
-- [TSLA] Tesla and Amazon are building the workforce a 1921 play imagined: One that never asks for a wage (2026-11-14)
-- [MSFT] Software company with thousands of Fortune 500 clients joins Microsoft in experiencing major outage (2026-11-14)
