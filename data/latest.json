@@ -1,84 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-15T23:56:43Z",
+ "generated_at": "2026-11-17T02:53:47Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-15T23:56:43Z",
+   "fetched_at": "2026-11-17T02:53:47Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.1052,
+     "value": 1.1014,
      "unit": "USD",
-     "as_of": "2026-11-13",
+     "as_of": "2026-11-16",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83559,
+     "value": 0.8345,
      "unit": "GBP",
-     "as_of": "2026-11-13",
+     "as_of": "2026-11-16",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 176.83,
+     "value": 175.78,
      "unit": "JPY",
-     "as_of": "2026-11-13",
+     "as_of": "2026-11-16",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9266,
+     "value": 0.9244,
      "unit": "CHF",
-     "as_of": "2026-11-13",
+     "as_of": "2026-11-16",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-15T23:56:43Z"
+   "last_success_at": "2026-11-17T02:53:47Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-15T23:56:43Z",
+   "fetched_at": "2026-11-17T02:53:47Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-15",
+     "as_of": "2026-11-17",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-15T23:56:43Z"
+   "last_success_at": "2026-11-17T02:53:47Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-15T23:56:43Z",
+   "fetched_at": "2026-11-17T02:53:47Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.367,
+     "value": 3.412,
      "unit": "%",
-     "as_of": "2026-11-12",
+     "as_of": "2026-11-13",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-15T23:56:43Z"
+   "last_success_at": "2026-11-17T02:53:47Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-15T23:56:43Z",
+   "fetched_at": "2026-11-17T02:53:47Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-15T23:56:43Z"
+   "last_success_at": "2026-11-17T02:53:47Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-15T23:56:43Z",
+   "fetched_at": "2026-11-17T02:53:47Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,7 +156,7 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-15T23:56:43Z"
+   "last_success_at": "2026-11-17T02:53:47Z"
   },
   "inflation_us": {
    "status": "ancienne valeur",
@@ -182,7 +182,7 @@
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-15T23:56:43Z",
+   "fetched_at": "2026-11-17T02:53:47Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,15 +194,27 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-15T23:56:43Z"
+   "last_success_at": "2026-11-17T02:53:47Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-15T23:56:43Z",
+   "fetched_at": "2026-11-17T02:53:47Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Frank Elderson: Smart supervision for small banks",
+     "url": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261116_1~11dd7f62af.en.html",
+     "published": "2026-11-16T13:00:00Z",
+     "source": "BCE"
+    },
+    {
+     "title": "Boris Vujčić: Risks and resilience in the euro area financial system",
+     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+     "published": "2026-11-16T08:30:00Z",
+     "source": "BCE"
+    },
     {
      "title": "Isabel Schnabel: Made in Europe",
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
@@ -238,29 +250,17 @@
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
      "published": "2026-11-05T08:00:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "Piero Cipollone: Shaping the future of money",
-     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
-     "published": "2026-11-05T07:30:00Z",
-     "source": "BCE"
-    },
-    {
-     "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
-     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
-     "published": "2026-11-04T00:00:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-15T23:56:43Z"
+   "last_success_at": "2026-11-17T02:53:47Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-15T23:56:43Z",
+   "fetched_at": "2026-11-17T02:53:47Z",
    "from_cache": false,
    "data": [
     {
@@ -314,13 +314,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-15T23:56:43Z"
+   "last_success_at": "2026-11-17T02:53:47Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-15T23:56:43Z",
+   "fetched_at": "2026-11-17T02:53:47Z",
    "from_cache": false,
    "data": [
     {
@@ -374,111 +374,205 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-15T23:56:43Z"
+   "last_success_at": "2026-11-17T02:53:47Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-15T23:56:43Z",
+   "fetched_at": "2026-11-17T02:53:47Z",
    "from_cache": false,
    "data": [
     {
-     "title": "The ETF Educator",
-     "url": "https://theetfeducator.com/2026/11/15/etf-buzz-335/",
-     "published": "2026-11-15T17:43:41Z",
-     "source": "theetfeducator.com",
-     "symbol": "AAPL",
-     "sentiment": 0.5103,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL",
-      "TSLA"
-     ]
-    },
-    {
-     "title": "p.8 IPO SpaceX : opportunité spéculative ou valorisation excessive ?",
-     "url": "https://www.investisseurs-heureux.fr/t32905-8#p661123",
-     "published": "2026-11-15T13:29:32Z",
-     "source": "devenir-rentier.fr",
-     "symbol": "TSLA",
-     "sentiment": null,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Alphabet: AI Hasn't Killed Search, It's Rebuilt It",
-     "url": "https://seekingalpha.com/article/4968350-alphabet-ai-hasnt-killed-search-its-rebuilt-it",
-     "published": "2026-11-15T13:20:00Z",
-     "source": "seekingalpha.com",
+     "title": "US stocks fall as Nvidia-led sell-off pushes Nasdaq into correction",
+     "url": "https://www.thehindubusinessline.com/markets/stock-markets/nvidia-slides-41-as-us-tech-stocks-plunge-nasdaq-falls-25/article71710260.ece",
+     "published": "2026-11-17T02:23:36Z",
+     "source": "thehindubusinessline.com",
      "symbol": "GOOGL",
-     "sentiment": 0.605267,
+     "sentiment": 0.5859,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL"
      ]
     },
     {
-     "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
-     "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
-     "published": "2026-11-15T12:00:01Z",
-     "source": "cnbc.com",
-     "symbol": "MSFT",
-     "sentiment": 0.41695,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Data Centre Construction Stocks Lose $4.2tn as Boom in AI Trade Unravels",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/data-centre-construction-stocks-lose-4-2tn-as-boom-in-ai-trade-unravels/74705/",
-     "published": "2026-11-15T08:08:10Z",
-     "source": "thestockmarketwatch.com",
+     "title": "Apaloosa adds Oracle, exits Advanced Micro, raises stake in NVIDIA, cuts in Alphabet among Q3 moves",
+     "url": "https://seekingalpha.com/news/4673369-apaloosa-adds-oracle-exits-advanced-micro-raises-stake-in-nvidia-cuts-in-alphabet-among-q3-moves",
+     "published": "2026-11-16T23:02:27Z",
+     "source": "seekingalpha.com",
      "symbol": "GOOGL",
-     "sentiment": 0.4939,
+     "sentiment": 0.0992,
      "envelope": "CTO 1",
      "symbols": [
-      "GOOGL",
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Paulson & Co. adds NovaGold Resources, exits Alphabet, among Q3 moves",
+     "url": "https://seekingalpha.com/news/4673384-paulson-co-adds-novagold-resources-exits-alphabet-among-q3-moves",
+     "published": "2026-11-16T22:52:55Z",
+     "source": "seekingalpha.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.148,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Tech and AI Sectors Edge Higher as Markets Await Retail Earnings and Nvidia Results",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-ai-sectors-edge-higher-as-markets-await-retail-earnings-and-nvidia-results/74786/",
+     "published": "2026-11-16T22:07:15Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "AAPL",
+     "sentiment": 0.4404,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Microsoft (MSFT) Is One of NVIDIA’s Biggest Customers, and a Growing Rival",
+     "url": "https://www.insidermonkey.com/news/microsoft-msft-is-one-of-nvidias-biggest-customers-and-a-growing-rival-1866235/",
+     "published": "2026-11-16T21:30:25Z",
+     "source": "insidermonkey.com",
+     "symbol": "MSFT",
+     "sentiment": 0.12755,
+     "envelope": "CTO 1",
+     "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "Tesla makes major Cybercab announcement as driverless vehicle goes on sale",
-     "url": "https://www.foxbusiness.com/technology/tesla-makes-major-cybercab-announcement-driverless-vehicle-goes-sale",
-     "published": "2026-11-15T01:49:28Z",
-     "source": "foxbusiness.com",
+     "title": "Tech Resilience and AI Innovation Lead Mixed Market Session as Investors Eye Major Retail Earnings",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-resilience-and-ai-innovation-lead-mixed-market-session-as-investors-eye-major-retail-earnings/74782/",
+     "published": "2026-11-16T21:07:22Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "AAPL",
+     "sentiment": 0.296,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Top Analyst Reports for Taiwan Semiconductor, Johnson & Johnson and Palantir",
+     "url": "https://www.zacks.com/research-daily/3030141/top-analyst-reports-for-taiwan-semiconductor-johnson-johnson-and-palantir?cid=CS-ZC-FT-research_daily-3030141",
+     "published": "2026-11-16T20:59:00Z",
+     "source": "zacks.com",
+     "symbol": "PLTR",
+     "sentiment": 0.2732,
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
+     ]
+    },
+    {
+     "title": "AMD-Powered Lux Supercomputer Opens to Scientific Users at Oak Ridge, Becoming First AI Factory for DOE’s Genesis Mission",
+     "url": "https://www.manilatimes.net/2026/11/17/tmt-newswire/globenewswire/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge-becoming-first-ai-factory-for-does-genesis-mission/2471337",
+     "published": "2026-11-16T19:11:28Z",
+     "source": "manilatimes.net",
+     "symbol": "MSFT",
+     "sentiment": 0.2263,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Tech Rout and Semiconductor Slump Drag Markets Lower Ahead of Nvidia Earnings",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-rout-and-semiconductor-slump-drag-markets-lower-ahead-of-nvidia-earnings/74777/",
+     "published": "2026-11-16T19:07:25Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "AAPL",
+     "sentiment": 0.7213,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "A Struggling AI Trade Is Dragging Stocks Lower Ahead of Anthropic's IPO",
+     "url": "https://www.businessinsider.com/ai-stock-selloff-nvidia-q3-earnings-anthropic-ipo-2026-11",
+     "published": "2026-11-16T18:42:39Z",
+     "source": "businessinsider.com",
      "symbol": "TSLA",
-     "sentiment": 0.09905,
+     "sentiment": -0.5994,
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
      ]
     },
     {
-     "title": "What We’re Reading (Week Ending 15 November 2026) : The Good Investors %",
-     "url": "https://www.thegoodinvestors.sg/what-were-reading-week-ending-15-november-2026/",
-     "published": "2026-11-15T01:00:00Z",
-     "source": "thegoodinvestors.sg",
+     "title": "Nvidia Board Rejects Jensen Huang Return Amid National Security Probe; Markets Slump",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/nvidia-board-rejects-jensen-huang-return-amid-national-security-probe-markets-slump/74776/",
+     "published": "2026-11-16T18:38:17Z",
+     "source": "thestockmarketwatch.com",
      "symbol": "MSFT",
-     "sentiment": 0,
+     "sentiment": 0.7506,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "JPMorgan Loses Card Chief Allison Beer to ‘External Opportunity’",
-     "url": "https://www.livemint.com/companies/jpmorgan-loses-card-chief-allison-beer-to-external-opportunity-11794685827439.html",
-     "published": "2026-11-14T19:50:26Z",
-     "source": "livemint.com",
-     "symbol": "AAPL",
-     "sentiment": 0.9136,
+     "title": "Tesla: SpaceX Shares Are A Terrible Way To Get Paid",
+     "url": "https://seekingalpha.com/article/4968666-tesla-spacex-shares-are-a-terrible-way-to-get-paid",
+     "published": "2026-11-16T17:30:25Z",
+     "source": "seekingalpha.com",
+     "symbol": "TSLA",
+     "sentiment": 0.24605,
      "envelope": "CTO 1",
      "symbols": [
-      "AAPL"
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Modern Mining Technology (MDRN) Converts Debentures to Common Stock Ahead of NYSE American IPO",
+     "url": "https://www.gurufocus.com/news/9201465/modern-mining-technology-mdrn-converts-debentures-to-common-stock-ahead-of-nyse-american-ipo",
+     "published": "2026-11-16T13:52:49Z",
+     "source": "gurufocus.com",
+     "symbol": "WM",
+     "sentiment": 0.2263,
+     "envelope": "CTO 1",
+     "symbols": [
+      "WM"
+     ]
+    },
+    {
+     "title": "Futures Slide As Asian Chip Carnage Greets Nvidia's First Post-Huang Earnings Week",
+     "url": "https://www.zerohedge.com/markets/futures-slide-asian-chip-carnage-greets-nvidias-first-post-huang-earnings-week",
+     "published": "2026-11-16T13:22:05Z",
+     "source": "zerohedge.com",
+     "symbol": "TSLA",
+     "sentiment": -0.3818,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Proshares Trust (TQQQ) Buys $72.9 Million More Moderna on Nov. 12",
+     "url": "https://www.gurufocus.com/news/9201131/proshares-trust-tqqq-buys-729-million-more-moderna-on-nov-12",
+     "published": "2026-11-16T11:05:23Z",
+     "source": "gurufocus.com",
+     "symbol": "MRNA",
+     "sentiment": 0.56195,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
+    },
+    {
+     "title": "Moderna (MRNA) Sees $109.7 Million in Net ETF Buying on Nov. 12",
+     "url": "https://www.gurufocus.com/news/9201076/moderna-mrna-sees-1097-million-in-net-etf-buying-on-nov-12",
+     "published": "2026-11-16T11:00:53Z",
+     "source": "gurufocus.com",
+     "symbol": "MRNA",
+     "sentiment": 0.1602,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
      ]
     },
     {
@@ -498,33 +592,8 @@
      "url": "https://seekingalpha.com/article/4968196-what-moved-markets-this-week",
      "published": "2026-11-14T13:26:34Z",
      "source": "seekingalpha.com",
-     "symbol": "AAPL",
-     "sentiment": -0.3182,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL",
-      "MRNA"
-     ]
-    },
-    {
-     "title": "Anthropic IPO draws six times demand, but valuation remains under scrutiny",
-     "url": "https://timesofindia.indiatimes.com/business/international-business/anthropic-ipo-draws-six-times-demand-but-valuation-remains-under-scrutiny/articleshow/135830462.cms",
-     "published": "2026-11-14T10:52:57Z",
-     "source": "timesofindia.indiatimes.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.273,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Moderna, Inc. (MRNA) Analyst/Investor Day - Slideshow",
-     "url": "https://seekingalpha.com/article/4968001-moderna-inc-mrna-analyst-investor-day-slideshow",
-     "published": "2026-11-13T20:35:56Z",
-     "source": "seekingalpha.com",
      "symbol": "MRNA",
-     "sentiment": 0,
+     "sentiment": -0.2023,
      "envelope": "CTO 1",
      "symbols": [
       "MRNA"
@@ -552,18 +621,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "PLTR"
-     ]
-    },
-    {
-     "title": "MSCI Adds Moderna (MRNA) to World Index in November 2026 Review",
-     "url": "https://www.gurufocus.com/news/9194133/msci-adds-moderna-mrna-to-world-index-in-november-2026-review",
-     "published": "2026-11-12T10:56:10Z",
-     "source": "gurufocus.com",
-     "symbol": "MRNA",
-     "sentiment": 0.190571,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
      ]
     },
     {
@@ -636,30 +693,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "WM"
-     ]
-    },
-    {
-     "title": "Onterris (ONT) Expands Environmental Testing Footprint with Permian Basin Lab Acquisition",
-     "url": "https://www.gurufocus.com/news/9185416/onterris-ont-expands-environmental-testing-footprint-with-permian-basin-lab-acquisition",
-     "published": "2026-11-09T15:56:14Z",
-     "source": "gurufocus.com",
-     "symbol": "WM",
-     "sentiment": 0.5267,
-     "envelope": "CTO 1",
-     "symbols": [
-      "WM"
-     ]
-    },
-    {
-     "title": "Here is What to Know Beyond Why Palantir Technologies Inc. (PLTR) is a Trending Stock",
-     "url": "https://www.zacks.com/stock/news/3026220/here-is-what-to-know-beyond-why-palantir-technologies-inc-pltr-is-a-trending-stock?cid=CS-ZC-FT-fundamental_analysis|most_searched_stocks-3026220",
-     "published": "2026-11-09T13:00:03Z",
-     "source": "zacks.com",
-     "symbol": "PLTR",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
      ]
     },
     {
@@ -821,7 +854,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-15T23:56:43Z"
+   "last_success_at": "2026-11-17T02:53:47Z"
   }
  }
 }
