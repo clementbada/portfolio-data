@@ -1,88 +1,88 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-18T02:23:28Z",
+ "generated_at": "2026-11-19T01:51:09Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-18T02:23:28Z",
+   "fetched_at": "2026-11-19T01:51:09Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.0989,
+     "value": 1.0968,
      "unit": "USD",
-     "as_of": "2026-11-17",
+     "as_of": "2026-11-18",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83305,
+     "value": 0.8329,
      "unit": "GBP",
-     "as_of": "2026-11-17",
+     "as_of": "2026-11-18",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 175.05,
+     "value": 174.85,
      "unit": "JPY",
-     "as_of": "2026-11-17",
+     "as_of": "2026-11-18",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9233,
+     "value": 0.9243,
      "unit": "CHF",
-     "as_of": "2026-11-17",
+     "as_of": "2026-11-18",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-18T02:23:28Z"
+   "last_success_at": "2026-11-19T01:51:09Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-18T02:23:28Z",
+   "fetched_at": "2026-11-19T01:51:09Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-18T02:23:28Z"
+   "last_success_at": "2026-11-19T01:51:09Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-18T02:23:28Z",
+   "fetched_at": "2026-11-19T01:51:09Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.422,
+     "value": 3.425,
      "unit": "%",
-     "as_of": "2026-11-16",
+     "as_of": "2026-11-17",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-18T02:23:28Z"
+   "last_success_at": "2026-11-19T01:51:09Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-18T02:23:28Z",
+   "fetched_at": "2026-11-19T01:51:09Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
-     "value": 2.8,
+     "value": 2.9,
      "unit": "% a/a",
      "as_of": "2026-10",
      "label": "Inflation IPCH DE"
@@ -100,7 +100,7 @@
      "label": "Inflation IPCH ES"
     },
     "HICP_FR": {
-     "value": 3.8,
+     "value": 3.7,
      "unit": "% a/a",
      "as_of": "2026-10",
      "label": "Inflation IPCH FR"
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-18T02:23:28Z"
+   "last_success_at": "2026-11-19T01:51:09Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-18T02:23:28Z",
+   "fetched_at": "2026-11-19T01:51:09Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,7 +156,7 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-18T02:23:28Z"
+   "last_success_at": "2026-11-19T01:51:09Z"
   },
   "inflation_us": {
    "status": "ancienne valeur",
@@ -182,7 +182,7 @@
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-18T02:23:28Z",
+   "fetched_at": "2026-11-19T01:51:09Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,15 +194,27 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-18T02:23:28Z"
+   "last_success_at": "2026-11-19T01:51:09Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-18T02:23:28Z",
+   "fetched_at": "2026-11-19T01:51:09Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Boris Vujčić: Financial Stability Review - November 2026",
+     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
+     "published": "2026-11-18T09:00:00Z",
+     "source": "BCE"
+    },
+    {
+     "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+     "published": "2026-11-18T09:00:00Z",
+     "source": "BCE"
+    },
     {
      "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
@@ -238,31 +250,25 @@
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
      "published": "2026-11-10T14:00:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
-     "url": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
-     "published": "2026-11-07T14:00:00Z",
-     "source": "BCE"
-    },
-    {
-     "title": "ECB publishes consolidated banking data for end-June 2026",
-     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
-     "published": "2026-11-06T09:00:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-18T02:23:28Z"
+   "last_success_at": "2026-11-19T01:51:09Z"
   },
   "news_fed": {
-   "status": "ancienne valeur",
+   "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-17T02:53:47Z",
+   "fetched_at": "2026-11-19T01:51:09Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+     "published": "2026-11-18T19:00:00Z",
+     "source": "Fed"
+    },
     {
      "title": "Agencies extend comment period for proposed third-party risk management guidance",
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
@@ -304,25 +310,17 @@
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
      "published": "2026-10-29T20:30:00Z",
      "source": "Fed"
-    },
-    {
-     "title": "Federal Reserve issues FOMC statement",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-     "published": "2026-10-28T18:00:00Z",
-     "source": "Fed"
     }
    ],
-   "message": "Sources indisponibles — dernière valeur connue du 2026-11-17T02:53:47Z",
-   "errors": [
-    "RSS Fed : HTTP 404"
-   ],
-   "last_success_at": "2026-11-17T02:53:47Z"
+   "message": null,
+   "errors": [],
+   "last_success_at": "2026-11-19T01:51:09Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-18T02:23:28Z",
+   "fetched_at": "2026-11-19T01:51:09Z",
    "from_cache": false,
    "data": [
     {
@@ -376,58 +374,34 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-18T02:23:28Z"
+   "last_success_at": "2026-11-19T01:51:09Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-18T02:23:28Z",
+   "fetched_at": "2026-11-19T01:51:09Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Baseten Brings High-Performance Inference for Open Models to Microsoft Foundry",
-     "url": "https://www.manilatimes.net/2026/11/18/tmt-newswire/globenewswire/baseten-brings-high-performance-inference-for-open-models-to-microsoft-foundry/2472632",
-     "published": "2026-11-17T23:22:05Z",
-     "source": "manilatimes.net",
+     "title": "Anthropic Prices $81.3 Billion IPO at $83 Ahead of Nasdaq Debut",
+     "url": "https://financefeeds.com/anthropic-prices-81-3-billion-ipo-at-83-ahead-of-nasdaq-debut/",
+     "published": "2026-11-19T00:26:33Z",
+     "source": "financefeeds.com",
      "symbol": "MSFT",
-     "sentiment": 0.354382,
+     "sentiment": -0.2263,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "reAlpha (Nasdaq: AIRE) Reports Third-Quarter 2026 Financial Results",
-     "url": "https://www.manilatimes.net/2026/11/18/tmt-newswire/globenewswire/realpha-nasdaq-aire-reports-third-quarter-2026-financial-results/2472604",
-     "published": "2026-11-17T22:22:21Z",
-     "source": "manilatimes.net",
-     "symbol": "MSFT",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Tech and Retail Earnings Anchor Steady Session as Markets Await Nvidia Results",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-retail-earnings-anchor-steady-session-as-markets-await-nvidia-results/74847/",
-     "published": "2026-11-17T21:07:13Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "AAPL",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Anthropic is about to have the biggest IPO of all time: Is it too late to buy in?",
-     "url": "https://nypost.com/2026/11/17/business/is-it-too-late-to-participate-in-anthropics-big-ipo-on-nov-19/",
-     "published": "2026-11-17T21:00:00Z",
-     "source": "nypost.com",
+     "title": "‘70% chance’ we’re already in an AI bubble: The economist who said ‘not yet’ in January now sees all four horsemen of the bubble apocalypse",
+     "url": "https://fortune.com/2026/11/18/ai-bubble-owen-lamont-70-percent-four-horsemen-stock-issuance-anthropic-ipo/",
+     "published": "2026-11-18T22:00:00Z",
+     "source": "fortune.com",
      "symbol": "GOOGL",
-     "sentiment": 0.526,
+     "sentiment": 0.6705,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL",
@@ -435,40 +409,136 @@
      ]
     },
     {
-     "title": "NSA, Apple, Equinor Hit By Disruptions; FBI Warns Of State-Aligned Hackers As Feds Test Emergency System",
-     "url": "https://www.zerohedge.com/markets/nsas-spy-network-reportedly-goes-dark-sending-stocks-sliding",
-     "published": "2026-11-17T19:34:00Z",
-     "source": "zerohedge.com",
-     "symbol": "AAPL",
-     "sentiment": -0.730475,
+     "title": "Tech and Defense Sectors Rattle as Nvidia Rules Out Huang Return; Palo Alto Networks Makes $4.5B AI Bet",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-defense-sectors-rattle-as-nvidia-rules-out-huang-return-palo-alto-networks-makes-4-5b-ai-bet/74912/",
+     "published": "2026-11-18T21:08:20Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "MSFT",
+     "sentiment": 0.6908,
      "envelope": "CTO 1",
      "symbols": [
-      "AAPL",
       "MSFT"
      ]
     },
     {
-     "title": "Market Retreats as Volatility Spikes: Tech and Financials Lead Afternoon Slump",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/market-retreats-as-volatility-spikes-tech-and-financials-lead-afternoon-slump/74841/",
-     "published": "2026-11-17T19:07:23Z",
-     "source": "thestockmarketwatch.com",
+     "title": "OpenAI’s GPT-6.2 Astra and Sol Shake Up API Pricing",
+     "url": "https://financefeeds.com/openai-gpt-6-2-astra-and-sol-shake-up-api-pricing/",
+     "published": "2026-11-18T18:02:33Z",
+     "source": "financefeeds.com",
+     "symbol": "MSFT",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Roamly Announces Insurance for Tesla Cybercab",
+     "url": "https://www.manilatimes.net/2026/11/19/tmt-newswire/globenewswire/roamly-announces-insurance-for-tesla-cybercab/2473433",
+     "published": "2026-11-18T16:41:08Z",
+     "source": "manilatimes.net",
+     "symbol": "TSLA",
+     "sentiment": 0.260218,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "U.S. Battery Supply-Chain Shift Creates Opportunities for Non-China Suppliers; The GrowHub's Proposed EnChem Merger Positions TGHL for Growth",
+     "url": "https://www.manilatimes.net/2026/11/18/tmt-newswire/pr-newswire/us-battery-supply-chain-shift-creates-opportunities-for-non-china-suppliers-the-growhubs-proposed-enchem-merger-positions-tghl-for-growth/2473344",
+     "published": "2026-11-18T15:03:22Z",
+     "source": "manilatimes.net",
+     "symbol": "TSLA",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Moderna, Inc. (MRNA) Presents at Jefferies Global Healthcare Conference 2026 Transcript",
+     "url": "https://seekingalpha.com/article/4969559-moderna-inc-mrna-presents-at-jefferies-global-healthcare-conference-2026-transcript",
+     "published": "2026-11-18T13:52:49Z",
+     "source": "seekingalpha.com",
+     "symbol": "MRNA",
+     "sentiment": 0.38585,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA"
+     ]
+    },
+    {
+     "title": "L'Allemagne en puissance : Zoom sur les valeurs allemandes diponibles sur easybourse.com V0",
+     "url": "https://www.easybourse.com/financieres/article/34611/lallemagne-en-puissance...-zoom-sur-valeurs-allemandes-disponibles-sur-easybourse.com.html",
+     "published": "2026-11-18T13:32:34Z",
+     "source": "easybourse.com",
+     "symbol": "ENR.DE",
+     "sentiment": null,
+     "envelope": "PEA",
+     "symbols": [
+      "ENR.DE"
+     ]
+    },
+    {
+     "title": "Futures Rise As Huang-less Nvidia Beats And Raises, Gold Crashes Below $3,800",
+     "url": "https://www.zerohedge.com/markets/futures-rise-huang-less-nvidia-beats-and-raises-gold-crashes-below-3800",
+     "published": "2026-11-18T13:19:41Z",
+     "source": "zerohedge.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.3182,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Nasdaq Composite After Nvidia Beat, Fed Minutes Next",
+     "url": "https://financefeeds.com/nasdaq-composite-nvidia-fed-minutes/",
+     "published": "2026-11-18T13:19:16Z",
+     "source": "financefeeds.com",
      "symbol": "AAPL",
-     "sentiment": 0.4939,
+     "sentiment": 0.5709,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL"
      ]
     },
     {
-     "title": "Alphabet: Custom TPUs And The Multiyear Shift To AI Inference",
-     "url": "https://seekingalpha.com/article/4969189-alphabet-custom-tpus-and-the-multiyear-shift-to-ai-inference",
-     "published": "2026-11-17T18:28:15Z",
+     "title": "Xi-Trump-Putin Summit In Focus",
+     "url": "https://seekingalpha.com/article/4969481-xi-trump-putin-summit-in-focus",
+     "published": "2026-11-18T12:30:39Z",
      "source": "seekingalpha.com",
+     "symbol": "AAPL",
+     "sentiment": -0.7506,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Financial Planning Conversations Through AI Uncertainty",
+     "url": "https://www.kitces.com/blog/ai-uncertainty-financial-plan-portfolio-career-regret-minimization/",
+     "published": "2026-11-18T12:03:58Z",
+     "source": "kitces.com",
      "symbol": "GOOGL",
-     "sentiment": 0.31245,
+     "sentiment": -0.298867,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL"
+     ]
+    },
+    {
+     "title": "Recursion Announces Alignment with FDA on Registrational Phase 3 Trial Design for REC-4881 in Familial Adenomatous Polyposis",
+     "url": "https://www.manilatimes.net/2026/11/18/tmt-newswire/globenewswire/recursion-announces-alignment-with-fda-on-registrational-phase-3-trial-design-for-rec-4881-in-familial-adenomatous-polyposis/2472901",
+     "published": "2026-11-18T10:06:22Z",
+     "source": "manilatimes.net",
+     "symbol": "RXRX",
+     "sentiment": 0.121067,
+     "envelope": "CTO 1",
+     "symbols": [
+      "RXRX"
      ]
     },
     {
@@ -484,18 +554,6 @@
      ]
     },
     {
-     "title": "What Jensen Huang’s fall reveals about corporate governance",
-     "url": "https://www.csmonitor.com/Business/2026/1117/nvidia-jensen-huang-ceos-corporate-boards?icid=rss",
-     "published": "2026-11-17T16:57:00Z",
-     "source": "csmonitor.com",
-     "symbol": "GOOGL",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
      "title": "American Express Company (AXP): Resilient Affluent Spending and Durable Competitive Moat Drive Thesis",
      "url": "https://www.insidermonkey.com/news/american-express-company-axp-resilient-affluent-spending-and-durable-competitive-moat-drive-thesis-1866518/",
      "published": "2026-11-17T16:16:34Z",
@@ -505,30 +563,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "AXP"
-     ]
-    },
-    {
-     "title": "Tesla, Inc. (TSLA) is Attracting Investor Attention: Here is What You Should Know",
-     "url": "https://www.zacks.com/stock/news/3030944/tesla-inc-tsla-is-attracting-investor-attention-here-is-what-you-should-know?cid=CS-ZC-FT-fundamental_analysis|most_searched_stocks-3030944",
-     "published": "2026-11-17T13:00:05Z",
-     "source": "zacks.com",
-     "symbol": "TSLA",
-     "sentiment": 0.4767,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "The Fight Over Jensen Huang And Nvidia Earnings",
-     "url": "https://seekingalpha.com/article/4968979-the-fight-over-jensen-huang-and-nvidia-earnings",
-     "published": "2026-11-17T12:23:36Z",
-     "source": "seekingalpha.com",
-     "symbol": "TSLA",
-     "sentiment": 0.2023,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
      ]
     },
     {
@@ -562,18 +596,6 @@
      "source": "gurufocus.com",
      "symbol": "MRNA",
      "sentiment": 0.56195,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
-     ]
-    },
-    {
-     "title": "Moderna (MRNA) Sees $109.7 Million in Net ETF Buying on Nov. 12",
-     "url": "https://www.gurufocus.com/news/9201076/moderna-mrna-sees-1097-million-in-net-etf-buying-on-nov-12",
-     "published": "2026-11-16T11:00:53Z",
-     "source": "gurufocus.com",
-     "symbol": "MRNA",
-     "sentiment": 0.1602,
      "envelope": "CTO 1",
      "symbols": [
       "MRNA"
@@ -640,18 +662,6 @@
      ]
     },
     {
-     "title": "Siemens Energy AG (SMERY) Q4 2026 Press Conference Call Transcript",
-     "url": "https://seekingalpha.com/article/4966349-siemens-energy-ag-smery-q4-2026-press-conference-call-transcript",
-     "published": "2026-11-11T12:28:57Z",
-     "source": "seekingalpha.com",
-     "symbol": "ENR.DE",
-     "sentiment": 0.4721,
-     "envelope": "PEA",
-     "symbols": [
-      "ENR.DE"
-     ]
-    },
-    {
      "title": "Senator Warren Proposes 10% Credit Card Interest Cap as Capital One (COF) Shares Dip",
      "url": "https://www.gurufocus.com/news/9185821/senator-warren-proposes-10-credit-card-interest-cap-as-capital-one-cof-shares-dip",
      "published": "2026-11-09T19:56:32Z",
@@ -706,18 +716,6 @@
      "source": "seekingalpha.com",
      "symbol": "RXRX",
      "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "RXRX"
-     ]
-    },
-    {
-     "title": "Recursion Pharmaceuticals (RXRX) Reports Q3 Loss, Tops Revenue Estimates",
-     "url": "https://www.zacks.com/stock/news/3021239/recursion-pharmaceuticals-rxrx-reports-q3-loss-tops-revenue-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3021239",
-     "published": "2026-11-02T23:10:06Z",
-     "source": "zacks.com",
-     "symbol": "RXRX",
-     "sentiment": 0.25,
      "envelope": "CTO 1",
      "symbols": [
       "RXRX"
@@ -834,7 +832,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-18T02:23:28Z"
+   "last_success_at": "2026-11-19T01:51:09Z"
   }
  }
 }
