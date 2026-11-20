@@ -1,27 +1,27 @@
-# Point marchés — 2026-11-19
+# Point marchés — 2026-11-20
 
-- EUR/USD : 1.0968 USD (2026-11-18)
-- Taux de dépôt BCE : 2.50 % (2026-11-19)
-- 10 ans zone euro AAA : 3.42 % (2026-11-17)
+- EUR/USD : 1.0992 USD (2026-11-19)
+- Taux de dépôt BCE : 2.50 % (2026-11-20)
+- 10 ans zone euro AAA : 3.41 % (2026-11-18)
 - Inflation : EA 4.0 % a/a (2026-10) · FR 3.7 % a/a (2026-10) · US 3.7 % a/a (2026-09)
 
 ## Sources dégradées
 - ⚠️ inflation_us : Sources indisponibles — dernière valeur connue du 2026-11-10T02:40:58Z
 
 ## Derniers communiqués
+- [Fed] Federal Reserve Board issues enforcement action with former employee of First Security Bancorp (2026-11-19)
+- [BoE] Cyber resilience guidance consultation and AI and quantum effective practices (2026-11-19)
+- [BoE] Minutes of the Market Participants Group meeting – 18 November 2026 (2026-11-19)
 - [Fed] Minutes of the Federal Open Market Committee, October 27-28, 2026 (2026-11-18)
 - [BCE] Boris Vujčić: Financial Stability Review - November 2026 (2026-11-18)
 - [BCE] Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook (2026-11-18)
-- [BCE] Philip R. Lane: The practice and science of monetary policy communication: the ECB experience (2026-11-17)
-- [BCE] Frank Elderson: Smart supervision for small banks (2026-11-16)
-- [BCE] Boris Vujčić: Risks and resilience in the euro area financial system (2026-11-16)
 
 ## Actualités du portefeuille
-- [MSFT] Anthropic Prices $81.3 Billion IPO at $83 Ahead of Nasdaq Debut (2026-11-19)
-- [GOOGL] ‘70% chance’ we’re already in an AI bubble: The economist who said ‘not yet’ in January now sees all four horsemen of the bubble apocalypse (2026-11-18)
-- [MSFT] Tech and Defense Sectors Rattle as Nvidia Rules Out Huang Return; Palo Alto Networks Makes $4.5B AI Bet (2026-11-18)
-- [MSFT] OpenAI’s GPT-6.2 Astra and Sol Shake Up API Pricing (2026-11-18)
-- [TSLA] Roamly Announces Insurance for Tesla Cybercab (2026-11-18)
-- [TSLA] U.S. Battery Supply-Chain Shift Creates Opportunities for Non-China Suppliers; The GrowHub's Proposed EnChem Merger Positions TGHL for Growth (2026-11-18)
-- [MRNA] Moderna, Inc. (MRNA) Presents at Jefferies Global Healthcare Conference 2026 Transcript (2026-11-18)
-- [ENR.DE] L'Allemagne en puissance : Zoom sur les valeurs allemandes diponibles sur easybourse.com V0 (2026-11-18)
+- [AAPL] Anthropic's historic debut to put AI's promise and peril on Wall Street trial (2026-11-20)
+- [GOOGL] Anthropic IPO raises $107.3 billion as shares jump 17% (2026-11-19)
+- [GOOGL] Claude owner Anthropic (NASDAQ:ANT) share price soars 17% on IPO debut (2026-11-19)
+- [AAPL] Market Rout Deepens as Anthropic IPO Fails to Ignite AI Sentiment; Apple Enters Agent Race (2026-11-19)
+- [AAPL] Tech and Retail Earnings Take Center Stage Amid Marginal Market Pullback (2026-11-19)
+- [TSLA] Sound Ventures minted a $7 billion Anthropic stake. Ashton Kutcher left months before the IPO (2026-11-19)
+- [TSLA] Anthropic makes stock market debut: Who stands to gain from the blockbuster IPO? (2026-11-19)
+- [GOOGL] GOOGL, GOOG DEADLINE: ROSEN, SKILLED INVESTOR COUNSEL, Encourages Alphabet Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - GOOGL, GOOG (2026-11-19)

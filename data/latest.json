@@ -1,84 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-19T01:51:09Z",
+ "generated_at": "2026-11-20T01:45:20Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-19T01:51:09Z",
+   "fetched_at": "2026-11-20T01:45:20Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.0968,
+     "value": 1.0992,
      "unit": "USD",
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.8329,
+     "value": 0.83581,
      "unit": "GBP",
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 174.85,
+     "value": 175.84,
      "unit": "JPY",
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9243,
+     "value": 0.9262,
      "unit": "CHF",
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-19T01:51:09Z"
+   "last_success_at": "2026-11-20T01:45:20Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-19T01:51:09Z",
+   "fetched_at": "2026-11-20T01:45:20Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-19",
+     "as_of": "2026-11-20",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-19T01:51:09Z"
+   "last_success_at": "2026-11-20T01:45:20Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-19T01:51:09Z",
+   "fetched_at": "2026-11-20T01:45:20Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.425,
+     "value": 3.41,
      "unit": "%",
-     "as_of": "2026-11-17",
+     "as_of": "2026-11-18",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-19T01:51:09Z"
+   "last_success_at": "2026-11-20T01:45:20Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-19T01:51:09Z",
+   "fetched_at": "2026-11-20T01:45:20Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-19T01:51:09Z"
+   "last_success_at": "2026-11-20T01:45:20Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-19T01:51:09Z",
+   "fetched_at": "2026-11-20T01:45:20Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,7 +156,7 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-19T01:51:09Z"
+   "last_success_at": "2026-11-20T01:45:20Z"
   },
   "inflation_us": {
    "status": "ancienne valeur",
@@ -182,7 +182,7 @@
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-19T01:51:09Z",
+   "fetched_at": "2026-11-20T01:45:20Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,13 +194,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-19T01:51:09Z"
+   "last_success_at": "2026-11-20T01:45:20Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-19T01:51:09Z",
+   "fetched_at": "2026-11-20T01:45:20Z",
    "from_cache": false,
    "data": [
     {
@@ -254,15 +254,21 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-19T01:51:09Z"
+   "last_success_at": "2026-11-20T01:45:20Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-19T01:51:09Z",
+   "fetched_at": "2026-11-20T01:45:20Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+     "published": "2026-11-19T16:00:00Z",
+     "source": "Fed"
+    },
     {
      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
@@ -304,25 +310,31 @@
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
      "published": "2026-11-05T16:00:00Z",
      "source": "Fed"
-    },
-    {
-     "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-     "published": "2026-10-29T20:30:00Z",
-     "source": "Fed"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-19T01:51:09Z"
+   "last_success_at": "2026-11-20T01:45:20Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-19T01:51:09Z",
+   "fetched_at": "2026-11-20T01:45:20Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Cyber resilience guidance consultation and AI and quantum effective practices",
+     "url": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices",
+     "published": "2026-11-19T08:00:00Z",
+     "source": "BoE"
+    },
+    {
+     "title": "Minutes of the Market Participants Group meeting – 18 November 2026",
+     "url": "https://www.bankofengland.co.uk/minutes/2026/november/market-participants-group-meeting-18-november-2026",
+     "published": "2026-11-19T07:30:00Z",
+     "source": "BoE"
+    },
     {
      "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
      "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
@@ -358,102 +370,129 @@
      "url": "https://www.bankofengland.co.uk/minutes/2026/september/court-minutes-17-september-2026",
      "published": "2026-10-29T14:00:00Z",
      "source": "BoE"
-    },
-    {
-     "title": "Bank of England sets out approach to tokenised collateral in central clearing",
-     "url": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing",
-     "published": "2026-10-29T10:00:00Z",
-     "source": "BoE"
-    },
-    {
-     "title": "Remit for the Monetary Policy Committee - October 2026",
-     "url": "https://www.bankofengland.co.uk/letter/2026/mpc-remit-2026",
-     "published": "2026-10-28T14:16:49Z",
-     "source": "BoE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-19T01:51:09Z"
+   "last_success_at": "2026-11-20T01:45:20Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-19T01:51:09Z",
+   "fetched_at": "2026-11-20T01:45:20Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Anthropic Prices $81.3 Billion IPO at $83 Ahead of Nasdaq Debut",
-     "url": "https://financefeeds.com/anthropic-prices-81-3-billion-ipo-at-83-ahead-of-nasdaq-debut/",
-     "published": "2026-11-19T00:26:33Z",
-     "source": "financefeeds.com",
-     "symbol": "MSFT",
-     "sentiment": -0.2263,
+     "title": "Anthropic's historic debut to put AI's promise and peril on Wall Street trial",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-historic-debut-to-put-ais-promise-and-peril-on-wall-street-trial/articleshow/136009180.cms",
+     "published": "2026-11-20T00:48:29Z",
+     "source": "economictimes.indiatimes.com",
+     "symbol": "AAPL",
+     "sentiment": 0.5719,
      "envelope": "CTO 1",
      "symbols": [
+      "AAPL",
       "MSFT"
      ]
     },
     {
-     "title": "‘70% chance’ we’re already in an AI bubble: The economist who said ‘not yet’ in January now sees all four horsemen of the bubble apocalypse",
-     "url": "https://fortune.com/2026/11/18/ai-bubble-owen-lamont-70-percent-four-horsemen-stock-issuance-anthropic-ipo/",
-     "published": "2026-11-18T22:00:00Z",
-     "source": "fortune.com",
+     "title": "Anthropic IPO raises $107.3 billion as shares jump 17%",
+     "url": "https://www.thehindubusinessline.com/markets/stock-markets/anthropic-shares-surge-17-after-record-1073-billion-ipo-valuing-ai-firm-at-18-trillion/article71721993.ece",
+     "published": "2026-11-19T23:29:26Z",
+     "source": "thehindubusinessline.com",
      "symbol": "GOOGL",
-     "sentiment": 0.6705,
+     "sentiment": 0.1897,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL",
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Claude owner Anthropic (NASDAQ:ANT) share price soars 17% on IPO debut",
+     "url": "https://www.raskmedia.com.au/2026/11/20/claude-owner-anthropic-nasdaqant-share-price-soars-17-on-ipo-debut/",
+     "published": "2026-11-19T22:36:29Z",
+     "source": "raskmedia.com.au",
+     "symbol": "GOOGL",
+     "sentiment": 0.4037,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "MSFT",
       "TSLA"
      ]
     },
     {
-     "title": "Tech and Defense Sectors Rattle as Nvidia Rules Out Huang Return; Palo Alto Networks Makes $4.5B AI Bet",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-defense-sectors-rattle-as-nvidia-rules-out-huang-return-palo-alto-networks-makes-4-5b-ai-bet/74912/",
-     "published": "2026-11-18T21:08:20Z",
+     "title": "Market Rout Deepens as Anthropic IPO Fails to Ignite AI Sentiment; Apple Enters Agent Race",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/market-rout-deepens-as-anthropic-ipo-fails-to-ignite-ai-sentiment-apple-enters-agent-race/74981/",
+     "published": "2026-11-19T22:08:23Z",
      "source": "thestockmarketwatch.com",
-     "symbol": "MSFT",
-     "sentiment": 0.6908,
+     "symbol": "AAPL",
+     "sentiment": 0.159225,
      "envelope": "CTO 1",
      "symbols": [
-      "MSFT"
+      "AAPL"
      ]
     },
     {
-     "title": "OpenAI’s GPT-6.2 Astra and Sol Shake Up API Pricing",
-     "url": "https://financefeeds.com/openai-gpt-6-2-astra-and-sol-shake-up-api-pricing/",
-     "published": "2026-11-18T18:02:33Z",
-     "source": "financefeeds.com",
-     "symbol": "MSFT",
-     "sentiment": 0,
+     "title": "Tech and Retail Earnings Take Center Stage Amid Marginal Market Pullback",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-retail-earnings-take-center-stage-amid-marginal-market-pullback/74976/",
+     "published": "2026-11-19T21:07:14Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "AAPL",
+     "sentiment": 0.1027,
      "envelope": "CTO 1",
      "symbols": [
-      "MSFT"
+      "AAPL"
      ]
     },
     {
-     "title": "Roamly Announces Insurance for Tesla Cybercab",
-     "url": "https://www.manilatimes.net/2026/11/19/tmt-newswire/globenewswire/roamly-announces-insurance-for-tesla-cybercab/2473433",
-     "published": "2026-11-18T16:41:08Z",
-     "source": "manilatimes.net",
+     "title": "Sound Ventures minted a $7 billion Anthropic stake. Ashton Kutcher left months before the IPO",
+     "url": "https://fortune.com/2026/11/19/anthropic-ipo-sound-ventures-ashton-kutcher-7-billion-stake/",
+     "published": "2026-11-19T20:22:56Z",
+     "source": "fortune.com",
      "symbol": "TSLA",
-     "sentiment": 0.260218,
+     "sentiment": 0.5106,
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
      ]
     },
     {
-     "title": "U.S. Battery Supply-Chain Shift Creates Opportunities for Non-China Suppliers; The GrowHub's Proposed EnChem Merger Positions TGHL for Growth",
-     "url": "https://www.manilatimes.net/2026/11/18/tmt-newswire/pr-newswire/us-battery-supply-chain-shift-creates-opportunities-for-non-china-suppliers-the-growhubs-proposed-enchem-merger-positions-tghl-for-growth/2473344",
-     "published": "2026-11-18T15:03:22Z",
-     "source": "manilatimes.net",
+     "title": "Anthropic makes stock market debut: Who stands to gain from the blockbuster IPO?",
+     "url": "https://www.foxbusiness.com/markets/anthropic-makes-stock-market-debut-who-could-gain-from-blockbuster-ipo",
+     "published": "2026-11-19T20:02:37Z",
+     "source": "foxbusiness.com",
      "symbol": "TSLA",
-     "sentiment": 0,
+     "sentiment": 0.3818,
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
+     ]
+    },
+    {
+     "title": "GOOGL, GOOG DEADLINE: ROSEN, SKILLED INVESTOR COUNSEL, Encourages Alphabet Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - GOOGL, GOOG",
+     "url": "https://markets.businessinsider.com/news/stocks/googl-goog-deadline-rosen-skilled-investor-counsel-encourages-alphabet-inc.-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-googl-goog-1036751915",
+     "published": "2026-11-19T19:38:00Z",
+     "source": "markets.businessinsider.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.3708,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "AI Is Changing How Medicines Are Discovered. These 4 Stocks Are Positioned to Benefit (ANT, MEDS, RXRX, SDGR)",
+     "url": "https://www.insidermonkey.com/news/press-releases/ai-is-changing-how-medicines-are-discovered-these-4-stocks-are-positioned-to-benefit-ant-meds-rxrx-sdgr-1867540/",
+     "published": "2026-11-19T15:26:18Z",
+     "source": "insidermonkey.com",
+     "symbol": "RXRX",
+     "sentiment": 0.4203,
+     "envelope": "CTO 1",
+     "symbols": [
+      "RXRX"
      ]
     },
     {
@@ -478,55 +517,6 @@
      "envelope": "PEA",
      "symbols": [
       "ENR.DE"
-     ]
-    },
-    {
-     "title": "Futures Rise As Huang-less Nvidia Beats And Raises, Gold Crashes Below $3,800",
-     "url": "https://www.zerohedge.com/markets/futures-rise-huang-less-nvidia-beats-and-raises-gold-crashes-below-3800",
-     "published": "2026-11-18T13:19:41Z",
-     "source": "zerohedge.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.3182,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Nasdaq Composite After Nvidia Beat, Fed Minutes Next",
-     "url": "https://financefeeds.com/nasdaq-composite-nvidia-fed-minutes/",
-     "published": "2026-11-18T13:19:16Z",
-     "source": "financefeeds.com",
-     "symbol": "AAPL",
-     "sentiment": 0.5709,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Xi-Trump-Putin Summit In Focus",
-     "url": "https://seekingalpha.com/article/4969481-xi-trump-putin-summit-in-focus",
-     "published": "2026-11-18T12:30:39Z",
-     "source": "seekingalpha.com",
-     "symbol": "AAPL",
-     "sentiment": -0.7506,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Financial Planning Conversations Through AI Uncertainty",
-     "url": "https://www.kitces.com/blog/ai-uncertainty-financial-plan-portfolio-career-regret-minimization/",
-     "published": "2026-11-18T12:03:58Z",
-     "source": "kitces.com",
-     "symbol": "GOOGL",
-     "sentiment": -0.298867,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
      ]
     },
     {
@@ -710,18 +700,6 @@
      ]
     },
     {
-     "title": "Recursion Pharmaceuticals, Inc. (RXRX) Q3 2026 Earnings Call Transcript",
-     "url": "https://seekingalpha.com/article/4961771-recursion-pharmaceuticals-inc-rxrx-q3-2026-earnings-call-transcript",
-     "published": "2026-11-03T21:56:02Z",
-     "source": "seekingalpha.com",
-     "symbol": "RXRX",
-     "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "RXRX"
-     ]
-    },
-    {
      "title": "Prysmian S.p.A. 2026 Q3 - Results - Earnings Call Presentation (OTCMKTS:PRYMY) 2026-11-01",
      "url": "https://seekingalpha.com/article/4960790-prysmian-s-p-a-2026-q3-results-earnings-call-presentation",
      "published": "2026-11-01T23:30:11Z",
@@ -832,7 +810,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-19T01:51:09Z"
+   "last_success_at": "2026-11-20T01:45:20Z"
   }
  }
 }
