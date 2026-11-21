@@ -1,84 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-20T01:45:20Z",
+ "generated_at": "2026-11-21T01:26:18Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-20T01:45:20Z",
+   "fetched_at": "2026-11-21T01:26:18Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.0992,
+     "value": 1.099,
      "unit": "USD",
-     "as_of": "2026-11-19",
+     "as_of": "2026-11-20",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83581,
+     "value": 0.83735,
      "unit": "GBP",
-     "as_of": "2026-11-19",
+     "as_of": "2026-11-20",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 175.84,
+     "value": 174.35,
      "unit": "JPY",
-     "as_of": "2026-11-19",
+     "as_of": "2026-11-20",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9262,
+     "value": 0.9223,
      "unit": "CHF",
-     "as_of": "2026-11-19",
+     "as_of": "2026-11-20",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-20T01:45:20Z"
+   "last_success_at": "2026-11-21T01:26:18Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-20T01:45:20Z",
+   "fetched_at": "2026-11-21T01:26:18Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-20",
+     "as_of": "2026-11-21",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-20T01:45:20Z"
+   "last_success_at": "2026-11-21T01:26:18Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-20T01:45:20Z",
+   "fetched_at": "2026-11-21T01:26:18Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.41,
+     "value": 3.442,
      "unit": "%",
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-20T01:45:20Z"
+   "last_success_at": "2026-11-21T01:26:18Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-20T01:45:20Z",
+   "fetched_at": "2026-11-21T01:26:18Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-20T01:45:20Z"
+   "last_success_at": "2026-11-21T01:26:18Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-20T01:45:20Z",
+   "fetched_at": "2026-11-21T01:26:18Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,7 +156,7 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-20T01:45:20Z"
+   "last_success_at": "2026-11-21T01:26:18Z"
   },
   "inflation_us": {
    "status": "ancienne valeur",
@@ -182,7 +182,7 @@
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-20T01:45:20Z",
+   "fetched_at": "2026-11-21T01:26:18Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,15 +194,21 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-20T01:45:20Z"
+   "last_success_at": "2026-11-21T01:26:18Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-20T01:45:20Z",
+   "fetched_at": "2026-11-21T01:26:18Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Christine Lagarde: Acting in time",
+     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+     "published": "2026-11-20T08:30:00Z",
+     "source": "BCE"
+    },
     {
      "title": "Boris Vujčić: Financial Stability Review - November 2026",
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
@@ -244,25 +250,31 @@
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
      "published": "2026-11-10T16:45:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
-     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
-     "published": "2026-11-10T14:00:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-20T01:45:20Z"
+   "last_success_at": "2026-11-21T01:26:18Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-20T01:45:20Z",
+   "fetched_at": "2026-11-21T01:26:18Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Federal Reserve announces College Fed Challenge winners",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
+     "published": "2026-11-20T21:15:00Z",
+     "source": "Fed"
+    },
+    {
+     "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
+     "published": "2026-11-20T15:00:00Z",
+     "source": "Fed"
+    },
     {
      "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
@@ -298,29 +310,17 @@
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
      "published": "2026-11-12T16:00:00Z",
      "source": "Fed"
-    },
-    {
-     "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-     "published": "2026-11-09T21:00:00Z",
-     "source": "Fed"
-    },
-    {
-     "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-     "published": "2026-11-05T16:00:00Z",
-     "source": "Fed"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-20T01:45:20Z"
+   "last_success_at": "2026-11-21T01:26:18Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-20T01:45:20Z",
+   "fetched_at": "2026-11-21T01:26:18Z",
    "from_cache": false,
    "data": [
     {
@@ -374,113 +374,170 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-20T01:45:20Z"
+   "last_success_at": "2026-11-21T01:26:18Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-20T01:45:20Z",
+   "fetched_at": "2026-11-21T01:26:18Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Anthropic's historic debut to put AI's promise and peril on Wall Street trial",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-historic-debut-to-put-ais-promise-and-peril-on-wall-street-trial/articleshow/136009180.cms",
-     "published": "2026-11-20T00:48:29Z",
-     "source": "economictimes.indiatimes.com",
+     "title": "When Will Buy the Dip Stop Working?",
+     "url": "https://awealthofcommonsense.com/2026/11/when-hubris-fails/",
+     "published": "2026-11-20T21:30:47Z",
+     "source": "awealthofcommonsense.com",
      "symbol": "AAPL",
-     "sentiment": 0.5719,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL",
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Anthropic IPO raises $107.3 billion as shares jump 17%",
-     "url": "https://www.thehindubusinessline.com/markets/stock-markets/anthropic-shares-surge-17-after-record-1073-billion-ipo-valuing-ai-firm-at-18-trillion/article71721993.ece",
-     "published": "2026-11-19T23:29:26Z",
-     "source": "thehindubusinessline.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.1897,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Claude owner Anthropic (NASDAQ:ANT) share price soars 17% on IPO debut",
-     "url": "https://www.raskmedia.com.au/2026/11/20/claude-owner-anthropic-nasdaqant-share-price-soars-17-on-ipo-debut/",
-     "published": "2026-11-19T22:36:29Z",
-     "source": "raskmedia.com.au",
-     "symbol": "GOOGL",
-     "sentiment": 0.4037,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "MSFT",
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Market Rout Deepens as Anthropic IPO Fails to Ignite AI Sentiment; Apple Enters Agent Race",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/market-rout-deepens-as-anthropic-ipo-fails-to-ignite-ai-sentiment-apple-enters-agent-race/74981/",
-     "published": "2026-11-19T22:08:23Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "AAPL",
-     "sentiment": 0.159225,
+     "sentiment": 0.6124,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL"
      ]
     },
     {
-     "title": "Tech and Retail Earnings Take Center Stage Amid Marginal Market Pullback",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-retail-earnings-take-center-stage-amid-marginal-market-pullback/74976/",
-     "published": "2026-11-19T21:07:14Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "AAPL",
-     "sentiment": 0.1027,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Sound Ventures minted a $7 billion Anthropic stake. Ashton Kutcher left months before the IPO",
-     "url": "https://fortune.com/2026/11/19/anthropic-ipo-sound-ventures-ashton-kutcher-7-billion-stake/",
-     "published": "2026-11-19T20:22:56Z",
-     "source": "fortune.com",
-     "symbol": "TSLA",
-     "sentiment": 0.5106,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Anthropic makes stock market debut: Who stands to gain from the blockbuster IPO?",
-     "url": "https://www.foxbusiness.com/markets/anthropic-makes-stock-market-debut-who-could-gain-from-blockbuster-ipo",
-     "published": "2026-11-19T20:02:37Z",
-     "source": "foxbusiness.com",
-     "symbol": "TSLA",
-     "sentiment": 0.3818,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "GOOGL, GOOG DEADLINE: ROSEN, SKILLED INVESTOR COUNSEL, Encourages Alphabet Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - GOOGL, GOOG",
-     "url": "https://markets.businessinsider.com/news/stocks/googl-goog-deadline-rosen-skilled-investor-counsel-encourages-alphabet-inc.-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-googl-goog-1036751915",
-     "published": "2026-11-19T19:38:00Z",
-     "source": "markets.businessinsider.com",
+     "title": "TRADE ALERT: BUY",
+     "url": "https://austin.substack.com/p/trade-alert-buy-b1d",
+     "published": "2026-11-20T20:02:27Z",
+     "source": "austin.substack.com",
      "symbol": "GOOGL",
-     "sentiment": 0.3708,
+     "sentiment": -0.5915,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL"
+     ]
+    },
+    {
+     "title": "Anthropic Stock Falls 12% to $85.52, Nears $83 IPO Price",
+     "url": "https://financefeeds.com/anthropic-shares-fall-12-as-apple-ai-agent-report-adds-to-global-selloff/",
+     "published": "2026-11-20T18:56:05Z",
+     "source": "financefeeds.com",
+     "symbol": "AAPL",
+     "sentiment": 0.554686,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "THE WINTRUST MAGNIFICENT MILE LIGHTS FESTIVAL® CELEBRATES 35 YEARS OF HOLIDAY MAGIC IN CHICAGO",
+     "url": "https://www.manilatimes.net/2026/11/21/tmt-newswire/globenewswire/the-wintrust-magnificent-mile-lights-festival-celebrates-35-years-of-holiday-magic-in-chicago/2475258",
+     "published": "2026-11-20T18:44:02Z",
+     "source": "manilatimes.net",
+     "symbol": "AAPL",
+     "sentiment": -0.1779,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Nasdaq Turns Negative for 2026 as Tech Sell-off Deepens; Fed Signals Further Tightening",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/nasdaq-turns-negative-for-2026-as-tech-sell-off-deepens-fed-signals-further-tightening/75032/",
+     "published": "2026-11-20T17:38:20Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "MSFT",
+     "sentiment": -0.4588,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Nvidia Overtaken by Alphabet Amid Leadership Turmoil; US-China Trade Talks Intensify",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/nvidia-overtaken-by-alphabet-amid-leadership-turmoil-us-china-trade-talks-intensify/75025/",
+     "published": "2026-11-20T15:38:13Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "GOOGL",
+     "sentiment": -0.381633,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Ark Invest Buys $90.9M of Anthropic Stock, Trims ETH and SOL ETFs",
+     "url": "https://financefeeds.com/ark-invest-buys-anthropic-shares-trims-eth-sol/",
+     "published": "2026-11-20T15:26:21Z",
+     "source": "financefeeds.com",
+     "symbol": "MSFT",
+     "sentiment": 0.0258,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Can Tesla (TSLA) Robotaxis Catch Waymo? JPMorgan Is Watching",
+     "url": "https://www.insidermonkey.com/news/can-tesla-tsla-robotaxis-catch-waymo-jpmorgan-is-watching-1868083/",
+     "published": "2026-11-20T15:23:48Z",
+     "source": "insidermonkey.com",
+     "symbol": "TSLA",
+     "sentiment": -0.0386,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Ex-Super Micro exec married to Nvidia’s former sales chief says she took CEO job days before smuggling scandal broke",
+     "url": "https://fortune.com/2026/11/20/ex-super-micro-exec-cenly-chen-married-nvda-jay-puri-chronoscale-ceo-china-gpu-scandal/",
+     "published": "2026-11-20T15:20:04Z",
+     "source": "fortune.com",
+     "symbol": "MSFT",
+     "sentiment": 0.4622,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Après une introduction en Bourse record, l'action d'Anthropic chute de 9 %",
+     "url": "https://www.france24.com/fr/%C3%A9co-tech/20261120-apr%C3%A8s-une-introduction-en-bourse-record-l-action-d-anthropic-chute-de-9",
+     "published": "2026-11-20T14:46:33Z",
+     "source": "france24.com",
+     "symbol": "GOOGL",
+     "sentiment": null,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Tech Sector Volatility and Retail Earnings Take Center Stage This Friday",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-volatility-and-retail-earnings-take-center-stage-this-friday/75016/",
+     "published": "2026-11-20T14:07:13Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "TSLA",
+     "sentiment": 0.1706,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Investors Heavily Search Palantir Technologies Inc. (PLTR): Here is What You Need to Know",
+     "url": "https://www.zacks.com/stock/news/3032914/investors-heavily-search-palantir-technologies-inc-pltr-here-is-what-you-need-to-know?cid=CS-ZC-FT-fundamental_analysis|most_searched_stocks-3032914",
+     "published": "2026-11-20T13:00:03Z",
+     "source": "zacks.com",
+     "symbol": "PLTR",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
+     ]
+    },
+    {
+     "title": "Defense Stocks Wrap Up November 19, 2026",
+     "url": "https://www.investorideas.com/news/2026/defense/11191-defense-stocks-wrap-up-november-19-2026.asp",
+     "published": "2026-11-20T02:10:00Z",
+     "source": "investorideas.com",
+     "symbol": "PLTR",
+     "sentiment": 0.4939,
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
      ]
     },
     {
@@ -601,30 +658,6 @@
      "envelope": "PEA",
      "symbols": [
       "ENR.DE"
-     ]
-    },
-    {
-     "title": "Palantir: 165% Retention Signals The Next Enterprise AI Boom",
-     "url": "https://seekingalpha.com/article/4967161-palantir-165-percent-retention-signals-the-next-enterprise-ai-boom",
-     "published": "2026-11-12T17:13:22Z",
-     "source": "seekingalpha.com",
-     "symbol": "PLTR",
-     "sentiment": 0.4588,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
-     ]
-    },
-    {
-     "title": "ETFs Are Buying Palantir (PLTR) on Tuesday",
-     "url": "https://www.gurufocus.com/news/9194172/etfs-are-buying-palantir-pltr-on-tuesday",
-     "published": "2026-11-12T11:02:07Z",
-     "source": "gurufocus.com",
-     "symbol": "PLTR",
-     "sentiment": 0.0969,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
      ]
     },
     {
@@ -810,7 +843,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-20T01:45:20Z"
+   "last_success_at": "2026-11-21T01:26:18Z"
   }
  }
 }
