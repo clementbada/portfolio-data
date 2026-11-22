@@ -1,4 +1,4 @@
-# Point marchés — 2026-11-21
+# Point marchés — 2026-11-22
 
 - EUR/USD : 1.0990 USD (2026-11-20)
 - Taux de dépôt BCE : 2.50 % (2026-11-21)
@@ -17,11 +17,11 @@
 - [BoE] Minutes of the Market Participants Group meeting – 18 November 2026 (2026-11-19)
 
 ## Actualités du portefeuille
-- [AAPL] When Will Buy the Dip Stop Working? (2026-11-20)
-- [GOOGL] TRADE ALERT: BUY (2026-11-20)
-- [AAPL] Anthropic Stock Falls 12% to $85.52, Nears $83 IPO Price (2026-11-20)
-- [AAPL] THE WINTRUST MAGNIFICENT MILE LIGHTS FESTIVAL® CELEBRATES 35 YEARS OF HOLIDAY MAGIC IN CHICAGO (2026-11-20)
-- [MSFT] Nasdaq Turns Negative for 2026 as Tech Sell-off Deepens; Fed Signals Further Tightening (2026-11-20)
-- [GOOGL] Nvidia Overtaken by Alphabet Amid Leadership Turmoil; US-China Trade Talks Intensify (2026-11-20)
-- [MSFT] Ark Invest Buys $90.9M of Anthropic Stock, Trims ETH and SOL ETFs (2026-11-20)
+- [AAPL] Litmos Review 2026: Pricing, Pros & Cons (2026-11-21)
+- [MSFT] CoreWeave stock prediction: $56.47 bull, $22.92 bear (2026-11-21)
+- [GOOGL] CrowdStrike’s Talks with Zscaler Show AI-Led Cyber Consolidation (2026-11-21)
+- [AAPL] Dario Amodei, facing an Oppenheimer moment, races ahead with Anthropic's market debut (2026-11-21)
+- [GOOGL] Ne manquez pas. Une semaine choc: des marchés fragiles dans un monde fortement endetté – brunobertez (2026-11-21)
+- [GOOGL] EU Budget Crisis Deepens as France Rejects Costa’s Proposal; Ukraine Funding at Risk (2026-11-21)
 - [TSLA] Can Tesla (TSLA) Robotaxis Catch Waymo? JPMorgan Is Watching (2026-11-20)
+- [TSLA] Après une introduction en Bourse record, l'action d'Anthropic chute de 9 % (2026-11-20)

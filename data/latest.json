@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-21T01:26:18Z",
+ "generated_at": "2026-11-22T00:18:30Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-21T01:26:18Z",
+   "fetched_at": "2026-11-22T00:18:30Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
@@ -36,13 +36,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-21T01:26:18Z"
+   "last_success_at": "2026-11-22T00:18:30Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-21T01:26:18Z",
+   "fetched_at": "2026-11-22T00:18:30Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
@@ -54,13 +54,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-21T01:26:18Z"
+   "last_success_at": "2026-11-22T00:18:30Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-21T01:26:18Z",
+   "fetched_at": "2026-11-22T00:18:30Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
@@ -72,13 +72,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-21T01:26:18Z"
+   "last_success_at": "2026-11-22T00:18:30Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-21T01:26:18Z",
+   "fetched_at": "2026-11-22T00:18:30Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-21T01:26:18Z"
+   "last_success_at": "2026-11-22T00:18:30Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-21T01:26:18Z",
+   "fetched_at": "2026-11-22T00:18:30Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,7 +156,7 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-21T01:26:18Z"
+   "last_success_at": "2026-11-22T00:18:30Z"
   },
   "inflation_us": {
    "status": "ancienne valeur",
@@ -182,7 +182,7 @@
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-21T01:26:18Z",
+   "fetched_at": "2026-11-22T00:18:30Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,13 +194,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-21T01:26:18Z"
+   "last_success_at": "2026-11-22T00:18:30Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-21T01:26:18Z",
+   "fetched_at": "2026-11-22T00:18:30Z",
    "from_cache": false,
    "data": [
     {
@@ -254,13 +254,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-21T01:26:18Z"
+   "last_success_at": "2026-11-22T00:18:30Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-21T01:26:18Z",
+   "fetched_at": "2026-11-22T00:18:30Z",
    "from_cache": false,
    "data": [
     {
@@ -314,13 +314,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-21T01:26:18Z"
+   "last_success_at": "2026-11-22T00:18:30Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-21T01:26:18Z",
+   "fetched_at": "2026-11-22T00:18:30Z",
    "from_cache": false,
    "data": [
     {
@@ -374,97 +374,89 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-21T01:26:18Z"
+   "last_success_at": "2026-11-22T00:18:30Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-21T01:26:18Z",
+   "fetched_at": "2026-11-22T00:18:30Z",
    "from_cache": false,
    "data": [
     {
-     "title": "When Will Buy the Dip Stop Working?",
-     "url": "https://awealthofcommonsense.com/2026/11/when-hubris-fails/",
-     "published": "2026-11-20T21:30:47Z",
-     "source": "awealthofcommonsense.com",
+     "title": "Litmos Review 2026: Pricing, Pros & Cons",
+     "url": "https://leadchangegroup.com/software/litmos/",
+     "published": "2026-11-21T23:08:15Z",
+     "source": "leadchangegroup.com",
      "symbol": "AAPL",
-     "sentiment": 0.6124,
+     "sentiment": 0.34,
      "envelope": "CTO 1",
      "symbols": [
-      "AAPL"
+      "AAPL",
+      "MSFT"
      ]
     },
     {
-     "title": "TRADE ALERT: BUY",
-     "url": "https://austin.substack.com/p/trade-alert-buy-b1d",
-     "published": "2026-11-20T20:02:27Z",
-     "source": "austin.substack.com",
+     "title": "CoreWeave stock prediction: $56.47 bull, $22.92 bear",
+     "url": "https://financefeeds.com/coreweave-stock-prediction-39-51-bull-56-47-bear-22-92/",
+     "published": "2026-11-21T21:37:00Z",
+     "source": "financefeeds.com",
+     "symbol": "MSFT",
+     "sentiment": 0.2732,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "CrowdStrike’s Talks with Zscaler Show AI-Led Cyber Consolidation",
+     "url": "https://www.livemint.com/companies/crowdstrikes-talks-with-zscaler-show-ai-led-cyber-consolidation-11795289624175.html",
+     "published": "2026-11-21T19:33:43Z",
+     "source": "livemint.com",
      "symbol": "GOOGL",
-     "sentiment": -0.5915,
+     "sentiment": 0.0258,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL"
      ]
     },
     {
-     "title": "Anthropic Stock Falls 12% to $85.52, Nears $83 IPO Price",
-     "url": "https://financefeeds.com/anthropic-shares-fall-12-as-apple-ai-agent-report-adds-to-global-selloff/",
-     "published": "2026-11-20T18:56:05Z",
-     "source": "financefeeds.com",
-     "symbol": "AAPL",
-     "sentiment": 0.554686,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "THE WINTRUST MAGNIFICENT MILE LIGHTS FESTIVAL® CELEBRATES 35 YEARS OF HOLIDAY MAGIC IN CHICAGO",
-     "url": "https://www.manilatimes.net/2026/11/21/tmt-newswire/globenewswire/the-wintrust-magnificent-mile-lights-festival-celebrates-35-years-of-holiday-magic-in-chicago/2475258",
-     "published": "2026-11-20T18:44:02Z",
-     "source": "manilatimes.net",
+     "title": "Dario Amodei, facing an Oppenheimer moment, races ahead with Anthropic's market debut",
+     "url": "https://www.abc.net.au/news/2026-11-22/dario-amodei-facing-an-oppenheimer-moment-races-ahead/107264748",
+     "published": "2026-11-21T18:00:00Z",
+     "source": "abc.net.au",
      "symbol": "AAPL",
      "sentiment": -0.1779,
      "envelope": "CTO 1",
      "symbols": [
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Nasdaq Turns Negative for 2026 as Tech Sell-off Deepens; Fed Signals Further Tightening",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/nasdaq-turns-negative-for-2026-as-tech-sell-off-deepens-fed-signals-further-tightening/75032/",
-     "published": "2026-11-20T17:38:20Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "MSFT",
-     "sentiment": -0.4588,
-     "envelope": "CTO 1",
-     "symbols": [
+      "AAPL",
       "MSFT"
      ]
     },
     {
-     "title": "Nvidia Overtaken by Alphabet Amid Leadership Turmoil; US-China Trade Talks Intensify",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/nvidia-overtaken-by-alphabet-amid-leadership-turmoil-us-china-trade-talks-intensify/75025/",
-     "published": "2026-11-20T15:38:13Z",
+     "title": "Ne manquez pas. Une semaine choc: des marchés fragiles dans un monde fortement endetté – brunobertez",
+     "url": "https://brunobertez.com/2026/11/21/ne-manquez-pas-une-semaine-choc-des-marches-fragiles-dans-un-monde-fortement-endette/",
+     "published": "2026-11-21T15:10:59Z",
+     "source": "brunobertez.com",
+     "symbol": "GOOGL",
+     "sentiment": null,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "AAPL",
+      "TSLA"
+     ]
+    },
+    {
+     "title": "EU Budget Crisis Deepens as France Rejects Costa’s Proposal; Ukraine Funding at Risk",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/eu-budget-crisis-deepens-as-france-rejects-costas-proposal-ukraine-funding-at-risk/75061/",
+     "published": "2026-11-21T12:38:23Z",
      "source": "thestockmarketwatch.com",
      "symbol": "GOOGL",
-     "sentiment": -0.381633,
+     "sentiment": 0.2294,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL"
-     ]
-    },
-    {
-     "title": "Ark Invest Buys $90.9M of Anthropic Stock, Trims ETH and SOL ETFs",
-     "url": "https://financefeeds.com/ark-invest-buys-anthropic-shares-trims-eth-sol/",
-     "published": "2026-11-20T15:26:21Z",
-     "source": "financefeeds.com",
-     "symbol": "MSFT",
-     "sentiment": 0.0258,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
      ]
     },
     {
@@ -480,37 +472,12 @@
      ]
     },
     {
-     "title": "Ex-Super Micro exec married to Nvidia’s former sales chief says she took CEO job days before smuggling scandal broke",
-     "url": "https://fortune.com/2026/11/20/ex-super-micro-exec-cenly-chen-married-nvda-jay-puri-chronoscale-ceo-china-gpu-scandal/",
-     "published": "2026-11-20T15:20:04Z",
-     "source": "fortune.com",
-     "symbol": "MSFT",
-     "sentiment": 0.4622,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
      "title": "Après une introduction en Bourse record, l'action d'Anthropic chute de 9 %",
      "url": "https://www.france24.com/fr/%C3%A9co-tech/20261120-apr%C3%A8s-une-introduction-en-bourse-record-l-action-d-anthropic-chute-de-9",
      "published": "2026-11-20T14:46:33Z",
      "source": "france24.com",
-     "symbol": "GOOGL",
-     "sentiment": null,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Tech Sector Volatility and Retail Earnings Take Center Stage This Friday",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-volatility-and-retail-earnings-take-center-stage-this-friday/75016/",
-     "published": "2026-11-20T14:07:13Z",
-     "source": "thestockmarketwatch.com",
      "symbol": "TSLA",
-     "sentiment": 0.1706,
+     "sentiment": null,
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
@@ -843,7 +810,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-21T01:26:18Z"
+   "last_success_at": "2026-11-22T00:18:30Z"
   }
  }
 }
