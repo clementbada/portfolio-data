@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-22T00:18:30Z",
+ "generated_at": "2026-11-23T00:48:00Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-22T00:18:30Z",
+   "fetched_at": "2026-11-23T00:48:00Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
@@ -36,31 +36,31 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-22T00:18:30Z"
+   "last_success_at": "2026-11-23T00:48:00Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-22T00:18:30Z",
+   "fetched_at": "2026-11-23T00:48:00Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-21",
+     "as_of": "2026-11-23",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-22T00:18:30Z"
+   "last_success_at": "2026-11-23T00:48:00Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-22T00:18:30Z",
+   "fetched_at": "2026-11-23T00:48:00Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
@@ -72,13 +72,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-22T00:18:30Z"
+   "last_success_at": "2026-11-23T00:48:00Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-22T00:18:30Z",
+   "fetched_at": "2026-11-23T00:48:00Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-22T00:18:30Z"
+   "last_success_at": "2026-11-23T00:48:00Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-22T00:18:30Z",
+   "fetched_at": "2026-11-23T00:48:00Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,7 +156,7 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-22T00:18:30Z"
+   "last_success_at": "2026-11-23T00:48:00Z"
   },
   "inflation_us": {
    "status": "ancienne valeur",
@@ -182,7 +182,7 @@
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-22T00:18:30Z",
+   "fetched_at": "2026-11-23T00:48:00Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,13 +194,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-22T00:18:30Z"
+   "last_success_at": "2026-11-23T00:48:00Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-22T00:18:30Z",
+   "fetched_at": "2026-11-23T00:48:00Z",
    "from_cache": false,
    "data": [
     {
@@ -254,13 +254,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-22T00:18:30Z"
+   "last_success_at": "2026-11-23T00:48:00Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-22T00:18:30Z",
+   "fetched_at": "2026-11-23T00:48:00Z",
    "from_cache": false,
    "data": [
     {
@@ -314,13 +314,13 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-22T00:18:30Z"
+   "last_success_at": "2026-11-23T00:48:00Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-22T00:18:30Z",
+   "fetched_at": "2026-11-23T00:48:00Z",
    "from_cache": false,
    "data": [
     {
@@ -374,22 +374,47 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-22T00:18:30Z"
+   "last_success_at": "2026-11-23T00:48:00Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-22T00:18:30Z",
+   "fetched_at": "2026-11-23T00:48:00Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Litmos Review 2026: Pricing, Pros & Cons",
-     "url": "https://leadchangegroup.com/software/litmos/",
-     "published": "2026-11-21T23:08:15Z",
-     "source": "leadchangegroup.com",
+     "title": "VALUE: After Hours (S08 E39): Value Investing in Japan: Governance, Buybacks & Microcaps | Dan Rasmussen",
+     "url": "https://acquirersmultiple.com/2026/11/value-after-hours-s08-e18-3/",
+     "published": "2026-11-22T21:36:41Z",
+     "source": "acquirersmultiple.com",
+     "symbol": "MSFT",
+     "sentiment": 0.41915,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Wall Street Brunch: Can AI Bulls Get Up Off The Canvas?",
+     "url": "https://seekingalpha.com/article/4970939-wall-street-brunch-can-ai-bulls-get-up-off-the-canvas",
+     "published": "2026-11-22T18:34:00Z",
+     "source": "seekingalpha.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.4588,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Everything Is Breaking. Here’s the Cybersecurity Stock That Benefits",
+     "url": "https://markets.businessinsider.com/news/stocks/everything-is-breaking-heres-the-cybersecurity-stock-that-benefits-1036790107",
+     "published": "2026-11-22T18:00:00Z",
+     "source": "markets.businessinsider.com",
      "symbol": "AAPL",
-     "sentiment": 0.34,
+     "sentiment": -0.1082,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL",
@@ -397,40 +422,63 @@
      ]
     },
     {
-     "title": "CoreWeave stock prediction: $56.47 bull, $22.92 bear",
-     "url": "https://financefeeds.com/coreweave-stock-prediction-39-51-bull-56-47-bear-22-92/",
-     "published": "2026-11-21T21:37:00Z",
-     "source": "financefeeds.com",
+     "title": "Deepinder Goyal's big brainwave: Temple faces medical, regulatory hurdles",
+     "url": "https://www.business-standard.com/companies/people/deepinder-goyal-s-big-brainwave-temple-faces-medical-regulatory-hurdles-126112200799_1.html",
+     "published": "2026-11-22T17:06:41Z",
+     "source": "business-standard.com",
+     "symbol": "AAPL",
+     "sentiment": 0,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "« L’or à 4 000 $ était mon seuil d’achat » : Todd « Bubba » Horwitz explique pourquoi les investisseurs ignorent les signaux d’alarme et comment se positionner avant l’effondrement",
+     "url": "https://www.businessbourse.com/2026/11/22/lor-a-4-000-etait-mon-seuil-dachat-todd-bubba-horwitz-explique-pourquoi-les-investisseurs-ignorent-les-signaux-dalarme-et-comment-se-position/",
+     "published": "2026-11-22T12:00:05Z",
+     "source": "businessbourse.com",
      "symbol": "MSFT",
-     "sentiment": 0.2732,
+     "sentiment": null,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "CrowdStrike’s Talks with Zscaler Show AI-Led Cyber Consolidation",
-     "url": "https://www.livemint.com/companies/crowdstrikes-talks-with-zscaler-show-ai-led-cyber-consolidation-11795289624175.html",
-     "published": "2026-11-21T19:33:43Z",
+     "title": "Donald Trump’s investment portfolio: Latest stocks disclosure shows move in Home Depot, McDonald, Nvidia, Tesla, Apple",
+     "url": "https://www.livemint.com/money/donald-trump-s-investment-portfolio-latest-stocks-disclosure-shows-move-in-home-depot-mcdonald-nvidia-tesla-apple-11795337196628.html",
+     "published": "2026-11-22T09:40:02Z",
      "source": "livemint.com",
+     "symbol": "TSLA",
+     "sentiment": 0.11315,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Analyse de la semaine boursière et éléments de reflexion importants. Le mal est fait, les blessures sont profondes.",
+     "url": "https://brunobertez.com/2026/11/22/analyse-de-la-semaine-boursiere-et-elements-de-reflexion-importants-le-mal-est-fait-les-blessures-sont-profondes/",
+     "published": "2026-11-22T07:56:52Z",
+     "source": "brunobertez.com",
      "symbol": "GOOGL",
-     "sentiment": 0.0258,
+     "sentiment": null,
      "envelope": "CTO 1",
      "symbols": [
       "GOOGL"
      ]
     },
     {
-     "title": "Dario Amodei, facing an Oppenheimer moment, races ahead with Anthropic's market debut",
-     "url": "https://www.abc.net.au/news/2026-11-22/dario-amodei-facing-an-oppenheimer-moment-races-ahead/107264748",
-     "published": "2026-11-21T18:00:00Z",
-     "source": "abc.net.au",
-     "symbol": "AAPL",
-     "sentiment": -0.1779,
+     "title": "When the Plumbing Breaks: Nvidia, the SEC, and the AI Reassessment",
+     "url": "https://global-macro-monitor.com/2026/11/21/when-the-plumbing-breaks-nvidia-the-sec-and-the-ai-reassessment/",
+     "published": "2026-11-22T01:04:13Z",
+     "source": "global-macro-monitor.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.3488,
      "envelope": "CTO 1",
      "symbols": [
-      "AAPL",
-      "MSFT"
+      "GOOGL"
      ]
     },
     {
@@ -438,25 +486,11 @@
      "url": "https://brunobertez.com/2026/11/21/ne-manquez-pas-une-semaine-choc-des-marches-fragiles-dans-un-monde-fortement-endette/",
      "published": "2026-11-21T15:10:59Z",
      "source": "brunobertez.com",
-     "symbol": "GOOGL",
+     "symbol": "TSLA",
      "sentiment": null,
      "envelope": "CTO 1",
      "symbols": [
-      "GOOGL",
-      "AAPL",
       "TSLA"
-     ]
-    },
-    {
-     "title": "EU Budget Crisis Deepens as France Rejects Costa’s Proposal; Ukraine Funding at Risk",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/eu-budget-crisis-deepens-as-france-rejects-costas-proposal-ukraine-funding-at-risk/75061/",
-     "published": "2026-11-21T12:38:23Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.2294,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
      ]
     },
     {
@@ -466,18 +500,6 @@
      "source": "insidermonkey.com",
      "symbol": "TSLA",
      "sentiment": -0.0386,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Après une introduction en Bourse record, l'action d'Anthropic chute de 9 %",
-     "url": "https://www.france24.com/fr/%C3%A9co-tech/20261120-apr%C3%A8s-une-introduction-en-bourse-record-l-action-d-anthropic-chute-de-9",
-     "published": "2026-11-20T14:46:33Z",
-     "source": "france24.com",
-     "symbol": "TSLA",
-     "sentiment": null,
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
@@ -810,7 +832,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-22T00:18:30Z"
+   "last_success_at": "2026-11-23T00:48:00Z"
   }
  }
 }

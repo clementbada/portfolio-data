@@ -1,7 +1,7 @@
-# Point marchés — 2026-11-22
+# Point marchés — 2026-11-23
 
 - EUR/USD : 1.0990 USD (2026-11-20)
-- Taux de dépôt BCE : 2.50 % (2026-11-21)
+- Taux de dépôt BCE : 2.50 % (2026-11-23)
 - 10 ans zone euro AAA : 3.44 % (2026-11-19)
 - Inflation : EA 4.0 % a/a (2026-10) · FR 3.7 % a/a (2026-10) · US 3.7 % a/a (2026-09)
 
@@ -17,11 +17,11 @@
 - [BoE] Minutes of the Market Participants Group meeting – 18 November 2026 (2026-11-19)
 
 ## Actualités du portefeuille
-- [AAPL] Litmos Review 2026: Pricing, Pros & Cons (2026-11-21)
-- [MSFT] CoreWeave stock prediction: $56.47 bull, $22.92 bear (2026-11-21)
-- [GOOGL] CrowdStrike’s Talks with Zscaler Show AI-Led Cyber Consolidation (2026-11-21)
-- [AAPL] Dario Amodei, facing an Oppenheimer moment, races ahead with Anthropic's market debut (2026-11-21)
-- [GOOGL] Ne manquez pas. Une semaine choc: des marchés fragiles dans un monde fortement endetté – brunobertez (2026-11-21)
-- [GOOGL] EU Budget Crisis Deepens as France Rejects Costa’s Proposal; Ukraine Funding at Risk (2026-11-21)
-- [TSLA] Can Tesla (TSLA) Robotaxis Catch Waymo? JPMorgan Is Watching (2026-11-20)
-- [TSLA] Après une introduction en Bourse record, l'action d'Anthropic chute de 9 % (2026-11-20)
+- [MSFT] VALUE: After Hours (S08 E39): Value Investing in Japan: Governance, Buybacks & Microcaps | Dan Rasmussen (2026-11-22)
+- [GOOGL] Wall Street Brunch: Can AI Bulls Get Up Off The Canvas? (2026-11-22)
+- [AAPL] Everything Is Breaking. Here’s the Cybersecurity Stock That Benefits (2026-11-22)
+- [AAPL] Deepinder Goyal's big brainwave: Temple faces medical, regulatory hurdles (2026-11-22)
+- [MSFT] « L’or à 4 000 $ était mon seuil d’achat » : Todd « Bubba » Horwitz explique pourquoi les investisseurs ignorent les signaux d’alarme et comment se positionner avant l’effondrement (2026-11-22)
+- [TSLA] Donald Trump’s investment portfolio: Latest stocks disclosure shows move in Home Depot, McDonald, Nvidia, Tesla, Apple (2026-11-22)
+- [GOOGL] Analyse de la semaine boursière et éléments de reflexion importants. Le mal est fait, les blessures sont profondes. (2026-11-22)
+- [GOOGL] When the Plumbing Breaks: Nvidia, the SEC, and the AI Reassessment (2026-11-22)
