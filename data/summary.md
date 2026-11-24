@@ -1,27 +1,27 @@
-# Point marchés — 2026-11-23
+# Point marchés — 2026-11-24
 
-- EUR/USD : 1.0990 USD (2026-11-20)
-- Taux de dépôt BCE : 2.50 % (2026-11-23)
-- 10 ans zone euro AAA : 3.44 % (2026-11-19)
+- EUR/USD : 1.0939 USD (2026-11-23)
+- Taux de dépôt BCE : 2.50 % (2026-11-24)
+- 10 ans zone euro AAA : 3.36 % (2026-11-20)
 - Inflation : EA 4.0 % a/a (2026-10) · FR 3.7 % a/a (2026-10) · US 3.7 % a/a (2026-09)
 
 ## Sources dégradées
 - ⚠️ inflation_us : Sources indisponibles — dernière valeur connue du 2026-11-10T02:40:58Z
 
 ## Derniers communiqués
+- [BCE] Philip R. Lane: Climate change and monetary policy (2026-11-23)
+- [BCE] ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral (2026-11-23)
+- [BoE] General insurance stress test highlights value of rehearsing crisis response and recovery (2026-11-23)
 - [Fed] Federal Reserve announces College Fed Challenge winners (2026-11-20)
 - [Fed] Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances (2026-11-20)
 - [BCE] Christine Lagarde: Acting in time (2026-11-20)
-- [Fed] Federal Reserve Board issues enforcement action with former employee of First Security Bancorp (2026-11-19)
-- [BoE] Cyber resilience guidance consultation and AI and quantum effective practices (2026-11-19)
-- [BoE] Minutes of the Market Participants Group meeting – 18 November 2026 (2026-11-19)
 
 ## Actualités du portefeuille
-- [MSFT] VALUE: After Hours (S08 E39): Value Investing in Japan: Governance, Buybacks & Microcaps | Dan Rasmussen (2026-11-22)
-- [GOOGL] Wall Street Brunch: Can AI Bulls Get Up Off The Canvas? (2026-11-22)
-- [AAPL] Everything Is Breaking. Here’s the Cybersecurity Stock That Benefits (2026-11-22)
-- [AAPL] Deepinder Goyal's big brainwave: Temple faces medical, regulatory hurdles (2026-11-22)
-- [MSFT] « L’or à 4 000 $ était mon seuil d’achat » : Todd « Bubba » Horwitz explique pourquoi les investisseurs ignorent les signaux d’alarme et comment se positionner avant l’effondrement (2026-11-22)
-- [TSLA] Donald Trump’s investment portfolio: Latest stocks disclosure shows move in Home Depot, McDonald, Nvidia, Tesla, Apple (2026-11-22)
-- [GOOGL] Analyse de la semaine boursière et éléments de reflexion importants. Le mal est fait, les blessures sont profondes. (2026-11-22)
-- [GOOGL] When the Plumbing Breaks: Nvidia, the SEC, and the AI Reassessment (2026-11-22)
+- [GOOGL] Nvidia's board was no match for Trump or powerful backers of Jensen Huang (2026-11-24)
+- [MSFT] The 11 days that brought Jensen Huang back to Nvidia (2026-11-24)
+- [AAPL] In Jensen Huang’s return, are national security concerns being shoved aside? (2026-11-23)
+- [GOOGL] Alphabet rises 6% as broad market rally lifts shares (2026-11-23)
+- [GOOGL] Stock Market Today: Nasdaq Jumps 6.5% as Huang Returns (2026-11-23)
+- [AXP] Baron Financials ETF Q3 2026 Shareholder Letter (2026-11-23)
+- [TSLA] Wall Street roars back as Nvidia reinstates Jensen Huang as CEO (2026-11-23)
+- [MRNA] Baron Partners Fund Q3 2026 Shareholder Letter (2026-11-23)

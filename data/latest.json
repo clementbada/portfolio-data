@@ -1,84 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-23T00:48:00Z",
+ "generated_at": "2026-11-24T04:43:48Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-23T00:48:00Z",
+   "fetched_at": "2026-11-24T04:43:48Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.099,
+     "value": 1.0939,
      "unit": "USD",
-     "as_of": "2026-11-20",
+     "as_of": "2026-11-23",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.83735,
+     "value": 0.83673,
      "unit": "GBP",
-     "as_of": "2026-11-20",
+     "as_of": "2026-11-23",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 174.35,
+     "value": 174.01,
      "unit": "JPY",
-     "as_of": "2026-11-20",
+     "as_of": "2026-11-23",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9223,
+     "value": 0.9186,
      "unit": "CHF",
-     "as_of": "2026-11-20",
+     "as_of": "2026-11-23",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-23T00:48:00Z"
+   "last_success_at": "2026-11-24T04:43:48Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-23T00:48:00Z",
+   "fetched_at": "2026-11-24T04:43:48Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-23",
+     "as_of": "2026-11-24",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-23T00:48:00Z"
+   "last_success_at": "2026-11-24T04:43:48Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-23T00:48:00Z",
+   "fetched_at": "2026-11-24T04:43:48Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.442,
+     "value": 3.361,
      "unit": "%",
-     "as_of": "2026-11-19",
+     "as_of": "2026-11-20",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-23T00:48:00Z"
+   "last_success_at": "2026-11-24T04:43:48Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-23T00:48:00Z",
+   "fetched_at": "2026-11-24T04:43:48Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-23T00:48:00Z"
+   "last_success_at": "2026-11-24T04:43:48Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-23T00:48:00Z",
+   "fetched_at": "2026-11-24T04:43:48Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,7 +156,7 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-23T00:48:00Z"
+   "last_success_at": "2026-11-24T04:43:48Z"
   },
   "inflation_us": {
    "status": "ancienne valeur",
@@ -182,7 +182,7 @@
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-23T00:48:00Z",
+   "fetched_at": "2026-11-24T04:43:48Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,15 +194,27 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-23T00:48:00Z"
+   "last_success_at": "2026-11-24T04:43:48Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-23T00:48:00Z",
+   "fetched_at": "2026-11-24T04:43:48Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Philip R. Lane: Climate change and monetary policy",
+     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+     "published": "2026-11-23T14:30:00Z",
+     "source": "BCE"
+    },
+    {
+     "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
+     "published": "2026-11-23T10:00:00Z",
+     "source": "BCE"
+    },
     {
      "title": "Christine Lagarde: Acting in time",
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
@@ -238,29 +250,17 @@
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
      "published": "2026-11-16T08:30:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "Isabel Schnabel: Made in Europe",
-     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
-     "published": "2026-11-13T07:20:00Z",
-     "source": "BCE"
-    },
-    {
-     "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
-     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
-     "published": "2026-11-10T16:45:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-23T00:48:00Z"
+   "last_success_at": "2026-11-24T04:43:48Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-23T00:48:00Z",
+   "fetched_at": "2026-11-24T04:43:48Z",
    "from_cache": false,
    "data": [
     {
@@ -314,15 +314,21 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-23T00:48:00Z"
+   "last_success_at": "2026-11-24T04:43:48Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-23T00:48:00Z",
+   "fetched_at": "2026-11-24T04:43:48Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "General insurance stress test highlights value of rehearsing crisis response and recovery",
+     "url": "https://www.bankofengland.co.uk/news/2026/november/general-insurance-stress-test-highlights-value-of-rehearsing-crisis-response-and-recovery",
+     "published": "2026-11-23T10:00:00Z",
+     "source": "BoE"
+    },
     {
      "title": "Cyber resilience guidance consultation and AI and quantum effective practices",
      "url": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices",
@@ -364,57 +370,50 @@
      "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-explore-credit-union-reforms-to-support-growth-innovation-and-better-outcomes-for-members",
      "published": "2026-11-03T10:00:00Z",
      "source": "BoE"
-    },
-    {
-     "title": "Minutes of the Meeting of the Court of Directors held on 17 September 2026",
-     "url": "https://www.bankofengland.co.uk/minutes/2026/september/court-minutes-17-september-2026",
-     "published": "2026-10-29T14:00:00Z",
-     "source": "BoE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-23T00:48:00Z"
+   "last_success_at": "2026-11-24T04:43:48Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-23T00:48:00Z",
+   "fetched_at": "2026-11-24T04:43:48Z",
    "from_cache": false,
    "data": [
     {
-     "title": "VALUE: After Hours (S08 E39): Value Investing in Japan: Governance, Buybacks & Microcaps | Dan Rasmussen",
-     "url": "https://acquirersmultiple.com/2026/11/value-after-hours-s08-e18-3/",
-     "published": "2026-11-22T21:36:41Z",
-     "source": "acquirersmultiple.com",
+     "title": "Nvidia's board was no match for Trump or powerful backers of Jensen Huang",
+     "url": "https://www.business-standard.com/technology/tech-news/nvidia-s-board-was-no-match-for-trump-or-powerful-backers-of-jensen-huang-126112400184_1.html",
+     "published": "2026-11-24T04:12:28Z",
+     "source": "business-standard.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.0772,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "The 11 days that brought Jensen Huang back to Nvidia",
+     "url": "https://fortune.com/2026/11/23/the-11-days-that-brought-jensen-huang-back-to-nvidia/",
+     "published": "2026-11-24T00:07:15Z",
+     "source": "fortune.com",
      "symbol": "MSFT",
-     "sentiment": 0.41915,
+     "sentiment": 0.2263,
      "envelope": "CTO 1",
      "symbols": [
       "MSFT"
      ]
     },
     {
-     "title": "Wall Street Brunch: Can AI Bulls Get Up Off The Canvas?",
-     "url": "https://seekingalpha.com/article/4970939-wall-street-brunch-can-ai-bulls-get-up-off-the-canvas",
-     "published": "2026-11-22T18:34:00Z",
-     "source": "seekingalpha.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.4588,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL",
-      "AAPL"
-     ]
-    },
-    {
-     "title": "Everything Is Breaking. Here’s the Cybersecurity Stock That Benefits",
-     "url": "https://markets.businessinsider.com/news/stocks/everything-is-breaking-heres-the-cybersecurity-stock-that-benefits-1036790107",
-     "published": "2026-11-22T18:00:00Z",
-     "source": "markets.businessinsider.com",
+     "title": "In Jensen Huang’s return, are national security concerns being shoved aside?",
+     "url": "https://www.csmonitor.com/Business/2026/1123/trump-jensen-huang-nvidia-security?icid=rss",
+     "published": "2026-11-23T23:16:32Z",
+     "source": "csmonitor.com",
      "symbol": "AAPL",
-     "sentiment": -0.1082,
+     "sentiment": 0.6808,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL",
@@ -422,87 +421,91 @@
      ]
     },
     {
-     "title": "Deepinder Goyal's big brainwave: Temple faces medical, regulatory hurdles",
-     "url": "https://www.business-standard.com/companies/people/deepinder-goyal-s-big-brainwave-temple-faces-medical-regulatory-hurdles-126112200799_1.html",
-     "published": "2026-11-22T17:06:41Z",
-     "source": "business-standard.com",
+     "title": "Alphabet rises 6% as broad market rally lifts shares",
+     "url": "https://seekingalpha.com/news/4675930-alphabet-rises-6-percent-as-broad-market-rally-lifts-shares",
+     "published": "2026-11-23T22:23:32Z",
+     "source": "seekingalpha.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.296,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Stock Market Today: Nasdaq Jumps 6.5% as Huang Returns",
+     "url": "https://financefeeds.com/stock-market-today-nasdaq-jumps-6-5-percent-as-huang-returns/",
+     "published": "2026-11-23T21:48:59Z",
+     "source": "financefeeds.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.113333,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL",
+      "AAPL",
+      "MSFT",
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Baron Financials ETF Q3 2026 Shareholder Letter",
+     "url": "https://seekingalpha.com/article/4971150-baron-financials-etf-q3-2026-shareholder-letter",
+     "published": "2026-11-23T19:19:00Z",
+     "source": "seekingalpha.com",
+     "symbol": "AXP",
+     "sentiment": 0.4906,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AXP"
+     ]
+    },
+    {
+     "title": "Wall Street roars back as Nvidia reinstates Jensen Huang as CEO",
+     "url": "https://www.thehindu.com/business/markets/wall-street-roars-back-as-nvidia-reinstates-jensen-huang-as-ceo/article71736138.ece",
+     "published": "2026-11-23T18:15:34Z",
+     "source": "thehindu.com",
+     "symbol": "TSLA",
+     "sentiment": 0.5267,
+     "envelope": "CTO 1",
+     "symbols": [
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Baron Partners Fund Q3 2026 Shareholder Letter",
+     "url": "https://seekingalpha.com/article/4971116-baron-partners-fund-q3-2026-shareholder-letter",
+     "published": "2026-11-23T16:53:00Z",
+     "source": "seekingalpha.com",
+     "symbol": "MRNA",
+     "sentiment": 0.45812,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MRNA",
+      "TSLA"
+     ]
+    },
+    {
+     "title": "Wall Street Lunch: Jensen Huang's Nvidia Comeback Sparks $900B Market Cap Surge",
+     "url": "https://seekingalpha.com/article/4971112-wall-street-lunch-jensen-huangs-nvidia-comeback-sparks-1t-market-cap-surge",
+     "published": "2026-11-23T16:03:00Z",
+     "source": "seekingalpha.com",
      "symbol": "AAPL",
-     "sentiment": 0,
+     "sentiment": 0.4404,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL"
      ]
     },
     {
-     "title": "« L’or à 4 000 $ était mon seuil d’achat » : Todd « Bubba » Horwitz explique pourquoi les investisseurs ignorent les signaux d’alarme et comment se positionner avant l’effondrement",
-     "url": "https://www.businessbourse.com/2026/11/22/lor-a-4-000-etait-mon-seuil-dachat-todd-bubba-horwitz-explique-pourquoi-les-investisseurs-ignorent-les-signaux-dalarme-et-comment-se-position/",
-     "published": "2026-11-22T12:00:05Z",
-     "source": "businessbourse.com",
-     "symbol": "MSFT",
-     "sentiment": null,
+     "title": "Baron Funds Q3 2026: Letter From Ron",
+     "url": "https://seekingalpha.com/article/4971077-baron-funds-q3-2026-letter-from-ron",
+     "published": "2026-11-23T15:06:00Z",
+     "source": "seekingalpha.com",
+     "symbol": "MRNA",
+     "sentiment": 0.63348,
      "envelope": "CTO 1",
      "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Donald Trump’s investment portfolio: Latest stocks disclosure shows move in Home Depot, McDonald, Nvidia, Tesla, Apple",
-     "url": "https://www.livemint.com/money/donald-trump-s-investment-portfolio-latest-stocks-disclosure-shows-move-in-home-depot-mcdonald-nvidia-tesla-apple-11795337196628.html",
-     "published": "2026-11-22T09:40:02Z",
-     "source": "livemint.com",
-     "symbol": "TSLA",
-     "sentiment": 0.11315,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Analyse de la semaine boursière et éléments de reflexion importants. Le mal est fait, les blessures sont profondes.",
-     "url": "https://brunobertez.com/2026/11/22/analyse-de-la-semaine-boursiere-et-elements-de-reflexion-importants-le-mal-est-fait-les-blessures-sont-profondes/",
-     "published": "2026-11-22T07:56:52Z",
-     "source": "brunobertez.com",
-     "symbol": "GOOGL",
-     "sentiment": null,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "When the Plumbing Breaks: Nvidia, the SEC, and the AI Reassessment",
-     "url": "https://global-macro-monitor.com/2026/11/21/when-the-plumbing-breaks-nvidia-the-sec-and-the-ai-reassessment/",
-     "published": "2026-11-22T01:04:13Z",
-     "source": "global-macro-monitor.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.3488,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Ne manquez pas. Une semaine choc: des marchés fragiles dans un monde fortement endetté – brunobertez",
-     "url": "https://brunobertez.com/2026/11/21/ne-manquez-pas-une-semaine-choc-des-marches-fragiles-dans-un-monde-fortement-endette/",
-     "published": "2026-11-21T15:10:59Z",
-     "source": "brunobertez.com",
-     "symbol": "TSLA",
-     "sentiment": null,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
-     ]
-    },
-    {
-     "title": "Can Tesla (TSLA) Robotaxis Catch Waymo? JPMorgan Is Watching",
-     "url": "https://www.insidermonkey.com/news/can-tesla-tsla-robotaxis-catch-waymo-jpmorgan-is-watching-1868083/",
-     "published": "2026-11-20T15:23:48Z",
-     "source": "insidermonkey.com",
-     "symbol": "TSLA",
-     "sentiment": -0.0386,
-     "envelope": "CTO 1",
-     "symbols": [
-      "TSLA"
+      "MRNA"
      ]
     },
     {
@@ -578,18 +581,6 @@
      ]
     },
     {
-     "title": "Cancer Vaccines Clinical Trial Pipeline Boom as 200+ Companies are in the Race for Better Treatments | DelveInsight",
-     "url": "https://www.manilatimes.net/2026/11/18/tmt-newswire/globenewswire/cancer-vaccines-clinical-trial-pipeline-boom-as-200-companies-are-in-the-race-for-better-treatments-delveinsight/2472476",
-     "published": "2026-11-17T18:18:32Z",
-     "source": "manilatimes.net",
-     "symbol": "MRNA",
-     "sentiment": -0.14123,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
-     ]
-    },
-    {
      "title": "American Express Company (AXP): Resilient Affluent Spending and Durable Competitive Moat Drive Thesis",
      "url": "https://www.insidermonkey.com/news/american-express-company-axp-resilient-affluent-spending-and-durable-competitive-moat-drive-thesis-1866518/",
      "published": "2026-11-17T16:16:34Z",
@@ -626,18 +617,6 @@
      ]
     },
     {
-     "title": "Proshares Trust (TQQQ) Buys $72.9 Million More Moderna on Nov. 12",
-     "url": "https://www.gurufocus.com/news/9201131/proshares-trust-tqqq-buys-729-million-more-moderna-on-nov-12",
-     "published": "2026-11-16T11:05:23Z",
-     "source": "gurufocus.com",
-     "symbol": "MRNA",
-     "sentiment": 0.56195,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MRNA"
-     ]
-    },
-    {
      "title": "What they say on their India plans",
      "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/what-they-say-on-their-india-plans/article71698888.ece",
      "published": "2026-11-14T16:35:23Z",
@@ -671,18 +650,6 @@
      "envelope": "PEA",
      "symbols": [
       "ENR.DE"
-     ]
-    },
-    {
-     "title": "Senator Warren Proposes 10% Credit Card Interest Cap as Capital One (COF) Shares Dip",
-     "url": "https://www.gurufocus.com/news/9185821/senator-warren-proposes-10-credit-card-interest-cap-as-capital-one-cof-shares-dip",
-     "published": "2026-11-09T19:56:32Z",
-     "source": "gurufocus.com",
-     "symbol": "AXP",
-     "sentiment": 0.60215,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AXP"
      ]
     },
     {
@@ -832,7 +799,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-23T00:48:00Z"
+   "last_success_at": "2026-11-24T04:43:48Z"
   }
  }
 }
