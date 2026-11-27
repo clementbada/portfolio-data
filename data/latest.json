@@ -1,84 +1,84 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-26T02:46:45Z",
+ "generated_at": "2026-11-27T02:48:01Z",
  "datasets": {
   "fx_eur": {
    "status": "ok",
    "provider": "Frankfurter",
    "attribution": "Données : Frankfurter (taux de référence BCE)",
-   "fetched_at": "2026-11-26T02:46:45Z",
+   "fetched_at": "2026-11-27T02:48:01Z",
    "from_cache": false,
    "data": {
     "EURUSD": {
-     "value": 1.0935,
+     "value": 1.0975,
      "unit": "USD",
-     "as_of": "2026-11-25",
+     "as_of": "2026-11-26",
      "label": "1 EUR en USD"
     },
     "EURGBP": {
-     "value": 0.8373,
+     "value": 0.83755,
      "unit": "GBP",
-     "as_of": "2026-11-25",
+     "as_of": "2026-11-26",
      "label": "1 EUR en GBP"
     },
     "EURJPY": {
-     "value": 174.22,
+     "value": 174.79,
      "unit": "JPY",
-     "as_of": "2026-11-25",
+     "as_of": "2026-11-26",
      "label": "1 EUR en JPY"
     },
     "EURCHF": {
-     "value": 0.9085,
+     "value": 0.9153,
      "unit": "CHF",
-     "as_of": "2026-11-25",
+     "as_of": "2026-11-26",
      "label": "1 EUR en CHF"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-26T02:46:45Z"
+   "last_success_at": "2026-11-27T02:48:01Z"
   },
   "ecb_deposit_rate": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-26T02:46:45Z",
+   "fetched_at": "2026-11-27T02:48:01Z",
    "from_cache": false,
    "data": {
     "ECB_DFR": {
      "value": 2.5,
      "unit": "%",
-     "as_of": "2026-11-25",
+     "as_of": "2026-11-27",
      "label": "BCE — taux de dépôt"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-26T02:46:45Z"
+   "last_success_at": "2026-11-27T02:48:01Z"
   },
   "yield_10y_ea_aaa_daily": {
    "status": "ok",
    "provider": "BCE",
    "attribution": "Source : BCE",
-   "fetched_at": "2026-11-26T02:46:45Z",
+   "fetched_at": "2026-11-27T02:48:01Z",
    "from_cache": false,
    "data": {
     "Y10_EA_AAA": {
-     "value": 3.312,
+     "value": 3.259,
      "unit": "%",
-     "as_of": "2026-11-24",
+     "as_of": "2026-11-25",
      "label": "10 ans zone euro AAA (quotidien)"
     }
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-26T02:46:45Z"
+   "last_success_at": "2026-11-27T02:48:01Z"
   },
   "inflation_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-26T02:46:45Z",
+   "fetched_at": "2026-11-27T02:48:01Z",
    "from_cache": false,
    "data": {
     "HICP_DE": {
@@ -114,13 +114,13 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-26T02:46:45Z"
+   "last_success_at": "2026-11-27T02:48:01Z"
   },
   "unemployment_eu": {
    "status": "ok",
    "provider": "Eurostat",
    "attribution": "Source : Eurostat",
-   "fetched_at": "2026-11-26T02:46:45Z",
+   "fetched_at": "2026-11-27T02:48:01Z",
    "from_cache": false,
    "data": {
     "UNEMP_DE": {
@@ -156,7 +156,7 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-26T02:46:45Z"
+   "last_success_at": "2026-11-27T02:48:01Z"
   },
   "inflation_us": {
    "status": "ancienne valeur",
@@ -182,7 +182,7 @@
    "status": "ok",
    "provider": "BLS",
    "attribution": "Source : U.S. Bureau of Labor Statistics",
-   "fetched_at": "2026-11-26T02:46:45Z",
+   "fetched_at": "2026-11-27T02:48:01Z",
    "from_cache": false,
    "data": {
     "UNEMP_US": {
@@ -194,15 +194,21 @@
    },
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-26T02:46:45Z"
+   "last_success_at": "2026-11-27T02:48:01Z"
   },
   "news_bce": {
    "status": "ok",
    "provider": "RSS BCE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-26T02:46:45Z",
+   "fetched_at": "2026-11-27T02:48:01Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Meeting of 28-29 October 2026",
+     "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html",
+     "published": "2026-11-26T12:30:00Z",
+     "source": "BCE"
+    },
     {
      "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html",
@@ -244,23 +250,17 @@
      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
      "published": "2026-11-18T09:00:00Z",
      "source": "BCE"
-    },
-    {
-     "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
-     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
-     "published": "2026-11-18T09:00:00Z",
-     "source": "BCE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-26T02:46:45Z"
+   "last_success_at": "2026-11-27T02:48:01Z"
   },
   "news_fed": {
    "status": "ok",
    "provider": "RSS Fed",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-26T02:46:45Z",
+   "fetched_at": "2026-11-27T02:48:01Z",
    "from_cache": false,
    "data": [
     {
@@ -314,15 +314,33 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-26T02:46:45Z"
+   "last_success_at": "2026-11-27T02:48:01Z"
   },
   "news_boe": {
    "status": "ok",
    "provider": "RSS BoE",
    "attribution": "Communiqués officiels : BCE, Federal Reserve, Bank of England",
-   "fetched_at": "2026-11-26T02:46:45Z",
+   "fetched_at": "2026-11-27T02:48:01Z",
    "from_cache": false,
    "data": [
+    {
+     "title": "Payments systems Memorandum of Understanding",
+     "url": "https://www.bankofengland.co.uk/news/2024/march/payment-systems-memorandum-of-understanding",
+     "published": "2026-11-26T15:00:00Z",
+     "source": "BoE"
+    },
+    {
+     "title": "Statistical Notice 2026/09 - Update to the classification of accounts guide",
+     "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-09",
+     "published": "2026-11-26T12:33:57Z",
+     "source": "BoE"
+    },
+    {
+     "title": "Financial Policy Committee Record – November 2026",
+     "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026",
+     "published": "2026-11-26T10:30:00Z",
+     "source": "BoE"
+    },
     {
      "title": "Regulators implement growth-friendly securitisation reforms",
      "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-implement-growth-friendly-securitisation-reforms",
@@ -352,47 +370,137 @@
      "url": "https://www.bankofengland.co.uk/minutes/2026/november/market-participants-group-meeting-18-november-2026",
      "published": "2026-11-19T07:30:00Z",
      "source": "BoE"
-    },
-    {
-     "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
-     "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
-     "published": "2026-11-13T09:00:00Z",
-     "source": "BoE"
-    },
-    {
-     "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026",
-     "url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026",
-     "published": "2026-11-10T12:00:00Z",
-     "source": "BoE"
-    },
-    {
-     "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
-     "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
-     "published": "2026-11-05T12:00:00Z",
-     "source": "BoE"
     }
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-26T02:46:45Z"
+   "last_success_at": "2026-11-27T02:48:01Z"
   },
   "news_portfolio": {
    "status": "ok",
    "provider": "MarketAux",
    "attribution": "Actualités : MarketAux",
-   "fetched_at": "2026-11-26T02:46:45Z",
+   "fetched_at": "2026-11-27T02:48:01Z",
    "from_cache": false,
    "data": [
     {
-     "title": "Jensen Huang's Message to Nvidia",
-     "url": "https://www.businessinsider.com/jensen-huangs-succession-message-nvidia-we-dont-need-plan-b-2026-11",
-     "published": "2026-11-25T22:57:05Z",
-     "source": "businessinsider.com",
+     "title": "Macron Issues Ultimatum on EU Budget as France Draws Red Line on Farm Subsidies",
+     "url": "https://www2.stockmarketwatch.com/stock-market-news/macron-issues-ultimatum-on-eu-budget-as-france-draws-red-line-on-farm-subsidies/75331/",
+     "published": "2026-11-26T20:08:14Z",
+     "source": "thestockmarketwatch.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.1779,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "Alphabet: You're Getting Anthropic For Free",
+     "url": "https://seekingalpha.com/article/4972287-alphabet-youre-getting-anthropic-for-free",
+     "published": "2026-11-26T17:00:00Z",
+     "source": "seekingalpha.com",
+     "symbol": "GOOGL",
+     "sentiment": 0.49365,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "The Global Economy Rests on AI. What Happens if AI Stops?",
+     "url": "https://www.economicshelp.org/blog/223088/economics/the-global-economy-rests-on-ai-what-happens-if-ai-stops/",
+     "published": "2026-11-26T16:06:52Z",
+     "source": "economicshelp.org",
+     "symbol": "GOOGL",
+     "sentiment": -0.5423,
+     "envelope": "CTO 1",
+     "symbols": [
+      "GOOGL"
+     ]
+    },
+    {
+     "title": "What to do — Greater Fool – Authored by Garth Turner – The Troubled Future of Real Estate",
+     "url": "https://www.greaterfool.ca/2026/11/26/what-to-do-2/",
+     "published": "2026-11-26T15:17:20Z",
+     "source": "greaterfool.ca",
+     "symbol": "MSFT",
+     "sentiment": 0.0571,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Apple pulls Chinese-developed AI chatbot from App Store over reports of sexual messages to kids",
+     "url": "https://www.foxbusiness.com/technology/apple-pulls-chinese-developed-ai-chatbot-from-app-store-over-reports-sexual-messages-kids",
+     "published": "2026-11-26T14:35:42Z",
+     "source": "foxbusiness.com",
      "symbol": "AAPL",
-     "sentiment": -0.2263,
+     "sentiment": 0.06316,
      "envelope": "CTO 1",
      "symbols": [
       "AAPL"
+     ]
+    },
+    {
+     "title": "PLTR Stock $163.59: Palantir Up 14% Since Thiel’s $122M Buy",
+     "url": "https://financefeeds.com/palantir-pltr-stock-163-thanksgiving-after-thiel-122-million-buy-bull-172-bear-151/",
+     "published": "2026-11-26T13:20:50Z",
+     "source": "financefeeds.com",
+     "symbol": "PLTR",
+     "sentiment": 0.6486,
+     "envelope": "CTO 1",
+     "symbols": [
+      "PLTR"
+     ]
+    },
+    {
+     "title": "Apple: Not A Great Place To Hide From The Tech Wreck",
+     "url": "https://seekingalpha.com/article/4972248-apple-not-a-great-place-to-hide-from-the-tech-wreck",
+     "published": "2026-11-26T12:20:05Z",
+     "source": "seekingalpha.com",
+     "symbol": "AAPL",
+     "sentiment": -0.1806,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Scott Galloway: Stop Being an Earner, Start Being an Owner",
+     "url": "https://www.biggerpockets.com/blog/on-the-market-481",
+     "published": "2026-11-26T12:00:46Z",
+     "source": "biggerpockets.com",
+     "symbol": "AAPL",
+     "sentiment": 0.128,
+     "envelope": "CTO 1",
+     "symbols": [
+      "AAPL"
+     ]
+    },
+    {
+     "title": "Financial Stability Report - November 2026",
+     "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026",
+     "published": "2026-11-26T10:30:00Z",
+     "source": "bankofengland.co.uk",
+     "symbol": "MSFT",
+     "sentiment": 0.0772,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
+     ]
+    },
+    {
+     "title": "Nasdaq Composite 23,586: Erases Most of a 4.6% Intraday Drop",
+     "url": "https://financefeeds.com/nasdaq-composite-23585-thanksgiving-after-4-6-percent-intraday-drop-reversal-bull-24220-bear-22632/",
+     "published": "2026-11-26T06:53:11Z",
+     "source": "financefeeds.com",
+     "symbol": "MSFT",
+     "sentiment": -0.5859,
+     "envelope": "CTO 1",
+     "symbols": [
+      "MSFT"
      ]
     },
     {
@@ -408,30 +516,6 @@
      ]
     },
     {
-     "title": "Tech Sector Drags on Markets Ahead of Thanksgiving Holiday; Deere and Li Auto Post Results",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-drags-on-markets-ahead-of-thanksgiving-holiday-deere-and-li-auto-post-results/75284/",
-     "published": "2026-11-25T22:07:17Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "MSFT",
-     "sentiment": 0.4215,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "\"I Actually Do Think It Was A Coup\": Aaron Day On Nvidia, Anthropic, & The War On Open-Source AI",
-     "url": "https://www.zerohedge.com/ai/i-actually-do-think-it-was-coup-aaron-day-nvidia-anthropic-war-open-source-ai",
-     "published": "2026-11-25T22:05:00Z",
-     "source": "zerohedge.com",
-     "symbol": "AAPL",
-     "sentiment": -0.0772,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
-     ]
-    },
-    {
      "title": "Dow Erases 1,100-Point Drop Amid AI Volatility; Neuralink Wins FDA Approval for Pivotal Trial",
      "url": "https://www2.stockmarketwatch.com/stock-market-news/dow-erases-1100-point-drop-amid-ai-volatility-neuralink-wins-fda-approval-for-pivotal-trial/75283/",
      "published": "2026-11-25T21:38:23Z",
@@ -441,42 +525,6 @@
      "envelope": "CTO 1",
      "symbols": [
       "TSLA"
-     ]
-    },
-    {
-     "title": "Tech and Financials Lead Modest Gains as Markets Eye Holiday Break",
-     "url": "https://www2.stockmarketwatch.com/stock-market-news/tech-and-financials-lead-modest-gains-as-markets-eye-holiday-break/75280/",
-     "published": "2026-11-25T21:07:15Z",
-     "source": "thestockmarketwatch.com",
-     "symbol": "MSFT",
-     "sentiment": 0.7003,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "‘Data centers in space’: FCC clears SpaceX for 1M satellites to ‘extend America’s lead in superintelligence’",
-     "url": "https://www.foxbusiness.com/politics/data-centers-space-fcc-clears-spacex-1m-satellites-extend-americas-lead-superintelligence",
-     "published": "2026-11-25T19:13:43Z",
-     "source": "foxbusiness.com",
-     "symbol": "MSFT",
-     "sentiment": 0.8956,
-     "envelope": "CTO 1",
-     "symbols": [
-      "MSFT"
-     ]
-    },
-    {
-     "title": "Apple: Great Company, Terrible Price",
-     "url": "https://seekingalpha.com/article/4972002-apple-great-company-terrible-price",
-     "published": "2026-11-25T18:49:47Z",
-     "source": "seekingalpha.com",
-     "symbol": "AAPL",
-     "sentiment": -0.023,
-     "envelope": "CTO 1",
-     "symbols": [
-      "AAPL"
      ]
     },
     {
@@ -492,30 +540,6 @@
      ]
     },
     {
-     "title": "Nasdaq Falls 4%: Tariffs on 14 Economies, 3.3% Core PCE",
-     "url": "https://financefeeds.com/nasdaq-falls-4-as-tariff-proposals-meet-hotter-core-pce/",
-     "published": "2026-11-25T17:33:18Z",
-     "source": "financefeeds.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.1779,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Nasdaq falls 4% as AI stock sell-off and US tariff fears hit Wall Street",
-     "url": "https://www.thehindubusinessline.com/markets/nasdaq-plunges-4-as-ai-stocks-sell-off-and-fresh-us-tariff-fears-hit-wall-street/article71743891.ece",
-     "published": "2026-11-25T16:57:25Z",
-     "source": "thehindubusinessline.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.7906,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
      "title": "Palantir: Already Off To A Strong 2027",
      "url": "https://seekingalpha.com/article/4971949-palantir-already-off-to-a-strong-2027",
      "published": "2026-11-25T16:46:32Z",
@@ -528,36 +552,12 @@
      ]
     },
     {
-     "title": "Tech Stock Bears Are Out to Play but It's No Picnic",
-     "url": "https://www.investorideas.com/news/2026/technology/11252-tech-stock-bears-are-out-to-play-but-its-no-picnic.asp",
-     "published": "2026-11-25T16:09:00Z",
-     "source": "investorideas.com",
-     "symbol": "GOOGL",
-     "sentiment": 0.36345,
-     "envelope": "CTO 1",
-     "symbols": [
-      "GOOGL"
-     ]
-    },
-    {
      "title": "Baron Technology ETF Q3 2026 Shareholder Letter",
      "url": "https://seekingalpha.com/article/4971887-baron-technology-etf-q3-2026-shareholder-letter",
      "published": "2026-11-25T13:58:00Z",
      "source": "seekingalpha.com",
      "symbol": "PLTR",
      "sentiment": 0,
-     "envelope": "CTO 1",
-     "symbols": [
-      "PLTR"
-     ]
-    },
-    {
-     "title": "Here's Why Palantir Technologies Inc. (PLTR) is a Strong Growth Stock",
-     "url": "https://www.zacks.com/stock/news/3035169/heres-why-palantir-technologies-inc-pltr-is-a-strong-growth-stock?cid=CS-ZC-FT-fundamental_analysis|zacks_education_growth_score-3035169",
-     "published": "2026-11-25T13:45:03Z",
-     "source": "zacks.com",
-     "symbol": "PLTR",
-     "sentiment": 0.7096,
      "envelope": "CTO 1",
      "symbols": [
       "PLTR"
@@ -854,7 +854,7 @@
    ],
    "message": null,
    "errors": [],
-   "last_success_at": "2026-11-26T02:46:45Z"
+   "last_success_at": "2026-11-27T02:48:01Z"
   }
  }
 }

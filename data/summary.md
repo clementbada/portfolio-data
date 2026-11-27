@@ -1,27 +1,27 @@
-# Point marchés — 2026-11-26
+# Point marchés — 2026-11-27
 
-- EUR/USD : 1.0935 USD (2026-11-25)
-- Taux de dépôt BCE : 2.50 % (2026-11-25)
-- 10 ans zone euro AAA : 3.31 % (2026-11-24)
+- EUR/USD : 1.0975 USD (2026-11-26)
+- Taux de dépôt BCE : 2.50 % (2026-11-27)
+- 10 ans zone euro AAA : 3.26 % (2026-11-25)
 - Inflation : EA 4.0 % a/a (2026-10) · FR 3.7 % a/a (2026-10) · US 3.7 % a/a (2026-09)
 
 ## Sources dégradées
 - ⚠️ inflation_us : Sources indisponibles — dernière valeur connue du 2026-11-10T02:40:58Z
 
 ## Derniers communiqués
+- [BoE] Payments systems Memorandum of Understanding (2026-11-26)
+- [BoE] Statistical Notice 2026/09 - Update to the classification of accounts guide (2026-11-26)
+- [BCE] Meeting of 28-29 October 2026 (2026-11-26)
+- [BoE] Financial Policy Committee Record – November 2026 (2026-11-26)
 - [Fed] Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions (2026-11-25)
 - [Fed] Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans (2026-11-25)
-- [BCE] ECB and Sveriges Riksbank conclude agreement for Sweden to join T2 (2026-11-25)
-- [BCE] Card payments edge past cash in shops; euro area consumers want both (2026-11-25)
-- [BoE] Regulators implement growth-friendly securitisation reforms (2026-11-25)
-- [Fed] Minutes of the Board's discount rate meetings on October 19 and October 28, 2026 (2026-11-24)
 
 ## Actualités du portefeuille
-- [AAPL] Jensen Huang's Message to Nvidia (2026-11-25)
-- [TSLA] Tesla: The Potential Merger Is Now Doing All The Work (2026-11-25)
-- [MSFT] Tech Sector Drags on Markets Ahead of Thanksgiving Holiday; Deere and Li Auto Post Results (2026-11-25)
-- [AAPL] "I Actually Do Think It Was A Coup": Aaron Day On Nvidia, Anthropic, & The War On Open-Source AI (2026-11-25)
-- [TSLA] Dow Erases 1,100-Point Drop Amid AI Volatility; Neuralink Wins FDA Approval for Pivotal Trial (2026-11-25)
-- [MSFT] Tech and Financials Lead Modest Gains as Markets Eye Holiday Break (2026-11-25)
-- [MSFT] ‘Data centers in space’: FCC clears SpaceX for 1M satellites to ‘extend America’s lead in superintelligence’ (2026-11-25)
-- [AAPL] Apple: Great Company, Terrible Price (2026-11-25)
+- [GOOGL] Macron Issues Ultimatum on EU Budget as France Draws Red Line on Farm Subsidies (2026-11-26)
+- [GOOGL] Alphabet: You're Getting Anthropic For Free (2026-11-26)
+- [GOOGL] The Global Economy Rests on AI. What Happens if AI Stops? (2026-11-26)
+- [MSFT] What to do — Greater Fool – Authored by Garth Turner – The Troubled Future of Real Estate (2026-11-26)
+- [AAPL] Apple pulls Chinese-developed AI chatbot from App Store over reports of sexual messages to kids (2026-11-26)
+- [PLTR] PLTR Stock $163.59: Palantir Up 14% Since Thiel’s $122M Buy (2026-11-26)
+- [AAPL] Apple: Not A Great Place To Hide From The Tech Wreck (2026-11-26)
+- [AAPL] Scott Galloway: Stop Being an Earner, Start Being an Owner (2026-11-26)
